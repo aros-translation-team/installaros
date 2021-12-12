@@ -246,7 +246,7 @@ MSG_NOTALLFILESCOPIED
 MSG_PARTITIONINGFAILED
 Diskin bölümlenmesi baþarýsýz oldu. InstallAROS\nþimdi kapanacak.
 ; Partitioning of disk failed. InstallAROS\nwill now quit.
-
+;
 MSG_GRUBNONFFSWARNING
 Sistem bölümü için FFS-Intl'den farklý bir\ndosya sistemi seçtiniz. AROS'un bu daðýtýmý\norijinal GRUB önyükleyici ile derlendiðinden,\nkurulumdan sonra sistemi önyükleyemeyeceksiniz.\nBölünme devam etmeli mi?\n
 ; You have selected a filesystem different\nthan FFS-Intl for the system partition. Since\nthis distribution of AROS is compiled with the\noriginal GRUB bootloader, you will not be able to\nboot the system after installation.\n\nShould the partitioning continue?\n
