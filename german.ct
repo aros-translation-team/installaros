@@ -1,0 +1,392 @@
+## version $VER: installaros.catalog 3.0 (06.08.2026)
+## language deutsch
+## codeset 0
+;
+MSG_TITLE
+AROS-Installer
+; AROS Installer
+;
+MSG_DESCRIPTION
+Installiert AROS auf einem Laufwerk.
+; Installs AROS on to a Drive.
+;
+MSG_WELCOME
+\033b\nWillkommen zum Installationsprogramm des AROS Research OS.\n\n\033nDieses Programm ermöglicht es Ihnen, AROS auf der\nFestplatte Ihres Computers oder einem angeschlossenen USB-Laufwerk zu installieren.\n\nBitte beachten Sie, dass die Stabilität dieser Software\nnicht garantiert werden kann.\nEs ist möglich, dass \033bDatenverlust\033n auf jedem Laufwerk\nin Ihrem System auftritt, auch auf solchen, die von\nanderen Betriebssystemen genutzt werden.\n
+; \033b\nWelcome to the AROS Research OS installer.\n\n\033nThis program allows you to install AROS\non your computer's hard disk or an attached USB drive.\n\nPlease be aware that the stability of this software\ncannot be guaranteed.\nIt is possible that \033bloss of data\033n may occur\non any drive in your system, including those\nused by other operating systems.\n
+;
+MSG_INSTALLOPTIONS
+\033bKomponentenauswahl\033n\nBitte wählen Sie Ihre Installationsoptionen.\n\n
+; \033bComponent Selection\033n\nPlease choose your installation options.\n\n
+;
+MSG_DESTOPTIONS
+\nBitte wählen Sie, wohin AROS installiert werden soll.\n\nIm Zweifelsfall verwenden Sie die Voreinstellungen.
+; \nPlease choose where to install AROS.\n\nIf you are unsure, then use the defaults.
+;
+MSG_ACCEPT
+Lizenzvereinbarung akzeptieren?
+; Accept License Agreement?
+;
+MSG_DRIVE
+\033bLaufwerk:\033n
+; \033bDrive:\033n
+;
+MSG_TYPE
+Typ:
+; Type:
+;
+MSG_DEVICE
+Device:
+; Device:
+;
+MSG_UNIT
+Einheit:
+; Unit:
+;
+MSG_NAME
+Name:
+; Name:
+;
+MSG_FILESYSTEM
+Dateisystem:
+; Filesystem:
+;
+MSG_SIZE
+Größe:
+; Size:
+;
+MSG_MENUMODE
+Menümodus:
+; Menu Mode:
+;
+MSG_CREATE
+Anlegen
+; Create
+;
+MSG_SPECIFYSIZE
+Größe angeben
+; Specify Size
+;
+MSG_DESTVOLUME
+Zielpartition
+; Destination Partition
+;
+MSG_WORKVOLUME
+Work-Partition
+; Work Partition
+;
+MSG_CHOOSELANG
+Sprachoptionen wählen
+; Choose Language Options
+;
+MSG_INSTALLCORE
+AROS-Kernsystem installieren
+; Install AROS Core System
+;
+MSG_INSTALLEXTRA
+Zusatzsoftware installieren
+; Install Extra Software
+;
+MSG_INSTALLDEVEL
+Debugging-Werkzeuge und Entwicklersoftware installieren
+; Install Debugging tools and Developer Software
+;
+MSG_INSTALLBOOT
+Bootloader installieren
+; Install Bootloader
+;
+MSG_FORMATPART
+Partition formatieren
+; Format Partition
+;
+MSG_USEWORK
+'Work'-Partition verwenden
+; Use 'Work' Partition
+;
+MSG_USEWORKFOR
+'Work'-Partition für Extras und Entwicklerdateien verwenden
+; Use 'Work' Partition for Extras and Developer Files
+;
+MSG_BEGINWITHPARTITION
+InstallAROS ist startbereit.\n\nDie von Ihnen gewählten Optionen führen zu zerstörenden Änderungen am Inhalt Ihres Laufwerks,\nund ab diesem Punkt können Sie die Änderungen\nnicht mehr rückgängig machen.\n\nWählen Sie Weiter, um die Installation zu starten.
+; InstallAROS is ready to begin.\n\nThe options you have chosen will result in destructive changes to your drive contents,\nand so you will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
+;
+MSG_BEGINWITHOUTPARTITION
+InstallAROS ist startbereit...\n\nEs wurden genügend Informationen gesammelt,\num die Installation auf diesem Computer zu beginnen.\n\n\nWählen Sie Weiter, um die Installation zu starten.
+; InstallAROS is ready to begin...\n\nEnough information has been collected\nto begin installation on this computer.\n\n\nSelect Proceed to begin installation.
+;
+MSG_PARTITIONOPTIONS
+\033bLaufwerk(e) & Partitionierung\033n\nInstallAROS erstellt nun passende Partitionen auf dem Ziellaufwerk.\n\nBitte wählen Sie, wie Sie fortfahren möchten.\n
+; \033bDrive(s) & Partitioning\033n\nInstallAROS will now create suitable partitions on the destination drive.\n\nPlease select how you would like to proceed.\n
+;
+MSG_DESTPARTITION
+\033bAROS-Systempartition\033n
+; \033bAROS System Partition\033n
+;
+MSG_WORKPARTITION
+\033b'Work'-Partition erstellen\033n
+; \033bCreate Work Partition\033n
+;
+MSG_USEFREE
+Nur freien Speicherplatz verwenden
+; Only use free space
+;
+MSG_WIPEDISK
+Festplatte löschen
+; Wipe disk
+;
+MSG_USEEXISTING
+Vorhandene AROS-Partitionen verwenden
+; Use existing AROS partitions
+;
+MSG_PARTITIONTOOBIG
+Die von Ihnen gewünschten Partitionsgrößen sind zu groß.\nDie maximale Größe einer SFS-Partition beträgt %ld GB (%ld MB),\ndie maximale Größe einer FFS-Partition beträgt %ld GB (%ld MB).\nBitte verringern Sie die Größe der betroffenen Partitionen.\n
+; The partition sizes you have requested are too large.\nThe maximum size of an SFS partition is %ld GB (%ld MB),\nwhile the maximum size of an FFS partition is %ld GB (%ld MB).\nPlease reduce the size of the affected partitions.\n
+;
+MSG_GRUBOPTIONS
+AROS verwendet den GRUB-Bootloader.\n\nIn den meisten Fällen sollte GRUBs Bootblock\nauf dem ersten Laufwerk Ihres Systems installiert werden.\nErkennt das Installationsprogramm eine Microsoft-Windows-Installation,\nwird sie als Auswahl in GRUBs Boot-Menü aufgenommen.\n
+; AROS uses the GRUB bootloader.\n\nIn most cases, GRUB's bootblock should\nbe installed on the first drive in your system.\nIf the Installer detects a Microsoft Windows installation,\nit will be included as a choice in GRUB's boot menu.\n
+;
+MSG_GRUBDRIVE
+Laufwerk, auf dem der Bootblock des Bootloaders installiert wird:
+; Drive to install Bootloader's bootblock on:
+;
+MSG_GRUBGOPTIONS
+GRUB-Einstellungen
+; GRUB Settings
+;
+MSG_GRUBGRUB
+Pfad zu den GRUB-Dateien:
+; Path to GRUB files:
+;
+MSG_NOGRUBDEVICE
+Bitte geben Sie den Device-Namen und die Unit-Nummer\ndes Laufwerks an, auf dem GRUBs Bootblock installiert werden soll.\n
+; Please enter the device name and unit number for\nthe drive GRUB's bootblock should be installed on.\n
+;
+MSG_PARTITIONING
+Laufwerke werden partitioniert...\n\n
+; Partitioning your drives...\n\n
+;
+MSG_FORMATTING
+Formatiere '%s'...
+; Formatting '%s'...
+;
+MSG_INSTALL
+Dateien werden auf das Ziellaufwerk kopiert.\n\nDies kann einige Zeit dauern...\n
+; Copying files to the destination drive.\n\nThis may take some time...\n
+;
+MSG_COPYCORE
+Kopiere Kernsystem-Dateien...
+; Copying Core System files...
+;
+MSG_COPYEXTRA
+Kopiere Zusatzsoftware...
+; Copying Extra Software...
+;
+MSG_COPYDEVEL
+Kopiere Entwickler-Dateien...
+; Copying Developer Files...
+;
+MSG_COPYBOOT
+Kopiere BOOT-Dateien...
+; Copying BOOT files...
+;
+MSG_BOOTLOADER
+Der Bootloader wird auf Ihr Ziellaufwerk\nkopiert und installiert...\n
+; Copying the bootloader to your\ndestination drive, and installing...\n
+;
+MSG_POSTINSTALL
+Post-Install-Skript wird ausgeführt...
+; Running post-install script...
+;
+MSG_POSTINSTALL2
+Das externe Post-Install-Skript\nwird ausgeführt. Bitte warten.\n
+; Running the external post-install\nscript. Please wait.\n
+;
+MSG_DONEREBOOT
+Die AROS-Partitionen wurden nun angelegt!\nUm die Installation fortzusetzen, müssen Sie\nAROS neu starten und dieses\nInstallationsprogramm erneut ausführen.\n\nWählen Sie Weiter, um abzuschließen.\n
+; AROS partitions have now been created!\nTo continue installation, you must\nreboot AROS, and re-run\nthis installer application.\n\nSelect Proceed to finish.\n
+;
+MSG_DONEUSB
+Die AROS-Partitionen wurden nun angelegt!\nUm die Installation fortzusetzen, müssen Sie\nIhr USB-Laufwerk abziehen und wieder anstecken\nund dieses Installationsprogramm erneut ausführen.\n\nWählen Sie Weiter, um abzuschließen.
+; AROS partitions have now been created!\nTo continue installation, you must remove\nand re-attach your USB drive, and re-run\nthis installer application.\n\nSelect Proceed to finish.n
+;
+MSG_INSTALLING
+Installiere AROS...
+; Installing AROS...
+;
+MSG_INSTALLINGBOOT
+Installiere Bootloader...
+; Installing Bootloader...
+;
+MSG_DONE
+Glückwunsch, AROS ist nun installiert!\n\nUm AROS vom Ziellaufwerk zu starten,\nentfernen Sie das Installationsmedium und\nstarten Sie Ihren Computer über den\nNetzschalter oder die Reset-Taste neu.\n\nWählen Sie Weiter, um abzuschließen.\n
+; Congratulations, you now have AROS installed!\n\nTo boot AROS from the destination drive,\nremove the installation media and\nrestart your computer using the\npower switch or reset button.\n\nSelect Proceed to finish.\n
+;
+MSG_CANCELOK
+Möchten Sie diese Installation\nwirklich abbrechen?\n
+; Are you sure you wish to cancel\nthis installation?\n
+;
+MSG_CANCELDANGER
+Es wurden unwiderrufliche Änderungen an\nIhrem System vorgenommen.\n\nEin Abbruch kann Ihren PC in einem nicht\nstartfähigen Zustand hinterlassen.\n\nMöchten Sie diese Installation\nwirklich abbrechen?\n
+; Irreversible changes have been made\nto your system.\n\nCancelling now may leave your PC in an\nunbootable state.\n\nAre you sure you wish to cancel\nthis installation?\n
+;
+MSG_BACK
+_Zurück...
+; _Back...
+;
+MSG_PROCEED
+_Fortfahren
+; _Proceed
+;
+MSG_NOTALLFILESCOPIED
+Nicht alle Dateien in '%s'\nwurden kopiert.\nSoll die Installation fortgesetzt werden?\n
+; Not all files in '%s'\nwere copied.\nShould the installation continue?\n
+;
+MSG_PARTITIONINGFAILED
+Partitionieren der Festplatte fehlgeschlagen. InstallAROS\nwird nun beendet.
+; Partitioning of disk failed. InstallAROS\nwill now quit.
+;
+MSG_GRUBNONFFSWARNING
+Sie haben für die Systempartition ein anderes\nDateisystem als FFS-Intl gewählt. Da diese\nAROS-Distribution mit dem originalen\nGRUB-Bootloader übersetzt wurde, können Sie das\nSystem nach der Installation nicht starten.\n\nSoll die Partitionierung fortgesetzt werden?\n
+; You have selected a filesystem different\nthan FFS-Intl for the system partition. Since\nthis distribution of AROS is compiled with the\noriginal GRUB bootloader, you will not be able to\nboot the system after installation.\n\nShould the partitioning continue?\n
+;
+MSG_CANCELINSTALL
+Installation abbrechen...
+; Cancel Installation...
+;
+MSG_CONTINUECANCELINST
+*Installation fortsetzen|Installation abbrechen
+; *Continue Install|Cancel Install
+;
+MSG_CONTINUECANCELPART
+Partitionierung fortsetzen|*Partitionierung abbrechen
+; Continue Partitioning|*Cancel Partitionin
+;
+MSG_CONTINUEQUIT
+Fortsetzen|*Beenden
+; Continue|*Quit
+;
+MSG_EXISTSRETRY
+Datei existiert bereits\n%s ersetzen?
+; File Already Exists\nReplace %s?
+;
+MSG_RETRY
+Nochmal versuchen
+; Retry
+;
+MSG_SCANRETRY
+Fehler beim Einlesen von %s\nWiederholen?
+; Error scanning %s\nRetry?
+;
+MSG_FINDRETRY
+%s konnte nicht gefunden werden\nErneut versuchen?
+; Could not find %s\nRetry?
+;
+MSG_COULDNTOPEN
+%s konnte nicht geöffnet werden
+; Couldn't Open %s
+;
+MSG_COULDNTWRITE
+Schreiben nach %s fehlgeschlagen
+; Couldn't Write to %s
+;
+MSG_DISKFULL
+Schreiben nach %s fehlgeschlagen\nDisk voll!
+; Couldn't Write to %s\nDisk Full!
+;
+MSG_TEXT
+Text
+; Text
+;
+MSG_GFX
+Graphics
+; Graphics
+;
+MSG_YES
+Ja
+; Yes
+;
+MSG_YESALWAYS
+Ja [Immer]
+; Yes [Always]
+;
+MSG_NO
+Nein
+; No
+;
+MSG_SKIP
+Überspringen
+; Skip
+;
+MSG_OK
+OK
+; OK
+;
+MSG_CANCEL
+Abbrechen
+; Cancel
+;
+MSG_CANCEL2
+_Abbrechen
+; _Cancel
+;
+MSG_QUIT
+Beenden
+; Quit
+;
+MSG_QUIT2
+BEENDEN
+; QUIT
+;
+MSG_ERROR
+Fehler
+; Error
+;
+MSG_WARNING
+Warnung
+; Warning
+;
+MSG_REBOOT
+AROS jetzt neu starten
+; Reboot AROS now
+;
+MSG_IOERROR
+Ein E/A-Fehler ist aufgetreten
+; IO Error has occured
+;
+MSG_NOTFILESYSTEM
+Gerät '%s' enthält kein Dateisystem\n
+; device '%s' doesn't contain a file system\n
+;
+MSG_NOTDEVICE
+'%s' enthält keinen Gerätenamen\n
+; '%s' doesn't contain a device name\n
+;
+MSG_PARTSCHEME
+\033bPartitionsschema\033n
+; \033bPartitioning Scheme\033n
+;
+MSG_EFIESP
+\033bEFI-ESP erstellen\033n
+; \033bCreate EFI ESP\033n
+;
+MSG_HELP_DESTDRIVE
+Wählen Sie das Ziellaufwerk, auf dem AROS installiert werden soll
+; Select the destination drive to install AROS on
+;
+MSG_HELP_EFIESP
+EFI-basierte Systeme benötigen eine separate FAT32-Partition, auf der der Bootloader installiert wird.
+; EFI based systems require a separate FAT32 partition to install the bootloader to.
+;
+MSG_HELP_PARTRDB
+Wählen Sie das auf dem Laufwerk zu verwendende Partitionierungsschema\nHinweis -: Von MBR/EBR- & GPT-Partitionsschemata kann AmigaOS nicht booten
+; Select the partitioning scheme to use on the drive\nNB -: MBR/EBR & GPT partition schemes cannot be booted by AmigaOS
+;
+MSG_HELP_PARTNORDB
+Wählen Sie das auf dem Laufwerk zu verwendende Partitionierungsschema\nHinweis -: Von RDB-Partitionsschemata kann auf dieser Architektur nicht gebootet werden
+; Select the partitioning scheme to use on the drive\nNB -: RDB partition schemes cannot be booted on this architecture
+;
+MSG_HELP_PARTITION
+Klicken Sie, um Dateisystem und/oder Größe der Partition anzupassen.
+; Click to adjust the partitions filesystem and/or size.
+;

@@ -1,0 +1,392 @@
+## version $VER: installaros.catalog 3.0 (06.08.2026)
+## language svenska
+## codeset 0
+;
+MSG_TITLE
+AROS installationsprogram
+; AROS Installer
+;
+MSG_DESCRIPTION
+Installerar AROS på en enhet.
+; Installs AROS on to a Drive.
+;
+MSG_WELCOME
+\033b\nVälkommen till installationsprogrammet för AROS Research OS.\n\n\033nMed detta program kan du installera AROS\npå datorns hårddisk eller en ansluten USB-enhet.\n\nObservera att stabiliteten hos denna programvara\ninte kan garanteras.\nDet är möjligt att \033bdataförlust\033n kan inträffa\npå vilken enhet som helst i systemet, inklusive de\nsom används av andra operativsystem.\n
+; \033b\nWelcome to the AROS Research OS installer.\n\n\033nThis program allows you to install AROS\non your computer's hard disk or an attached USB drive.\n\nPlease be aware that the stability of this software\ncannot be guaranteed.\nIt is possible that \033bloss of data\033n may occur\non any drive in your system, including those\nused by other operating systems.\n
+;
+MSG_INSTALLOPTIONS
+\033bKomponentval\033n\nVälj dina installationsalternativ.\n\n
+; \033bComponent Selection\033n\nPlease choose your installation options.\n\n
+;
+MSG_DESTOPTIONS
+\nVälj var AROS ska installeras.\n\nOm du är osäker, använd förinställda värden.
+; \nPlease choose where to install AROS.\n\nIf you are unsure, then use the defaults.
+;
+MSG_ACCEPT
+Godkänner du licensavtalet?
+; Accept License Agreement?
+;
+MSG_DRIVE
+\033bEnhet:\033n
+; \033bDrive:\033n
+;
+MSG_TYPE
+Typ:
+; Type:
+;
+MSG_DEVICE
+Enhet:
+; Device:
+;
+MSG_UNIT
+Enhetsnummer:
+; Unit:
+;
+MSG_NAME
+Namn:
+; Name:
+;
+MSG_FILESYSTEM
+Filsystem:
+; Filesystem:
+;
+MSG_SIZE
+Storlek:
+; Size:
+;
+MSG_MENUMODE
+Menyläge:
+; Menu Mode:
+;
+MSG_CREATE
+Skapa
+; Create
+;
+MSG_SPECIFYSIZE
+Ange storlek
+; Specify Size
+;
+MSG_DESTVOLUME
+Målpartition
+; Destination Partition
+;
+MSG_WORKVOLUME
+Work-partition
+; Work Partition
+;
+MSG_CHOOSELANG
+Välj språkalternativ
+; Choose Language Options
+;
+MSG_INSTALLCORE
+Installera AROS kärnsystem
+; Install AROS Core System
+;
+MSG_INSTALLEXTRA
+Installera extra programvara
+; Install Extra Software
+;
+MSG_INSTALLDEVEL
+Installera felsökningsverktyg och utvecklarprogramvara
+; Install Debugging tools and Developer Software
+;
+MSG_INSTALLBOOT
+Installera starthanterare
+; Install Bootloader
+;
+MSG_FORMATPART
+Formatera partition
+; Format Partition
+;
+MSG_USEWORK
+Använd partitionen 'Work'
+; Use 'Work' Partition
+;
+MSG_USEWORKFOR
+Använd partitionen 'Work' för extrafiler och utvecklarfiler
+; Use 'Work' Partition for Extras and Developer Files
+;
+MSG_BEGINWITHPARTITION
+InstallAROS är redo att börja.\n\nDe val du har gjort medför förstörande ändringar av innehållet på din enhet,\noch du kommer därför inte längre att kunna ångra ändringarna\nefter denna punkt.\n\nVälj Fortsätt för att påbörja installationen.
+; InstallAROS is ready to begin.\n\nThe options you have chosen will result in destructive changes to your drive contents,\nand so you will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
+;
+MSG_BEGINWITHOUTPARTITION
+InstallAROS är redo att börja...\n\nTillräckligt med information har samlats in\nför att påbörja installationen på den här datorn.\n\n\nVälj Fortsätt för att påbörja installationen.
+; InstallAROS is ready to begin...\n\nEnough information has been collected\nto begin installation on this computer.\n\n\nSelect Proceed to begin installation.
+;
+MSG_PARTITIONOPTIONS
+\033bEnhet(er) och partitionering\033n\nInstallAROS skapar nu lämpliga partitioner på målenheten.\n\nVälj hur du vill fortsätta.\n
+; \033bDrive(s) & Partitioning\033n\nInstallAROS will now create suitable partitions on the destination drive.\n\nPlease select how you would like to proceed.\n
+;
+MSG_DESTPARTITION
+\033bAROS systempartition\033n
+; \033bAROS System Partition\033n
+;
+MSG_WORKPARTITION
+\033bSkapa Work-partition\033n
+; \033bCreate Work Partition\033n
+;
+MSG_USEFREE
+Använd endast ledigt utrymme
+; Only use free space
+;
+MSG_WIPEDISK
+Radera disken
+; Wipe disk
+;
+MSG_USEEXISTING
+Använd befintliga AROS-partitioner
+; Use existing AROS partitions
+;
+MSG_PARTITIONTOOBIG
+Partitionsstorlekarna du har begärt är för stora.\nDen maximala storleken för en SFS-partition är %ld GB (%ld MB),\nmedan den maximala storleken för en FFS-partition är %ld GB (%ld MB).\nMinska storleken på de berörda partitionerna.\n
+; The partition sizes you have requested are too large.\nThe maximum size of an SFS partition is %ld GB (%ld MB),\nwhile the maximum size of an FFS partition is %ld GB (%ld MB).\nPlease reduce the size of the affected partitions.\n
+;
+MSG_GRUBOPTIONS
+AROS använder starthanteraren GRUB.\n\nI de flesta fall bör GRUB:s startblock\ninstalleras på den första enheten i systemet.\nOm installationsprogrammet hittar en installation av Microsoft Windows,\ntas den med som ett val i GRUB:s startmeny.\n
+; AROS uses the GRUB bootloader.\n\nIn most cases, GRUB's bootblock should\nbe installed on the first drive in your system.\nIf the Installer detects a Microsoft Windows installation,\nit will be included as a choice in GRUB's boot menu.\n
+;
+MSG_GRUBDRIVE
+Enhet att installera starthanterarens startblock på:
+; Drive to install Bootloader's bootblock on:
+;
+MSG_GRUBGOPTIONS
+GRUB-inställningar
+; GRUB Settings
+;
+MSG_GRUBGRUB
+Sökväg till GRUB-filer:
+; Path to GRUB files:
+;
+MSG_NOGRUBDEVICE
+Ange enhetsnamn och enhetsnummer för\nden enhet som GRUB:s startblock ska installeras på.\n
+; Please enter the device name and unit number for\nthe drive GRUB's bootblock should be installed on.\n
+;
+MSG_PARTITIONING
+Partitionerar dina enheter...\n\n
+; Partitioning your drives...\n\n
+;
+MSG_FORMATTING
+Formaterar '%s'...
+; Formatting '%s'...
+;
+MSG_INSTALL
+Kopierar filer till målenheten.\n\nDetta kan ta en stund...\n
+; Copying files to the destination drive.\n\nThis may take some time...\n
+;
+MSG_COPYCORE
+Kopierar kärnsystemets filer...
+; Copying Core System files...
+;
+MSG_COPYEXTRA
+Kopierar extra programvara...
+; Copying Extra Software...
+;
+MSG_COPYDEVEL
+Kopierar utvecklarfiler...
+; Copying Developer Files...
+;
+MSG_COPYBOOT
+Kopierar BOOT-filer...
+; Copying BOOT files...
+;
+MSG_BOOTLOADER
+Kopierar starthanteraren till din\nmålenhet och installerar...\n
+; Copying the bootloader to your\ndestination drive, and installing...\n
+;
+MSG_POSTINSTALL
+Kör efterinstallationsskript...
+; Running post-install script...
+;
+MSG_POSTINSTALL2
+Kör det externa\nefterinstallationsskriptet. Vänta.\n
+; Running the external post-install\nscript. Please wait.\n
+;
+MSG_DONEREBOOT
+AROS-partitioner har nu skapats!\nFör att fortsätta installationen måste du\nstarta om AROS och köra\ninstallationsprogrammet igen.\n\nVälj Fortsätt för att avsluta.\n
+; AROS partitions have now been created!\nTo continue installation, you must\nreboot AROS, and re-run\nthis installer application.\n\nSelect Proceed to finish.\n
+;
+MSG_DONEUSB
+AROS-partitioner har nu skapats!\nFör att fortsätta installationen måste du koppla\nur och ansluta USB-enheten igen samt köra\ninstallationsprogrammet igen.\n\nVälj Fortsätt för att avsluta.n
+; AROS partitions have now been created!\nTo continue installation, you must remove\nand re-attach your USB drive, and re-run\nthis installer application.\n\nSelect Proceed to finish.n
+;
+MSG_INSTALLING
+Installerar AROS...
+; Installing AROS...
+;
+MSG_INSTALLINGBOOT
+Installerar starthanterare...
+; Installing Bootloader...
+;
+MSG_DONE
+Grattis, du har nu AROS installerat!\n\nFör att starta AROS från målenheten,\nta bort installationsmediet och\nstarta om datorn med\nströmbrytaren eller återställningsknappen.\n\nVälj Fortsätt för att avsluta.\n
+; Congratulations, you now have AROS installed!\n\nTo boot AROS from the destination drive,\nremove the installation media and\nrestart your computer using the\npower switch or reset button.\n\nSelect Proceed to finish.\n
+;
+MSG_CANCELOK
+Är du säker på att du vill avbryta\ndenna installation?\n
+; Are you sure you wish to cancel\nthis installation?\n
+;
+MSG_CANCELDANGER
+Oåterkalleliga ändringar har gjorts\npå ditt system.\n\nAtt avbryta nu kan lämna datorn i ett\nostartbart tillstånd.\n\nÄr du säker på att du vill avbryta\ndenna installation?\n
+; Irreversible changes have been made\nto your system.\n\nCancelling now may leave your PC in an\nunbootable state.\n\nAre you sure you wish to cancel\nthis installation?\n
+;
+MSG_BACK
+_Tillbaka...
+; _Back...
+;
+MSG_PROCEED
+_Fortsätt
+; _Proceed
+;
+MSG_NOTALLFILESCOPIED
+Alla filer i '%s'\nkopierades inte.\nSka installationen fortsätta?\n
+; Not all files in '%s'\nwere copied.\nShould the installation continue?\n
+;
+MSG_PARTITIONINGFAILED
+Partitioneringen av disken misslyckades. InstallAROS\nkommer nu att avslutas.
+; Partitioning of disk failed. InstallAROS\nwill now quit.
+;
+MSG_GRUBNONFFSWARNING
+Du har valt ett annat filsystem än\nFFS-Intl för systempartitionen. Eftersom\ndenna distribution av AROS är kompilerad med den\nursprungliga starthanteraren GRUB kommer du inte att kunna\nstarta systemet efter installationen.\n\nSka partitioneringen fortsätta?\n
+; You have selected a filesystem different\nthan FFS-Intl for the system partition. Since\nthis distribution of AROS is compiled with the\noriginal GRUB bootloader, you will not be able to\nboot the system after installation.\n\nShould the partitioning continue?\n
+;
+MSG_CANCELINSTALL
+Avbryt installationen...
+; Cancel Installation...
+;
+MSG_CONTINUECANCELINST
+*Fortsätt installation|Avbryt installation
+; *Continue Install|Cancel Install
+;
+MSG_CONTINUECANCELPART
+Fortsätt partitionering|*Avbryt partitionering
+; Continue Partitioning|*Cancel Partitionin
+;
+MSG_CONTINUEQUIT
+Fortsätt|*Avsluta
+; Continue|*Quit
+;
+MSG_EXISTSRETRY
+Filen finns redan\nErsätta %s?
+; File Already Exists\nReplace %s?
+;
+MSG_RETRY
+Försök igen
+; Retry
+;
+MSG_SCANRETRY
+Fel vid genomsökning av %s\nFörsöka igen?
+; Error scanning %s\nRetry?
+;
+MSG_FINDRETRY
+Kunde inte hitta %s\nFörsöka igen?
+; Could not find %s\nRetry?
+;
+MSG_COULDNTOPEN
+Kunde inte öppna %s
+; Couldn't Open %s
+;
+MSG_COULDNTWRITE
+Kunde inte skriva till %s
+; Couldn't Write to %s
+;
+MSG_DISKFULL
+Kunde inte skriva till %s\nDisken är full!
+; Couldn't Write to %s\nDisk Full!
+;
+MSG_TEXT
+Text
+; Text
+;
+MSG_GFX
+Grafik
+; Graphics
+;
+MSG_YES
+Ja
+; Yes
+;
+MSG_YESALWAYS
+Ja [Alltid]
+; Yes [Always]
+;
+MSG_NO
+Nej
+; No
+;
+MSG_SKIP
+Hoppa över
+; Skip
+;
+MSG_OK
+OK
+; OK
+;
+MSG_CANCEL
+Avbryt
+; Cancel
+;
+MSG_CANCEL2
+A_vbryt
+; _Cancel
+;
+MSG_QUIT
+Avsluta
+; Quit
+;
+MSG_QUIT2
+AVSLUTA
+; QUIT
+;
+MSG_ERROR
+Fel
+; Error
+;
+MSG_WARNING
+Varning
+; Warning
+;
+MSG_REBOOT
+Starta om AROS nu
+; Reboot AROS now
+;
+MSG_IOERROR
+Ett I/O-fel har inträffat
+; IO Error has occured
+;
+MSG_NOTFILESYSTEM
+enheten '%s' innehåller inte något filsystem\n
+; device '%s' doesn't contain a file system\n
+;
+MSG_NOTDEVICE
+'%s' innehåller inte något enhetsnamn\n
+; '%s' doesn't contain a device name\n
+;
+MSG_PARTSCHEME
+\033bPartitioneringsschema\033n
+; \033bPartitioning Scheme\033n
+;
+MSG_EFIESP
+\033bSkapa EFI ESP\033n
+; \033bCreate EFI ESP\033n
+;
+MSG_HELP_DESTDRIVE
+Välj målenheten som AROS ska installeras på
+; Select the destination drive to install AROS on
+;
+MSG_HELP_EFIESP
+EFI-baserade system kräver en separat FAT32-partition att installera starthanteraren på.
+; EFI based systems require a separate FAT32 partition to install the bootloader to.
+;
+MSG_HELP_PARTRDB
+Välj partitioneringsschemat som ska användas på enheten\nOBS -: MBR/EBR- och GPT-partitionsscheman kan inte startas av AmigaOS
+; Select the partitioning scheme to use on the drive\nNB -: MBR/EBR & GPT partition schemes cannot be booted by AmigaOS
+;
+MSG_HELP_PARTNORDB
+Välj partitioneringsschemat som ska användas på enheten\nOBS -: RDB-partitionsscheman kan inte startas på denna arkitektur
+; Select the partitioning scheme to use on the drive\nNB -: RDB partition schemes cannot be booted on this architecture
+;
+MSG_HELP_PARTITION
+Klicka för att justera partitionens filsystem och/eller storlek.
+; Click to adjust the partitions filesystem and/or size.
+;

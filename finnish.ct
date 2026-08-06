@@ -1,0 +1,392 @@
+## version $VER: installaros.catalog 3.0 (06.08.2026)
+## language suomi
+## codeset 0
+;
+MSG_TITLE
+AROS-asennusohjelma
+; AROS Installer
+;
+MSG_DESCRIPTION
+Asentaa AROSin asemalle.
+; Installs AROS on to a Drive.
+;
+MSG_WELCOME
+\033b\nTervetuloa AROS Research OS -asennusohjelmaan.\n\n\033nT‰m‰ ohjelma asentaa AROSin\ntietokoneesi kiintolevylle tai liitetylle USB-asemalle.\n\nHuomaa, ettei t‰m‰n ohjelmiston vakautta\nvoida taata.\nOn mahdollista, ett‰ \033btietoja katoaa\033n\nmilt‰ tahansa j‰rjestelm‰si asemalta, mukaan lukien\nmuiden k‰yttˆj‰rjestelmien k‰ytt‰m‰t asemat.\n
+; \033b\nWelcome to the AROS Research OS installer.\n\n\033nThis program allows you to install AROS\non your computer's hard disk or an attached USB drive.\n\nPlease be aware that the stability of this software\ncannot be guaranteed.\nIt is possible that \033bloss of data\033n may occur\non any drive in your system, including those\nused by other operating systems.\n
+;
+MSG_INSTALLOPTIONS
+\033bOsien valinta\033n\nValitse asennusvaihtoehdot.\n\n
+; \033bComponent Selection\033n\nPlease choose your installation options.\n\n
+;
+MSG_DESTOPTIONS
+\nValitse, mihin AROS asennetaan.\n\nJos olet ep‰varma, k‰yt‰ oletusarvoja.
+; \nPlease choose where to install AROS.\n\nIf you are unsure, then use the defaults.
+;
+MSG_ACCEPT
+Hyv‰ksytkˆ lisenssiehdot?
+; Accept License Agreement?
+;
+MSG_DRIVE
+\033bAsema:\033n
+; \033bDrive:\033n
+;
+MSG_TYPE
+Tyyppi:
+; Type:
+;
+MSG_DEVICE
+Laite:
+; Device:
+;
+MSG_UNIT
+Yksikkˆ:
+; Unit:
+;
+MSG_NAME
+Nimi:
+; Name:
+;
+MSG_FILESYSTEM
+Tiedostoj‰rjestelm‰:
+; Filesystem:
+;
+MSG_SIZE
+Koko:
+; Size:
+;
+MSG_MENUMODE
+Valikkotila:
+; Menu Mode:
+;
+MSG_CREATE
+Luo
+; Create
+;
+MSG_SPECIFYSIZE
+M‰‰rit‰ koko
+; Specify Size
+;
+MSG_DESTVOLUME
+Kohdeosio
+; Destination Partition
+;
+MSG_WORKVOLUME
+Work-osio
+; Work Partition
+;
+MSG_CHOOSELANG
+Valitse kieliasetukset
+; Choose Language Options
+;
+MSG_INSTALLCORE
+Asenna AROSin ydinj‰rjestelm‰
+; Install AROS Core System
+;
+MSG_INSTALLEXTRA
+Asenna lis‰ohjelmistot
+; Install Extra Software
+;
+MSG_INSTALLDEVEL
+Asenna virheenj‰ljitystyˆkalut ja kehitysohjelmistot
+; Install Debugging tools and Developer Software
+;
+MSG_INSTALLBOOT
+Asenna k‰ynnistyslatain
+; Install Bootloader
+;
+MSG_FORMATPART
+Alusta osio
+; Format Partition
+;
+MSG_USEWORK
+K‰yt‰ 'Work'-osiota
+; Use 'Work' Partition
+;
+MSG_USEWORKFOR
+K‰yt‰ 'Work'-osiota lis‰- ja kehitystiedostoille
+; Use 'Work' Partition for Extras and Developer Files
+;
+MSG_BEGINWITHPARTITION
+InstallAROS on valmis aloittamaan.\n\nValitsemasi asetukset tekev‰t peruuttamattomia muutoksia asemasi sis‰ltˆˆn,\neik‰ muutoksia voi en‰‰ perua\nt‰m‰n j‰lkeen.\n\nValitse Jatka aloittaaksesi asennuksen.
+; InstallAROS is ready to begin.\n\nThe options you have chosen will result in destructive changes to your drive contents,\nand so you will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
+;
+MSG_BEGINWITHOUTPARTITION
+InstallAROS on valmis aloittamaan...\n\nTietoja on ker‰tty riitt‰v‰sti\nasennuksen aloittamiseksi t‰ll‰ tietokoneella.\n\n\nValitse Jatka aloittaaksesi asennuksen.
+; InstallAROS is ready to begin...\n\nEnough information has been collected\nto begin installation on this computer.\n\n\nSelect Proceed to begin installation.
+;
+MSG_PARTITIONOPTIONS
+\033bAsemat ja osiointi\033n\nInstallAROS luo nyt sopivat osiot kohdeasemalle.\n\nValitse, miten haluat jatkaa.\n
+; \033bDrive(s) & Partitioning\033n\nInstallAROS will now create suitable partitions on the destination drive.\n\nPlease select how you would like to proceed.\n
+;
+MSG_DESTPARTITION
+\033bAROS-j‰rjestelm‰osio\033n
+; \033bAROS System Partition\033n
+;
+MSG_WORKPARTITION
+\033bLuo Work-osio\033n
+; \033bCreate Work Partition\033n
+;
+MSG_USEFREE
+K‰yt‰ vain vapaata tilaa
+; Only use free space
+;
+MSG_WIPEDISK
+Tyhjenn‰ levy
+; Wipe disk
+;
+MSG_USEEXISTING
+K‰yt‰ olemassa olevia AROS-osioita
+; Use existing AROS partitions
+;
+MSG_PARTITIONTOOBIG
+Pyyt‰m‰si osiokoot ovat liian suuria.\nSFS-osion enimm‰iskoko on %ld GB (%ld MB),\nkun taas FFS-osion enimm‰iskoko on %ld GB (%ld MB).\nPienenn‰ kyseisten osioiden kokoa.\n
+; The partition sizes you have requested are too large.\nThe maximum size of an SFS partition is %ld GB (%ld MB),\nwhile the maximum size of an FFS partition is %ld GB (%ld MB).\nPlease reduce the size of the affected partitions.\n
+;
+MSG_GRUBOPTIONS
+AROS k‰ytt‰‰ GRUB-k‰ynnistyslatainta.\n\nUseimmissa tapauksissa GRUBin bootblock tulisi\nasentaa j‰rjestelm‰si ensimm‰iselle asemalle.\nJos asennusohjelma havaitsee Microsoft Windows -asennuksen,\nse lis‰t‰‰n vaihtoehdoksi GRUBin k‰ynnistysvalikkoon.\n
+; AROS uses the GRUB bootloader.\n\nIn most cases, GRUB's bootblock should\nbe installed on the first drive in your system.\nIf the Installer detects a Microsoft Windows installation,\nit will be included as a choice in GRUB's boot menu.\n
+;
+MSG_GRUBDRIVE
+Asema, jolle k‰ynnistyslataimen bootblock asennetaan:
+; Drive to install Bootloader's bootblock on:
+;
+MSG_GRUBGOPTIONS
+GRUB-asetukset
+; GRUB Settings
+;
+MSG_GRUBGRUB
+GRUB-tiedostojen polku:
+; Path to GRUB files:
+;
+MSG_NOGRUBDEVICE
+Anna sen aseman laitenimi ja yksikkˆnumero,\njolle GRUBin bootblock asennetaan.\n
+; Please enter the device name and unit number for\nthe drive GRUB's bootblock should be installed on.\n
+;
+MSG_PARTITIONING
+Osioidaan asemia...\n\n
+; Partitioning your drives...\n\n
+;
+MSG_FORMATTING
+Alustetaan '%s'...
+; Formatting '%s'...
+;
+MSG_INSTALL
+Kopioidaan tiedostoja kohdeasemalle.\n\nT‰m‰ voi kest‰‰ jonkin aikaa...\n
+; Copying files to the destination drive.\n\nThis may take some time...\n
+;
+MSG_COPYCORE
+Kopioidaan ydinj‰rjestelm‰n tiedostoja...
+; Copying Core System files...
+;
+MSG_COPYEXTRA
+Kopioidaan lis‰ohjelmistoja...
+; Copying Extra Software...
+;
+MSG_COPYDEVEL
+Kopioidaan kehitystiedostoja...
+; Copying Developer Files...
+;
+MSG_COPYBOOT
+Kopioidaan BOOT-tiedostoja...
+; Copying BOOT files...
+;
+MSG_BOOTLOADER
+Kopioidaan k‰ynnistyslatain\nkohdeasemalle ja asennetaan...\n
+; Copying the bootloader to your\ndestination drive, and installing...\n
+;
+MSG_POSTINSTALL
+Suoritetaan asennuksen j‰lkeist‰ skripti‰...
+; Running post-install script...
+;
+MSG_POSTINSTALL2
+Suoritetaan ulkoista asennuksen j‰lkeist‰\nskripti‰. Odota hetki.\n
+; Running the external post-install\nscript. Please wait.\n
+;
+MSG_DONEREBOOT
+AROS-osiot on nyt luotu!\nJatkaaksesi asennusta sinun t‰ytyy\nk‰ynnist‰‰ AROS uudelleen ja suorittaa\nt‰m‰ asennusohjelma uudestaan.\n\nValitse Jatka lopettaaksesi.\n
+; AROS partitions have now been created!\nTo continue installation, you must\nreboot AROS, and re-run\nthis installer application.\n\nSelect Proceed to finish.\n
+;
+MSG_DONEUSB
+AROS-osiot on nyt luotu!\nJatkaaksesi asennusta sinun t‰ytyy irrottaa\nja liitt‰‰ USB-asemasi uudelleen sek‰ suorittaa\nt‰m‰ asennusohjelma uudestaan.\n\nValitse Jatka lopettaaksesi.n
+; AROS partitions have now been created!\nTo continue installation, you must remove\nand re-attach your USB drive, and re-run\nthis installer application.\n\nSelect Proceed to finish.n
+;
+MSG_INSTALLING
+Asennetaan AROSia...
+; Installing AROS...
+;
+MSG_INSTALLINGBOOT
+Asennetaan k‰ynnistyslatainta...
+; Installing Bootloader...
+;
+MSG_DONE
+Onnittelut, AROS on nyt asennettu!\n\nK‰ynnist‰‰ksesi AROSin kohdeasemalta\npoista asennusmedia ja\nk‰ynnist‰ tietokone uudelleen\nvirtakytkimest‰ tai reset-painikkeesta.\n\nValitse Jatka lopettaaksesi.\n
+; Congratulations, you now have AROS installed!\n\nTo boot AROS from the destination drive,\nremove the installation media and\nrestart your computer using the\npower switch or reset button.\n\nSelect Proceed to finish.\n
+;
+MSG_CANCELOK
+Haluatko varmasti perua\nt‰m‰n asennuksen?\n
+; Are you sure you wish to cancel\nthis installation?\n
+;
+MSG_CANCELDANGER
+J‰rjestelm‰‰si on tehty\nperuuttamattomia muutoksia.\n\nNyt peruminen voi j‰tt‰‰ tietokoneesi\nk‰ynnistyskelvottomaan tilaan.\n\nHaluatko varmasti perua\nt‰m‰n asennuksen?\n
+; Irreversible changes have been made\nto your system.\n\nCancelling now may leave your PC in an\nunbootable state.\n\nAre you sure you wish to cancel\nthis installation?\n
+;
+MSG_BACK
+_Takaisin...
+; _Back...
+;
+MSG_PROCEED
+_Jatka
+; _Proceed
+;
+MSG_NOTALLFILESCOPIED
+Kaikkia tiedostoja kohteesta '%s'\nei kopioitu.\nJatketaanko asennusta?\n
+; Not all files in '%s'\nwere copied.\nShould the installation continue?\n
+;
+MSG_PARTITIONINGFAILED
+Levyn osiointi ep‰onnistui. InstallAROS\nlopetetaan nyt.
+; Partitioning of disk failed. InstallAROS\nwill now quit.
+;
+MSG_GRUBNONFFSWARNING
+Olet valinnut j‰rjestelm‰osiolle muun\ntiedostoj‰rjestelm‰n kuin FFS-Intl. Koska\nt‰m‰ AROS-jakelu on k‰‰nnetty alkuper‰isen\nGRUB-k‰ynnistyslataimen kanssa, et pysty\nk‰ynnist‰m‰‰n j‰rjestelm‰‰ asennuksen j‰lkeen.\n\nJatketaanko osiointia?\n
+; You have selected a filesystem different\nthan FFS-Intl for the system partition. Since\nthis distribution of AROS is compiled with the\noriginal GRUB bootloader, you will not be able to\nboot the system after installation.\n\nShould the partitioning continue?\n
+;
+MSG_CANCELINSTALL
+Peru asennus...
+; Cancel Installation...
+;
+MSG_CONTINUECANCELINST
+*Jatka asennusta|Peru asennus
+; *Continue Install|Cancel Install
+;
+MSG_CONTINUECANCELPART
+Jatka osiointia|*Peru osiointi
+; Continue Partitioning|*Cancel Partitionin
+;
+MSG_CONTINUEQUIT
+Jatka|*Lopeta
+; Continue|*Quit
+;
+MSG_EXISTSRETRY
+Tiedosto on jo olemassa\nKorvataanko %s?
+; File Already Exists\nReplace %s?
+;
+MSG_RETRY
+Yrit‰ uudelleen
+; Retry
+;
+MSG_SCANRETRY
+Virhe luettaessa kohdetta %s\nYritet‰‰nkˆ uudelleen?
+; Error scanning %s\nRetry?
+;
+MSG_FINDRETRY
+Kohdetta %s ei lˆytynyt\nYritet‰‰nkˆ uudelleen?
+; Could not find %s\nRetry?
+;
+MSG_COULDNTOPEN
+Kohdetta %s ei voitu avata
+; Couldn't Open %s
+;
+MSG_COULDNTWRITE
+Kohteeseen %s ei voitu kirjoittaa
+; Couldn't Write to %s
+;
+MSG_DISKFULL
+Kohteeseen %s ei voitu kirjoittaa\nLevy t‰ynn‰!
+; Couldn't Write to %s\nDisk Full!
+;
+MSG_TEXT
+Teksti
+; Text
+;
+MSG_GFX
+Grafiikka
+; Graphics
+;
+MSG_YES
+Kyll‰
+; Yes
+;
+MSG_YESALWAYS
+Kyll‰ [Aina]
+; Yes [Always]
+;
+MSG_NO
+Ei
+; No
+;
+MSG_SKIP
+Ohita
+; Skip
+;
+MSG_OK
+Hyv‰ksy
+; OK
+;
+MSG_CANCEL
+Peru
+; Cancel
+;
+MSG_CANCEL2
+_Peru
+; _Cancel
+;
+MSG_QUIT
+Lopeta
+; Quit
+;
+MSG_QUIT2
+LOPETA
+; QUIT
+;
+MSG_ERROR
+Virhe
+; Error
+;
+MSG_WARNING
+Varoitus
+; Warning
+;
+MSG_REBOOT
+K‰ynnist‰ AROS uudelleen nyt
+; Reboot AROS now
+;
+MSG_IOERROR
+Tapahtui IO-virhe
+; IO Error has occured
+;
+MSG_NOTFILESYSTEM
+laite '%s' ei sis‰ll‰ tiedostoj‰rjestelm‰‰\n
+; device '%s' doesn't contain a file system\n
+;
+MSG_NOTDEVICE
+'%s' ei sis‰ll‰ laitenime‰\n
+; '%s' doesn't contain a device name\n
+;
+MSG_PARTSCHEME
+\033bOsiointimalli\033n
+; \033bPartitioning Scheme\033n
+;
+MSG_EFIESP
+\033bLuo EFI ESP\033n
+; \033bCreate EFI ESP\033n
+;
+MSG_HELP_DESTDRIVE
+Valitse kohdeasema, jolle AROS asennetaan
+; Select the destination drive to install AROS on
+;
+MSG_HELP_EFIESP
+EFI-pohjaiset j‰rjestelm‰t vaativat erillisen FAT32-osion k‰ynnistyslatainta varten.
+; EFI based systems require a separate FAT32 partition to install the bootloader to.
+;
+MSG_HELP_PARTRDB
+Valitse asemalla k‰ytett‰v‰ osiointimalli\nHUOM -: MBR/EBR- ja GPT-osiointimalleista AmigaOS ei voi k‰ynnisty‰
+; Select the partitioning scheme to use on the drive\nNB -: MBR/EBR & GPT partition schemes cannot be booted by AmigaOS
+;
+MSG_HELP_PARTNORDB
+Valitse asemalla k‰ytett‰v‰ osiointimalli\nHUOM -: RDB-osiointimallista ei voi k‰ynnist‰‰ t‰ll‰ arkkitehtuurilla
+; Select the partitioning scheme to use on the drive\nNB -: RDB partition schemes cannot be booted on this architecture
+;
+MSG_HELP_PARTITION
+Napsauta s‰‰t‰‰ksesi osion tiedostoj‰rjestelm‰‰ ja/tai kokoa.
+; Click to adjust the partitions filesystem and/or size.
+;

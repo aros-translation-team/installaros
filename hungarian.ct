@@ -1,0 +1,392 @@
+## version $VER: installaros.catalog 3.0 (06.08.2026)
+## language magyar
+## codeset 5
+;
+MSG_TITLE
+AROS telepítõ
+; AROS Installer
+;
+MSG_DESCRIPTION
+Telepíti az AROS-t egy meghajtóra.
+; Installs AROS on to a Drive.
+;
+MSG_WELCOME
+\033b\nÜdvözöl az AROS Research OS telepítõje.\n\n\033nEz a program lehetõvé teszi az AROS telepítését\na számítógép merevlemezére vagy egy csatlakoztatott USB meghajtóra.\n\nKérlek, vedd figyelembe, hogy ennek a szoftvernek\na stabilitása nem garantálható.\nElõfordulhat \033badatvesztés\033n a rendszer\nbármely meghajtóján, beleértve azokat is, amelyeket\nmás operációs rendszerek használnak.\n
+; \033b\nWelcome to the AROS Research OS installer.\n\n\033nThis program allows you to install AROS\non your computer's hard disk or an attached USB drive.\n\nPlease be aware that the stability of this software\ncannot be guaranteed.\nIt is possible that \033bloss of data\033n may occur\non any drive in your system, including those\nused by other operating systems.\n
+;
+MSG_INSTALLOPTIONS
+\033bÖsszetevõk kiválasztása\033n\nVálaszd ki a telepítési beállításokat.\n\n
+; \033bComponent Selection\033n\nPlease choose your installation options.\n\n
+;
+MSG_DESTOPTIONS
+\nVálaszd ki, hová szeretnéd telepíteni az AROS-t.\n\nHa bizonytalan vagy, használd az alapértelmezéseket.
+; \nPlease choose where to install AROS.\n\nIf you are unsure, then use the defaults.
+;
+MSG_ACCEPT
+Elfogadja a licencszerzõdést?
+; Accept License Agreement?
+;
+MSG_DRIVE
+\033bMeghajtó:\033n
+; \033bDrive:\033n
+;
+MSG_TYPE
+Típus:
+; Type:
+;
+MSG_DEVICE
+Eszköz:
+; Device:
+;
+MSG_UNIT
+Egység:
+; Unit:
+;
+MSG_NAME
+Név:
+; Name:
+;
+MSG_FILESYSTEM
+Fájlrendszer:
+; Filesystem:
+;
+MSG_SIZE
+Méret:
+; Size:
+;
+MSG_MENUMODE
+Menü mód:
+; Menu Mode:
+;
+MSG_CREATE
+Létrehoz
+; Create
+;
+MSG_SPECIFYSIZE
+Méret megadása
+; Specify Size
+;
+MSG_DESTVOLUME
+Célpartíció
+; Destination Partition
+;
+MSG_WORKVOLUME
+Work partíció
+; Work Partition
+;
+MSG_CHOOSELANG
+Nyelvi beállítások kiválasztása
+; Choose Language Options
+;
+MSG_INSTALLCORE
+AROS alaprendszer telepítése
+; Install AROS Core System
+;
+MSG_INSTALLEXTRA
+Extra szoftverek telepítése
+; Install Extra Software
+;
+MSG_INSTALLDEVEL
+Hibakeresõ eszközök és fejlesztõi szoftverek telepítése
+; Install Debugging tools and Developer Software
+;
+MSG_INSTALLBOOT
+Rendszerbetöltõ telepítése
+; Install Bootloader
+;
+MSG_FORMATPART
+Partíció formázása
+; Format Partition
+;
+MSG_USEWORK
+'Work' partíció használata
+; Use 'Work' Partition
+;
+MSG_USEWORKFOR
+'Work' partíció használata az extra és fejlesztõi fájlokhoz
+; Use 'Work' Partition for Extras and Developer Files
+;
+MSG_BEGINWITHPARTITION
+Az InstallAROS készen áll a kezdésre.\n\nA kiválasztott beállítások visszafordíthatatlan változásokat okoznak a meghajtó tartalmában,\nígy ezen a ponton túl a változtatásokat\nmár nem lehet visszavonni.\n\nA telepítés megkezdéséhez válaszd a Tovább gombot.
+; InstallAROS is ready to begin.\n\nThe options you have chosen will result in destructive changes to your drive contents,\nand so you will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
+;
+MSG_BEGINWITHOUTPARTITION
+Az InstallAROS készen áll a kezdésre...\n\nElegendõ információ gyûlt össze ahhoz,\nhogy a telepítés elkezdõdjön ezen a számítógépen.\n\n\nA telepítés megkezdéséhez válaszd a Tovább gombot.
+; InstallAROS is ready to begin...\n\nEnough information has been collected\nto begin installation on this computer.\n\n\nSelect Proceed to begin installation.
+;
+MSG_PARTITIONOPTIONS
+\033bMeghajtó(k) és particionálás\033n\nAz InstallAROS most megfelelõ partíciókat hoz létre a célmeghajtón.\n\nVálaszd ki, hogyan szeretnéd folytatni.\n
+; \033bDrive(s) & Partitioning\033n\nInstallAROS will now create suitable partitions on the destination drive.\n\nPlease select how you would like to proceed.\n
+;
+MSG_DESTPARTITION
+\033bAROS rendszerpartíció\033n
+; \033bAROS System Partition\033n
+;
+MSG_WORKPARTITION
+\033bWork partíció létrehozása\033n
+; \033bCreate Work Partition\033n
+;
+MSG_USEFREE
+Csak a szabad hely használata
+; Only use free space
+;
+MSG_WIPEDISK
+Lemez törlése
+; Wipe disk
+;
+MSG_USEEXISTING
+Meglévõ AROS partíciók használata
+; Use existing AROS partitions
+;
+MSG_PARTITIONTOOBIG
+A kért partícióméretek túl nagyok.\nEgy SFS partíció maximális mérete %ld GB (%ld MB),\nmíg egy FFS partíció maximális mérete %ld GB (%ld MB).\nCsökkentsd az érintett partíciók méretét.\n
+; The partition sizes you have requested are too large.\nThe maximum size of an SFS partition is %ld GB (%ld MB),\nwhile the maximum size of an FFS partition is %ld GB (%ld MB).\nPlease reduce the size of the affected partitions.\n
+;
+MSG_GRUBOPTIONS
+Az AROS a GRUB rendszerbetöltõt használja.\n\nA legtöbb esetben a GRUB bootblokkját a rendszer\nelsõ meghajtójára célszerû telepíteni.\nHa a telepítõ Microsoft Windows rendszert talál,\naz választható elemként bekerül a GRUB indítómenüjébe.\n
+; AROS uses the GRUB bootloader.\n\nIn most cases, GRUB's bootblock should\nbe installed on the first drive in your system.\nIf the Installer detects a Microsoft Windows installation,\nit will be included as a choice in GRUB's boot menu.\n
+;
+MSG_GRUBDRIVE
+A meghajtó, amelyre a rendszerbetöltõ bootblokkja kerül:
+; Drive to install Bootloader's bootblock on:
+;
+MSG_GRUBGOPTIONS
+GRUB beállítások
+; GRUB Settings
+;
+MSG_GRUBGRUB
+A GRUB fájlok útvonala:
+; Path to GRUB files:
+;
+MSG_NOGRUBDEVICE
+Add meg annak a meghajtónak az eszköznevét és\negységszámát, amelyre a GRUB bootblokkja kerüljön.\n
+; Please enter the device name and unit number for\nthe drive GRUB's bootblock should be installed on.\n
+;
+MSG_PARTITIONING
+A meghajtók particionálása...\n\n
+; Partitioning your drives...\n\n
+;
+MSG_FORMATTING
+'%s' formázása...
+; Formatting '%s'...
+;
+MSG_INSTALL
+Fájlok másolása a célmeghajtóra.\n\nEz eltarthat egy ideig...\n
+; Copying files to the destination drive.\n\nThis may take some time...\n
+;
+MSG_COPYCORE
+Alaprendszer fájljainak másolása...
+; Copying Core System files...
+;
+MSG_COPYEXTRA
+Extra szoftverek másolása...
+; Copying Extra Software...
+;
+MSG_COPYDEVEL
+Fejlesztõi fájlok másolása...
+; Copying Developer Files...
+;
+MSG_COPYBOOT
+BOOT fájlok másolása...
+; Copying BOOT files...
+;
+MSG_BOOTLOADER
+A rendszerbetöltõ másolása és telepítése\na célmeghajtóra...\n
+; Copying the bootloader to your\ndestination drive, and installing...\n
+;
+MSG_POSTINSTALL
+Telepítés utáni szkript futtatása...
+; Running post-install script...
+;
+MSG_POSTINSTALL2
+A külsõ, telepítés utáni szkript\nfuttatása. Kérlek, várj.\n
+; Running the external post-install\nscript. Please wait.\n
+;
+MSG_DONEREBOOT
+Az AROS partíciók elkészültek!\nA telepítés folytatásához újra kell\nindítanod az AROS-t, és újra kell\nfuttatnod ezt a telepítõprogramot.\n\nA befejezéshez válaszd a Tovább gombot.\n
+; AROS partitions have now been created!\nTo continue installation, you must\nreboot AROS, and re-run\nthis installer application.\n\nSelect Proceed to finish.\n
+;
+MSG_DONEUSB
+Az AROS partíciók elkészültek!\nA telepítés folytatásához távolítsd el,\nmajd csatlakoztasd újra az USB meghajtót, és\nfuttasd újra ezt a telepítõprogramot.\n\nA befejezéshez válaszd a Tovább gombot.n
+; AROS partitions have now been created!\nTo continue installation, you must remove\nand re-attach your USB drive, and re-run\nthis installer application.\n\nSelect Proceed to finish.n
+;
+MSG_INSTALLING
+AROS telepítése...
+; Installing AROS...
+;
+MSG_INSTALLINGBOOT
+Rendszerbetöltõ telepítése...
+; Installing Bootloader...
+;
+MSG_DONE
+Gratulálunk, az AROS telepítése megtörtént!\n\nAhhoz, hogy az AROS a célmeghajtóról induljon,\ntávolítsd el a telepítõmédiát, és\nindítsd újra a számítógépet a\nbekapcsológombbal vagy a reset gombbal.\n\nA befejezéshez válaszd a Tovább gombot.\n
+; Congratulations, you now have AROS installed!\n\nTo boot AROS from the destination drive,\nremove the installation media and\nrestart your computer using the\npower switch or reset button.\n\nSelect Proceed to finish.\n
+;
+MSG_CANCELOK
+Biztosan meg akarod szakítani\nezt a telepítést?\n
+; Are you sure you wish to cancel\nthis installation?\n
+;
+MSG_CANCELDANGER
+Visszafordíthatatlan változások történtek\na rendszereden.\n\nA megszakítás most a számítógépet\nindíthatatlan állapotban hagyhatja.\n\nBiztosan meg akarod szakítani\nezt a telepítést?\n
+; Irreversible changes have been made\nto your system.\n\nCancelling now may leave your PC in an\nunbootable state.\n\nAre you sure you wish to cancel\nthis installation?\n
+;
+MSG_BACK
+_Vissza...
+; _Back...
+;
+MSG_PROCEED
+_Tovább
+; _Proceed
+;
+MSG_NOTALLFILESCOPIED
+A(z) '%s' helyrõl nem másolódott\nát minden fájl.\nFolytatódjon a telepítés?\n
+; Not all files in '%s'\nwere copied.\nShould the installation continue?\n
+;
+MSG_PARTITIONINGFAILED
+A lemez particionálása nem sikerült. Az InstallAROS\nmost kilép.
+; Partitioning of disk failed. InstallAROS\nwill now quit.
+;
+MSG_GRUBNONFFSWARNING
+A rendszerpartícióhoz az FFS-Intl helyett\nmás fájlrendszert választottál. Mivel az AROS\nezen változata az eredeti GRUB rendszerbetöltõvel\nkészült, a telepítés után nem fogod tudni\nelindítani a rendszert.\n\nFolytatódjon a particionálás?\n
+; You have selected a filesystem different\nthan FFS-Intl for the system partition. Since\nthis distribution of AROS is compiled with the\noriginal GRUB bootloader, you will not be able to\nboot the system after installation.\n\nShould the partitioning continue?\n
+;
+MSG_CANCELINSTALL
+Telepítés megszakítása...
+; Cancel Installation...
+;
+MSG_CONTINUECANCELINST
+*Telepítés folytatása|Telepítés megszakítása
+; *Continue Install|Cancel Install
+;
+MSG_CONTINUECANCELPART
+Particionálás folytatása|*Megszakítás
+; Continue Partitioning|*Cancel Partitionin
+;
+MSG_CONTINUEQUIT
+Folytatás|*Kilépés
+; Continue|*Quit
+;
+MSG_EXISTSRETRY
+A fájl már létezik\nLecseréled ezt: %s?
+; File Already Exists\nReplace %s?
+;
+MSG_RETRY
+Újra
+; Retry
+;
+MSG_SCANRETRY
+Hiba a(z) %s vizsgálatakor\nÚjrapróbálod?
+; Error scanning %s\nRetry?
+;
+MSG_FINDRETRY
+Nem található: %s\nÚjrapróbálod?
+; Could not find %s\nRetry?
+;
+MSG_COULDNTOPEN
+Nem sikerült megnyitni: %s
+; Couldn't Open %s
+;
+MSG_COULDNTWRITE
+Nem sikerült írni ide: %s
+; Couldn't Write to %s
+;
+MSG_DISKFULL
+Nem sikerült írni ide: %s\nA lemez megtelt!
+; Couldn't Write to %s\nDisk Full!
+;
+MSG_TEXT
+Szöveg
+; Text
+;
+MSG_GFX
+Grafika
+; Graphics
+;
+MSG_YES
+Igen
+; Yes
+;
+MSG_YESALWAYS
+Igen [Mindig]
+; Yes [Always]
+;
+MSG_NO
+Nem
+; No
+;
+MSG_SKIP
+Kihagyás
+; Skip
+;
+MSG_OK
+Oké
+; OK
+;
+MSG_CANCEL
+Mégsem
+; Cancel
+;
+MSG_CANCEL2
+Mégse
+; _Cancel
+;
+MSG_QUIT
+Kilépés
+; Quit
+;
+MSG_QUIT2
+KILÉPÉS
+; QUIT
+;
+MSG_ERROR
+Hiba
+; Error
+;
+MSG_WARNING
+Figyelmeztetés
+; Warning
+;
+MSG_REBOOT
+AROS újraindítása most
+; Reboot AROS now
+;
+MSG_IOERROR
+IO hiba történt
+; IO Error has occured
+;
+MSG_NOTFILESYSTEM
+a(z) '%s' eszköz nem tartalmaz fájlrendszert\n
+; device '%s' doesn't contain a file system\n
+;
+MSG_NOTDEVICE
+A(z) '%s' nem tartalmaz eszköznevet\n
+; '%s' doesn't contain a device name\n
+;
+MSG_PARTSCHEME
+\033bParticionálási séma\033n
+; \033bPartitioning Scheme\033n
+;
+MSG_EFIESP
+\033bEFI ESP létrehozása\033n
+; \033bCreate EFI ESP\033n
+;
+MSG_HELP_DESTDRIVE
+Válaszd ki a célmeghajtót, amelyre az AROS települ
+; Select the destination drive to install AROS on
+;
+MSG_HELP_EFIESP
+Az EFI alapú rendszerek külön FAT32 partíciót igényelnek a rendszerbetöltõ telepítéséhez.
+; EFI based systems require a separate FAT32 partition to install the bootloader to.
+;
+MSG_HELP_PARTRDB
+Válaszd ki a meghajtón használandó particionálási sémát\nMegj. -: az MBR/EBR és GPT partíciós sémákat az AmigaOS nem tudja indítani
+; Select the partitioning scheme to use on the drive\nNB -: MBR/EBR & GPT partition schemes cannot be booted by AmigaOS
+;
+MSG_HELP_PARTNORDB
+Válaszd ki a meghajtón használandó particionálási sémát\nMegj. -: az RDB partíciós sémák nem indíthatók ezen az architektúrán
+; Select the partitioning scheme to use on the drive\nNB -: RDB partition schemes cannot be booted on this architecture
+;
+MSG_HELP_PARTITION
+Kattints a partíció fájlrendszerének és/vagy méretének módosításához.
+; Click to adjust the partitions filesystem and/or size.
+;

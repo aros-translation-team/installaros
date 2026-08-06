@@ -1,0 +1,392 @@
+## version $VER: installaros.catalog 3.0 (06.08.2026)
+## language hrvatski
+## codeset 5
+;
+MSG_TITLE
+AROS instalacijski program
+; AROS Installer
+;
+MSG_DESCRIPTION
+Instalira AROS na disk.
+; Installs AROS on to a Drive.
+;
+MSG_WELCOME
+\033b\nDobrodo¹li u instalacijski program AROS Research OS-a.\n\n\033nOvaj program omoguæuje vam instalaciju AROS-a\nna tvrdi disk va¹eg raèunala ili prikljuèeni USB disk.\n\nImajte na umu da se stabilnost ovog softvera\nne mo¾e jamèiti.\nMoguæe je da doðe do \033bgubitka podataka\033n\nna bilo kojem disku u va¹em sustavu, ukljuèujuæi one\nkoje koriste drugi operacijski sustavi.\n
+; \033b\nWelcome to the AROS Research OS installer.\n\n\033nThis program allows you to install AROS\non your computer's hard disk or an attached USB drive.\n\nPlease be aware that the stability of this software\ncannot be guaranteed.\nIt is possible that \033bloss of data\033n may occur\non any drive in your system, including those\nused by other operating systems.\n
+;
+MSG_INSTALLOPTIONS
+\033bOdabir komponenti\033n\nOdaberite opcije instalacije.\n\n
+; \033bComponent Selection\033n\nPlease choose your installation options.\n\n
+;
+MSG_DESTOPTIONS
+\nOdaberite gdje ¾elite instalirati AROS.\n\nAko niste sigurni, koristite zadane postavke.
+; \nPlease choose where to install AROS.\n\nIf you are unsure, then use the defaults.
+;
+MSG_ACCEPT
+Prihvaæate li licencni ugovor?
+; Accept License Agreement?
+;
+MSG_DRIVE
+\033bDisk:\033n
+; \033bDrive:\033n
+;
+MSG_TYPE
+Tip:
+; Type:
+;
+MSG_DEVICE
+Ureðaj:
+; Device:
+;
+MSG_UNIT
+Jedinica:
+; Unit:
+;
+MSG_NAME
+Ime:
+; Name:
+;
+MSG_FILESYSTEM
+Datoteèni sustav:
+; Filesystem:
+;
+MSG_SIZE
+Velièina:
+; Size:
+;
+MSG_MENUMODE
+Naèin izbornika:
+; Menu Mode:
+;
+MSG_CREATE
+Stvori
+; Create
+;
+MSG_SPECIFYSIZE
+Odredi velièinu
+; Specify Size
+;
+MSG_DESTVOLUME
+Odredi¹na particija
+; Destination Partition
+;
+MSG_WORKVOLUME
+Work particija
+; Work Partition
+;
+MSG_CHOOSELANG
+Odaberite jeziène opcije
+; Choose Language Options
+;
+MSG_INSTALLCORE
+Instaliraj jezgru AROS sustava
+; Install AROS Core System
+;
+MSG_INSTALLEXTRA
+Instaliraj dodatni softver
+; Install Extra Software
+;
+MSG_INSTALLDEVEL
+Instaliraj alate za otklanjanje gre¹aka i razvojni softver
+; Install Debugging tools and Developer Software
+;
+MSG_INSTALLBOOT
+Instaliraj bootloader
+; Install Bootloader
+;
+MSG_FORMATPART
+Formatiraj particiju
+; Format Partition
+;
+MSG_USEWORK
+Koristi 'Work' particiju
+; Use 'Work' Partition
+;
+MSG_USEWORKFOR
+Koristi 'Work' particiju za dodatke i razvojne datoteke
+; Use 'Work' Partition for Extras and Developer Files
+;
+MSG_BEGINWITHPARTITION
+InstallAROS je spreman za poèetak.\n\nOdabrane opcije rezultirat æe destruktivnim promjenama sadr¾aja va¹eg diska,\npa nakon ove toèke vi¹e neæete moæi\nponi¹titi promjene.\n\nOdaberite Nastavi za poèetak instalacije.
+; InstallAROS is ready to begin.\n\nThe options you have chosen will result in destructive changes to your drive contents,\nand so you will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
+;
+MSG_BEGINWITHOUTPARTITION
+InstallAROS je spreman za poèetak...\n\nPrikupljeno je dovoljno informacija\nza poèetak instalacije na ovo raèunalo.\n\n\nOdaberite Nastavi za poèetak instalacije.
+; InstallAROS is ready to begin...\n\nEnough information has been collected\nto begin installation on this computer.\n\n\nSelect Proceed to begin installation.
+;
+MSG_PARTITIONOPTIONS
+\033bDiskovi i particioniranje\033n\nInstallAROS æe sada stvoriti odgovarajuæe particije na odredi¹nom disku.\n\nOdaberite kako ¾elite nastaviti.\n
+; \033bDrive(s) & Partitioning\033n\nInstallAROS will now create suitable partitions on the destination drive.\n\nPlease select how you would like to proceed.\n
+;
+MSG_DESTPARTITION
+\033bAROS sistemska particija\033n
+; \033bAROS System Partition\033n
+;
+MSG_WORKPARTITION
+\033bStvori Work particiju\033n
+; \033bCreate Work Partition\033n
+;
+MSG_USEFREE
+Koristi samo slobodan prostor
+; Only use free space
+;
+MSG_WIPEDISK
+Obri¹i disk
+; Wipe disk
+;
+MSG_USEEXISTING
+Koristi postojeæe AROS particije
+; Use existing AROS partitions
+;
+MSG_PARTITIONTOOBIG
+Velièine particija koje ste zatra¾ili su prevelike.\nMaksimalna velièina SFS particije je %ld GB (%ld MB),\ndok je maksimalna velièina FFS particije %ld GB (%ld MB).\nSmanjite velièinu dotiènih particija.\n
+; The partition sizes you have requested are too large.\nThe maximum size of an SFS partition is %ld GB (%ld MB),\nwhile the maximum size of an FFS partition is %ld GB (%ld MB).\nPlease reduce the size of the affected partitions.\n
+;
+MSG_GRUBOPTIONS
+AROS koristi GRUB bootloader.\n\nU veæini sluèajeva GRUB-ov bootblock treba\ninstalirati na prvi disk u va¹em sustavu.\nAko instalacijski program otkrije Microsoft Windows instalaciju,\nona æe biti ukljuèena kao izbor u GRUB-ovom boot izborniku.\n
+; AROS uses the GRUB bootloader.\n\nIn most cases, GRUB's bootblock should\nbe installed on the first drive in your system.\nIf the Installer detects a Microsoft Windows installation,\nit will be included as a choice in GRUB's boot menu.\n
+;
+MSG_GRUBDRIVE
+Disk na koji se instalira bootblock bootloadera:
+; Drive to install Bootloader's bootblock on:
+;
+MSG_GRUBGOPTIONS
+GRUB postavke
+; GRUB Settings
+;
+MSG_GRUBGRUB
+Putanja do GRUB datoteka:
+; Path to GRUB files:
+;
+MSG_NOGRUBDEVICE
+Unesite naziv ureðaja i broj jedinice za\ndisk na koji treba instalirati GRUB-ov bootblock.\n
+; Please enter the device name and unit number for\nthe drive GRUB's bootblock should be installed on.\n
+;
+MSG_PARTITIONING
+Particioniranje va¹ih diskova...\n\n
+; Partitioning your drives...\n\n
+;
+MSG_FORMATTING
+Formatiranje '%s'...
+; Formatting '%s'...
+;
+MSG_INSTALL
+Kopiranje datoteka na odredi¹ni disk.\n\nOvo mo¾e potrajati...\n
+; Copying files to the destination drive.\n\nThis may take some time...\n
+;
+MSG_COPYCORE
+Kopiranje datoteka jezgre sustava...
+; Copying Core System files...
+;
+MSG_COPYEXTRA
+Kopiranje dodatnog softvera...
+; Copying Extra Software...
+;
+MSG_COPYDEVEL
+Kopiranje razvojnih datoteka...
+; Copying Developer Files...
+;
+MSG_COPYBOOT
+Kopiranje BOOT datoteka...
+; Copying BOOT files...
+;
+MSG_BOOTLOADER
+Kopiranje bootloadera na va¹\nodredi¹ni disk i instaliranje...\n
+; Copying the bootloader to your\ndestination drive, and installing...\n
+;
+MSG_POSTINSTALL
+Izvr¹avanje post-instalacijske skripte...
+; Running post-install script...
+;
+MSG_POSTINSTALL2
+Izvr¹avanje vanjske post-instalacijske\nskripte. Prièekajte.\n
+; Running the external post-install\nscript. Please wait.\n
+;
+MSG_DONEREBOOT
+AROS particije su sada stvorene!\nZa nastavak instalacije morate ponovno\npokrenuti AROS i ponovno pokrenuti\novaj instalacijski program.\n\nOdaberite Nastavi za zavr¹etak.\n
+; AROS partitions have now been created!\nTo continue installation, you must\nreboot AROS, and re-run\nthis installer application.\n\nSelect Proceed to finish.\n
+;
+MSG_DONEUSB
+AROS particije su sada stvorene!\nZa nastavak instalacije morate ukloniti\ni ponovno spojiti USB disk te ponovno pokrenuti\novaj instalacijski program.\n\nOdaberite Nastavi za zavr¹etak.n
+; AROS partitions have now been created!\nTo continue installation, you must remove\nand re-attach your USB drive, and re-run\nthis installer application.\n\nSelect Proceed to finish.n
+;
+MSG_INSTALLING
+Instaliranje AROS-a...
+; Installing AROS...
+;
+MSG_INSTALLINGBOOT
+Instaliranje bootloadera...
+; Installing Bootloader...
+;
+MSG_DONE
+Èestitamo, AROS je sada instaliran!\n\nZa pokretanje AROS-a s odredi¹nog diska,\nuklonite instalacijski medij i\nponovno pokrenite raèunalo pomoæu\nprekidaèa napajanja ili tipke reset.\n\nOdaberite Nastavi za zavr¹etak.\n
+; Congratulations, you now have AROS installed!\n\nTo boot AROS from the destination drive,\nremove the installation media and\nrestart your computer using the\npower switch or reset button.\n\nSelect Proceed to finish.\n
+;
+MSG_CANCELOK
+Jeste li sigurni da ¾elite odustati\nod ove instalacije?\n
+; Are you sure you wish to cancel\nthis installation?\n
+;
+MSG_CANCELDANGER
+Napravljene su nepovratne promjene\nna va¹em sustavu.\n\nOdustajanje sada mo¾e ostaviti va¹e raèunalo\nu stanju iz kojeg se ne mo¾e pokrenuti.\n\nJeste li sigurni da ¾elite odustati\nod ove instalacije?\n
+; Irreversible changes have been made\nto your system.\n\nCancelling now may leave your PC in an\nunbootable state.\n\nAre you sure you wish to cancel\nthis installation?\n
+;
+MSG_BACK
+_Natrag...
+; _Back...
+;
+MSG_PROCEED
+_Nastavi
+; _Proceed
+;
+MSG_NOTALLFILESCOPIED
+Nisu sve datoteke iz '%s'\nkopirane.\n®elite li nastaviti instalaciju?\n
+; Not all files in '%s'\nwere copied.\nShould the installation continue?\n
+;
+MSG_PARTITIONINGFAILED
+Particioniranje diska nije uspjelo. InstallAROS\næe se sada zatvoriti.
+; Partitioning of disk failed. InstallAROS\nwill now quit.
+;
+MSG_GRUBNONFFSWARNING
+Odabrali ste datoteèni sustav razlièit\nod FFS-Intl za sistemsku particiju. Buduæi da je\nova distribucija AROS-a kompajlirana s\nizvornim GRUB bootloaderom, neæete moæi\npokrenuti sustav nakon instalacije.\n\n®elite li nastaviti particioniranje?\n
+; You have selected a filesystem different\nthan FFS-Intl for the system partition. Since\nthis distribution of AROS is compiled with the\noriginal GRUB bootloader, you will not be able to\nboot the system after installation.\n\nShould the partitioning continue?\n
+;
+MSG_CANCELINSTALL
+Odustani od instalacije...
+; Cancel Installation...
+;
+MSG_CONTINUECANCELINST
+*Nastavi instalaciju|Odustani od instalacije
+; *Continue Install|Cancel Install
+;
+MSG_CONTINUECANCELPART
+Nastavi particioniranje|*Odustani od particioniranja
+; Continue Partitioning|*Cancel Partitionin
+;
+MSG_CONTINUEQUIT
+Nastavi|*Izlaz
+; Continue|*Quit
+;
+MSG_EXISTSRETRY
+Datoteka veæ postoji\nZamijeniti %s?
+; File Already Exists\nReplace %s?
+;
+MSG_RETRY
+Ponovi
+; Retry
+;
+MSG_SCANRETRY
+Pogre¹ka pri skeniranju %s\nPoku¹ati ponovno?
+; Error scanning %s\nRetry?
+;
+MSG_FINDRETRY
+Ne mogu pronaæi %s\nPoku¹ati ponovno?
+; Could not find %s\nRetry?
+;
+MSG_COULDNTOPEN
+Ne mogu otvoriti %s
+; Couldn't Open %s
+;
+MSG_COULDNTWRITE
+Ne mogu pisati u %s
+; Couldn't Write to %s
+;
+MSG_DISKFULL
+Ne mogu pisati u %s\nDisk je pun!
+; Couldn't Write to %s\nDisk Full!
+;
+MSG_TEXT
+Tekst
+; Text
+;
+MSG_GFX
+Grafika
+; Graphics
+;
+MSG_YES
+Da
+; Yes
+;
+MSG_YESALWAYS
+Da [Uvijek]
+; Yes [Always]
+;
+MSG_NO
+Ne
+; No
+;
+MSG_SKIP
+Preskoèi
+; Skip
+;
+MSG_OK
+U redu
+; OK
+;
+MSG_CANCEL
+Odustani
+; Cancel
+;
+MSG_CANCEL2
+Odustani
+; _Cancel
+;
+MSG_QUIT
+Izlaz
+; Quit
+;
+MSG_QUIT2
+IZLAZ
+; QUIT
+;
+MSG_ERROR
+Pogre¹ka
+; Error
+;
+MSG_WARNING
+Upozorenje
+; Warning
+;
+MSG_REBOOT
+Ponovno pokreni AROS sada
+; Reboot AROS now
+;
+MSG_IOERROR
+Dogodila se IO pogre¹ka
+; IO Error has occured
+;
+MSG_NOTFILESYSTEM
+ureðaj '%s' ne sadr¾i datoteèni sustav\n
+; device '%s' doesn't contain a file system\n
+;
+MSG_NOTDEVICE
+'%s' ne sadr¾i naziv ureðaja\n
+; '%s' doesn't contain a device name\n
+;
+MSG_PARTSCHEME
+\033bShema particioniranja\033n
+; \033bPartitioning Scheme\033n
+;
+MSG_EFIESP
+\033bStvori EFI ESP\033n
+; \033bCreate EFI ESP\033n
+;
+MSG_HELP_DESTDRIVE
+Odaberite odredi¹ni disk za instalaciju AROS-a
+; Select the destination drive to install AROS on
+;
+MSG_HELP_EFIESP
+EFI sustavi zahtijevaju zasebnu FAT32 particiju za instalaciju bootloadera.
+; EFI based systems require a separate FAT32 partition to install the bootloader to.
+;
+MSG_HELP_PARTRDB
+Odaberite shemu particioniranja za disk\nNB -: MBR/EBR & GPT sheme particija AmigaOS ne mo¾e pokrenuti
+; Select the partitioning scheme to use on the drive\nNB -: MBR/EBR & GPT partition schemes cannot be booted by AmigaOS
+;
+MSG_HELP_PARTNORDB
+Odaberite shemu particioniranja za disk\nNB -: RDB sheme particija ne mogu se pokrenuti na ovoj arhitekturi
+; Select the partitioning scheme to use on the drive\nNB -: RDB partition schemes cannot be booted on this architecture
+;
+MSG_HELP_PARTITION
+Kliknite za pode¹avanje datoteènog sustava i/ili velièine particije.
+; Click to adjust the partitions filesystem and/or size.
+;

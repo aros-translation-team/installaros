@@ -1,0 +1,392 @@
+## version $VER: installaros.catalog 3.0 (06.08.2026)
+## language català
+## codeset 0
+;
+MSG_TITLE
+Instal·lador d'AROS
+; AROS Installer
+;
+MSG_DESCRIPTION
+Instal·la AROS en una unitat.
+; Installs AROS on to a Drive.
+;
+MSG_WELCOME
+\033b\nBenvingut a l'instal·lador d'AROS Research OS.\n\n\033nAquest programa us permet instal·lar AROS\nal disc dur de l'ordinador o en una unitat USB connectada.\n\nTingueu en compte que l'estabilitat d'aquest programari\nno es pot garantir.\nÉs possible que es produeixi una \033bpèrdua de dades\033n\nen qualsevol unitat del sistema, incloses les\nutilitzades per altres sistemes operatius.\n
+; \033b\nWelcome to the AROS Research OS installer.\n\n\033nThis program allows you to install AROS\non your computer's hard disk or an attached USB drive.\n\nPlease be aware that the stability of this software\ncannot be guaranteed.\nIt is possible that \033bloss of data\033n may occur\non any drive in your system, including those\nused by other operating systems.\n
+;
+MSG_INSTALLOPTIONS
+\033bSelecció de components\033n\nTrieu les opcions d'instal·lació.\n\n
+; \033bComponent Selection\033n\nPlease choose your installation options.\n\n
+;
+MSG_DESTOPTIONS
+\nTrieu on voleu instal·lar AROS.\n\nSi no n'esteu segur, utilitzeu els valors per defecte.
+; \nPlease choose where to install AROS.\n\nIf you are unsure, then use the defaults.
+;
+MSG_ACCEPT
+Acceptar l'acord de llicència?
+; Accept License Agreement?
+;
+MSG_DRIVE
+\033bUnitat:\033n
+; \033bDrive:\033n
+;
+MSG_TYPE
+Tipus:
+; Type:
+;
+MSG_DEVICE
+Dispositiu:
+; Device:
+;
+MSG_UNIT
+Unitat:
+; Unit:
+;
+MSG_NAME
+Nom:
+; Name:
+;
+MSG_FILESYSTEM
+Sistema de fitxers:
+; Filesystem:
+;
+MSG_SIZE
+Mida:
+; Size:
+;
+MSG_MENUMODE
+Mode de menú:
+; Menu Mode:
+;
+MSG_CREATE
+Crear
+; Create
+;
+MSG_SPECIFYSIZE
+Especificar la mida
+; Specify Size
+;
+MSG_DESTVOLUME
+Partició de destinació
+; Destination Partition
+;
+MSG_WORKVOLUME
+Partició Work
+; Work Partition
+;
+MSG_CHOOSELANG
+Trieu les opcions d'idioma
+; Choose Language Options
+;
+MSG_INSTALLCORE
+Instal·lar el nucli del sistema AROS
+; Install AROS Core System
+;
+MSG_INSTALLEXTRA
+Instal·lar programari extra
+; Install Extra Software
+;
+MSG_INSTALLDEVEL
+Instal·lar les eines de depuració i el programari per a desenvolupadors
+; Install Debugging tools and Developer Software
+;
+MSG_INSTALLBOOT
+Instal·lar el carregador d'arrencada
+; Install Bootloader
+;
+MSG_FORMATPART
+Formatar la partició
+; Format Partition
+;
+MSG_USEWORK
+Utilitzar la partició 'Work'
+; Use 'Work' Partition
+;
+MSG_USEWORKFOR
+Utilitzar la partició 'Work' per als extres i fitxers de desenvolupador
+; Use 'Work' Partition for Extras and Developer Files
+;
+MSG_BEGINWITHPARTITION
+InstallAROS està a punt per començar.\n\nLes opcions que heu triat comportaran canvis destructius al contingut de les vostres unitats,\ni per tant ja no podreu desfer els canvis\na partir d'aquest punt.\n\nSeleccioneu Continuar per començar la instal·lació.
+; InstallAROS is ready to begin.\n\nThe options you have chosen will result in destructive changes to your drive contents,\nand so you will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
+;
+MSG_BEGINWITHOUTPARTITION
+InstallAROS està a punt per començar...\n\nS'ha recollit prou informació\nper començar la instal·lació en aquest ordinador.\n\n\nSeleccioneu Continuar per començar la instal·lació.
+; InstallAROS is ready to begin...\n\nEnough information has been collected\nto begin installation on this computer.\n\n\nSelect Proceed to begin installation.
+;
+MSG_PARTITIONOPTIONS
+\033bUnitats i particionat\033n\nInstallAROS crearà ara les particions adequades a la unitat de destinació.\n\nSeleccioneu com voleu procedir.\n
+; \033bDrive(s) & Partitioning\033n\nInstallAROS will now create suitable partitions on the destination drive.\n\nPlease select how you would like to proceed.\n
+;
+MSG_DESTPARTITION
+\033bPartició de sistema d'AROS\033n
+; \033bAROS System Partition\033n
+;
+MSG_WORKPARTITION
+\033bCrear la partició Work\033n
+; \033bCreate Work Partition\033n
+;
+MSG_USEFREE
+Utilitzar només l'espai lliure
+; Only use free space
+;
+MSG_WIPEDISK
+Esborrar el disc
+; Wipe disk
+;
+MSG_USEEXISTING
+Utilitzar les particions d'AROS existents
+; Use existing AROS partitions
+;
+MSG_PARTITIONTOOBIG
+Les mides de partició que heu demanat són massa grans.\nLa mida màxima d'una partició SFS és de %ld GB (%ld MB),\nmentre que la mida màxima d'una partició FFS és de %ld GB (%ld MB).\nReduïu la mida de les particions afectades.\n
+; The partition sizes you have requested are too large.\nThe maximum size of an SFS partition is %ld GB (%ld MB),\nwhile the maximum size of an FFS partition is %ld GB (%ld MB).\nPlease reduce the size of the affected partitions.\n
+;
+MSG_GRUBOPTIONS
+AROS utilitza el carregador d'arrencada GRUB.\n\nEn la majoria de casos, el bloc d'arrencada de GRUB\ns'hauria d'instal·lar a la primera unitat del sistema.\nSi l'instal·lador detecta una instal·lació de Microsoft Windows,\ns'inclourà com a opció al menú d'arrencada de GRUB.\n
+; AROS uses the GRUB bootloader.\n\nIn most cases, GRUB's bootblock should\nbe installed on the first drive in your system.\nIf the Installer detects a Microsoft Windows installation,\nit will be included as a choice in GRUB's boot menu.\n
+;
+MSG_GRUBDRIVE
+Unitat on instal·lar el bloc d'arrencada del carregador:
+; Drive to install Bootloader's bootblock on:
+;
+MSG_GRUBGOPTIONS
+Paràmetres de GRUB
+; GRUB Settings
+;
+MSG_GRUBGRUB
+Camí als fitxers de GRUB:
+; Path to GRUB files:
+;
+MSG_NOGRUBDEVICE
+Introduïu el nom del dispositiu i el número d'unitat de\nla unitat on s'ha d'instal·lar el bloc d'arrencada de GRUB.\n
+; Please enter the device name and unit number for\nthe drive GRUB's bootblock should be installed on.\n
+;
+MSG_PARTITIONING
+S'estan particionant les unitats...\n\n
+; Partitioning your drives...\n\n
+;
+MSG_FORMATTING
+S'està formatant '%s'...
+; Formatting '%s'...
+;
+MSG_INSTALL
+S'estan copiant els fitxers a la unitat de destinació.\n\nAixò pot trigar una estona...\n
+; Copying files to the destination drive.\n\nThis may take some time...\n
+;
+MSG_COPYCORE
+S'estan copiant els fitxers del nucli del sistema...
+; Copying Core System files...
+;
+MSG_COPYEXTRA
+S'està copiant el programari extra...
+; Copying Extra Software...
+;
+MSG_COPYDEVEL
+S'estan copiant els fitxers per a desenvolupadors...
+; Copying Developer Files...
+;
+MSG_COPYBOOT
+S'estan copiant els fitxers BOOT...
+; Copying BOOT files...
+;
+MSG_BOOTLOADER
+S'està copiant el carregador d'arrencada a la\nunitat de destinació i instal·lant...\n
+; Copying the bootloader to your\ndestination drive, and installing...\n
+;
+MSG_POSTINSTALL
+S'està executant l'script de postinstal·lació...
+; Running post-install script...
+;
+MSG_POSTINSTALL2
+S'està executant l'script extern de\npostinstal·lació. Espereu.\n
+; Running the external post-install\nscript. Please wait.\n
+;
+MSG_DONEREBOOT
+Ja s'han creat les particions d'AROS!\nPer continuar la instal·lació, heu de\nreiniciar AROS i tornar a executar\naquest instal·lador.\n\nSeleccioneu Continuar per acabar.\n
+; AROS partitions have now been created!\nTo continue installation, you must\nreboot AROS, and re-run\nthis installer application.\n\nSelect Proceed to finish.\n
+;
+MSG_DONEUSB
+Ja s'han creat les particions d'AROS!\nPer continuar la instal·lació, heu de retirar\ni tornar a connectar la unitat USB, i tornar a executar\naquest instal·lador.\n\nSeleccioneu Continuar per acabar.n
+; AROS partitions have now been created!\nTo continue installation, you must remove\nand re-attach your USB drive, and re-run\nthis installer application.\n\nSelect Proceed to finish.n
+;
+MSG_INSTALLING
+S'està instal·lant AROS...
+; Installing AROS...
+;
+MSG_INSTALLINGBOOT
+S'està instal·lant el carregador d'arrencada...
+; Installing Bootloader...
+;
+MSG_DONE
+Enhorabona, ja teniu AROS instal·lat!\n\nPer arrencar AROS des de la unitat de destinació,\nretireu el suport d'instal·lació i\nreinicieu l'ordinador amb\nl'interruptor o el botó de reinici.\n\nSeleccioneu Continuar per acabar.\n
+; Congratulations, you now have AROS installed!\n\nTo boot AROS from the destination drive,\nremove the installation media and\nrestart your computer using the\npower switch or reset button.\n\nSelect Proceed to finish.\n
+;
+MSG_CANCELOK
+Esteu segur que voleu cancel·lar\naquesta instal·lació?\n
+; Are you sure you wish to cancel\nthis installation?\n
+;
+MSG_CANCELDANGER
+S'han fet canvis irreversibles\nal vostre sistema.\n\nCancel·lar ara pot deixar el vostre PC en un\nestat no arrencable.\n\nEsteu segur que voleu cancel·lar\naquesta instal·lació?\n
+; Irreversible changes have been made\nto your system.\n\nCancelling now may leave your PC in an\nunbootable state.\n\nAre you sure you wish to cancel\nthis installation?\n
+;
+MSG_BACK
+_Enrere...
+; _Back...
+;
+MSG_PROCEED
+_Continuar
+; _Proceed
+;
+MSG_NOTALLFILESCOPIED
+No s'han copiat tots els fitxers\nde '%s'.\nVoleu continuar la instal·lació?\n
+; Not all files in '%s'\nwere copied.\nShould the installation continue?\n
+;
+MSG_PARTITIONINGFAILED
+El particionat del disc ha fallat. InstallAROS\nes tancarà ara.
+; Partitioning of disk failed. InstallAROS\nwill now quit.
+;
+MSG_GRUBNONFFSWARNING
+Heu seleccionat un sistema de fitxers diferent\nde FFS-Intl per a la partició de sistema. Com que\naquesta distribució d'AROS està compilada amb el\ncarregador GRUB original, no podreu\narrencar el sistema després de la instal·lació.\n\nVoleu continuar amb el particionat?\n
+; You have selected a filesystem different\nthan FFS-Intl for the system partition. Since\nthis distribution of AROS is compiled with the\noriginal GRUB bootloader, you will not be able to\nboot the system after installation.\n\nShould the partitioning continue?\n
+;
+MSG_CANCELINSTALL
+Cancel·lar la instal·lació...
+; Cancel Installation...
+;
+MSG_CONTINUECANCELINST
+*Continuar la instal·lació|Cancel·lar la instal·lació
+; *Continue Install|Cancel Install
+;
+MSG_CONTINUECANCELPART
+Continuar el particionat|*Cancel·lar el particionat
+; Continue Partitioning|*Cancel Partitionin
+;
+MSG_CONTINUEQUIT
+Continuar|*Sortir
+; Continue|*Quit
+;
+MSG_EXISTSRETRY
+El fitxer ja existeix\nVoleu substituir %s?
+; File Already Exists\nReplace %s?
+;
+MSG_RETRY
+Reintentar
+; Retry
+;
+MSG_SCANRETRY
+Error en escanejar %s\nReintentar?
+; Error scanning %s\nRetry?
+;
+MSG_FINDRETRY
+No s'ha pogut trobar %s\nReintentar?
+; Could not find %s\nRetry?
+;
+MSG_COULDNTOPEN
+No s'ha pogut obrir %s
+; Couldn't Open %s
+;
+MSG_COULDNTWRITE
+No s'ha pogut escriure a %s
+; Couldn't Write to %s
+;
+MSG_DISKFULL
+No s'ha pogut escriure a %s\nEl disc és ple!
+; Couldn't Write to %s\nDisk Full!
+;
+MSG_TEXT
+Text
+; Text
+;
+MSG_GFX
+Gràfics
+; Graphics
+;
+MSG_YES
+Sí
+; Yes
+;
+MSG_YESALWAYS
+Sí [Sempre]
+; Yes [Always]
+;
+MSG_NO
+No
+; No
+;
+MSG_SKIP
+Ometre
+; Skip
+;
+MSG_OK
+D'Acord
+; OK
+;
+MSG_CANCEL
+Cancel.lar
+; Cancel
+;
+MSG_CANCEL2
+_Cancel.lar
+; _Cancel
+;
+MSG_QUIT
+Sortir
+; Quit
+;
+MSG_QUIT2
+SORTIR
+; QUIT
+;
+MSG_ERROR
+Error
+; Error
+;
+MSG_WARNING
+Avís
+; Warning
+;
+MSG_REBOOT
+Reiniciar AROS ara
+; Reboot AROS now
+;
+MSG_IOERROR
+S'ha produït un error d'E/S
+; IO Error has occured
+;
+MSG_NOTFILESYSTEM
+el dispositiu '%s' no conté un sistema de fitxers\n
+; device '%s' doesn't contain a file system\n
+;
+MSG_NOTDEVICE
+'%s' no conté un nom de dispositiu\n
+; '%s' doesn't contain a device name\n
+;
+MSG_PARTSCHEME
+\033bEsquema de particionat\033n
+; \033bPartitioning Scheme\033n
+;
+MSG_EFIESP
+\033bCrear ESP EFI\033n
+; \033bCreate EFI ESP\033n
+;
+MSG_HELP_DESTDRIVE
+Seleccioneu la unitat de destinació on instal·lar AROS
+; Select the destination drive to install AROS on
+;
+MSG_HELP_EFIESP
+Els sistemes basats en EFI requereixen una partició FAT32 separada per instal·lar-hi el carregador d'arrencada.
+; EFI based systems require a separate FAT32 partition to install the bootloader to.
+;
+MSG_HELP_PARTRDB
+Seleccioneu l'esquema de particionat a utilitzar a la unitat\nNB -: AmigaOS no pot arrencar els esquemes de partició MBR/EBR i GPT
+; Select the partitioning scheme to use on the drive\nNB -: MBR/EBR & GPT partition schemes cannot be booted by AmigaOS
+;
+MSG_HELP_PARTNORDB
+Seleccioneu l'esquema de particionat a utilitzar a la unitat\nNB -: Els esquemes de partició RDB no poden arrencar en aquesta arquitectura
+; Select the partitioning scheme to use on the drive\nNB -: RDB partition schemes cannot be booted on this architecture
+;
+MSG_HELP_PARTITION
+Feu clic per ajustar el sistema de fitxers i/o la mida de la partició.
+; Click to adjust the partitions filesystem and/or size.
+;

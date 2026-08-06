@@ -1,0 +1,392 @@
+## version $VER: installaros.catalog 3.0 (06.08.2026)
+## language nederlands
+## codeset 0
+;
+MSG_TITLE
+AROS-installatieprogramma
+; AROS Installer
+;
+MSG_DESCRIPTION
+Installeert AROS op een schijf.
+; Installs AROS on to a Drive.
+;
+MSG_WELCOME
+\033b\nWelkom bij het installatieprogramma van AROS Research OS.\n\n\033nMet dit programma kunt u AROS installeren op de\nharde schijf van uw computer of op een aangesloten USB-schijf.\n\nHoud er rekening mee dat de stabiliteit van deze software\nniet gegarandeerd kan worden.\nEr kan \033bverlies van gegevens\033n optreden op elke\nschijf in uw systeem, ook op schijven die door\nandere besturingssystemen gebruikt worden.\n
+; \033b\nWelcome to the AROS Research OS installer.\n\n\033nThis program allows you to install AROS\non your computer's hard disk or an attached USB drive.\n\nPlease be aware that the stability of this software\ncannot be guaranteed.\nIt is possible that \033bloss of data\033n may occur\non any drive in your system, including those\nused by other operating systems.\n
+;
+MSG_INSTALLOPTIONS
+\033bComponentenselectie\033n\nKies uw installatieopties.\n\n
+; \033bComponent Selection\033n\nPlease choose your installation options.\n\n
+;
+MSG_DESTOPTIONS
+\nKies waar AROS geïnstalleerd moet worden.\n\nAls u het niet zeker weet, gebruik dan de standaardwaarden.
+; \nPlease choose where to install AROS.\n\nIf you are unsure, then use the defaults.
+;
+MSG_ACCEPT
+Licentieovereenkomst accepteren?
+; Accept License Agreement?
+;
+MSG_DRIVE
+\033bSchijf:\033n
+; \033bDrive:\033n
+;
+MSG_TYPE
+Type:
+; Type:
+;
+MSG_DEVICE
+Device:
+; Device:
+;
+MSG_UNIT
+Unit:
+; Unit:
+;
+MSG_NAME
+Naam:
+; Name:
+;
+MSG_FILESYSTEM
+Bestandssysteem:
+; Filesystem:
+;
+MSG_SIZE
+Grootte:
+; Size:
+;
+MSG_MENUMODE
+Menumodus:
+; Menu Mode:
+;
+MSG_CREATE
+Aanmaken
+; Create
+;
+MSG_SPECIFYSIZE
+Grootte opgeven
+; Specify Size
+;
+MSG_DESTVOLUME
+Doelpartitie
+; Destination Partition
+;
+MSG_WORKVOLUME
+Work-partitie
+; Work Partition
+;
+MSG_CHOOSELANG
+Kies taalopties
+; Choose Language Options
+;
+MSG_INSTALLCORE
+AROS-kernsysteem installeren
+; Install AROS Core System
+;
+MSG_INSTALLEXTRA
+Extra software installeren
+; Install Extra Software
+;
+MSG_INSTALLDEVEL
+Debug-hulpmiddelen en ontwikkelaarssoftware installeren
+; Install Debugging tools and Developer Software
+;
+MSG_INSTALLBOOT
+Bootloader installeren
+; Install Bootloader
+;
+MSG_FORMATPART
+Partitie formatteren
+; Format Partition
+;
+MSG_USEWORK
+'Work'-partitie gebruiken
+; Use 'Work' Partition
+;
+MSG_USEWORKFOR
+'Work'-partitie gebruiken voor extra's en ontwikkelaarsbestanden
+; Use 'Work' Partition for Extras and Developer Files
+;
+MSG_BEGINWITHPARTITION
+InstallAROS is klaar om te beginnen.\n\nDe gekozen opties zullen destructieve wijzigingen aan de inhoud van uw schijf aanbrengen,\nen daarom kunt u wijzigingen na dit punt\nniet meer ongedaan maken.\n\nKies Doorgaan om de installatie te beginnen.
+; InstallAROS is ready to begin.\n\nThe options you have chosen will result in destructive changes to your drive contents,\nand so you will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
+;
+MSG_BEGINWITHOUTPARTITION
+InstallAROS is klaar om te beginnen...\n\nEr is genoeg informatie verzameld\nom de installatie op deze computer te starten.\n\n\nKies Doorgaan om de installatie te beginnen.
+; InstallAROS is ready to begin...\n\nEnough information has been collected\nto begin installation on this computer.\n\n\nSelect Proceed to begin installation.
+;
+MSG_PARTITIONOPTIONS
+\033bSchijven & partitionering\033n\nInstallAROS maakt nu geschikte partities aan op de doelschijf.\n\nGeef aan hoe u verder wilt gaan.\n
+; \033bDrive(s) & Partitioning\033n\nInstallAROS will now create suitable partitions on the destination drive.\n\nPlease select how you would like to proceed.\n
+;
+MSG_DESTPARTITION
+\033bAROS-systeempartitie\033n
+; \033bAROS System Partition\033n
+;
+MSG_WORKPARTITION
+\033b'Work'-partitie aanmaken\033n
+; \033bCreate Work Partition\033n
+;
+MSG_USEFREE
+Alleen vrije ruimte gebruiken
+; Only use free space
+;
+MSG_WIPEDISK
+Schijf wissen
+; Wipe disk
+;
+MSG_USEEXISTING
+Bestaande AROS-partities gebruiken
+; Use existing AROS partitions
+;
+MSG_PARTITIONTOOBIG
+De gevraagde partitiegroottes zijn te groot.\nDe maximale grootte van een SFS-partitie is %ld GB (%ld MB),\nterwijl de maximale grootte van een FFS-partitie %ld GB (%ld MB) is.\nVerklein de betreffende partities.\n
+; The partition sizes you have requested are too large.\nThe maximum size of an SFS partition is %ld GB (%ld MB),\nwhile the maximum size of an FFS partition is %ld GB (%ld MB).\nPlease reduce the size of the affected partitions.\n
+;
+MSG_GRUBOPTIONS
+AROS gebruikt de GRUB-bootloader.\n\nIn de meeste gevallen moet het bootblok van GRUB\nop de eerste schijf in uw systeem worden geïnstalleerd.\nAls het installatieprogramma een Microsoft Windows-installatie\ndetecteert, wordt deze als keuze in het bootmenu van GRUB opgenomen.\n
+; AROS uses the GRUB bootloader.\n\nIn most cases, GRUB's bootblock should\nbe installed on the first drive in your system.\nIf the Installer detects a Microsoft Windows installation,\nit will be included as a choice in GRUB's boot menu.\n
+;
+MSG_GRUBDRIVE
+Schijf om het bootblok van de bootloader op te installeren:
+; Drive to install Bootloader's bootblock on:
+;
+MSG_GRUBGOPTIONS
+GRUB-instellingen
+; GRUB Settings
+;
+MSG_GRUBGRUB
+Pad naar GRUB-bestanden:
+; Path to GRUB files:
+;
+MSG_NOGRUBDEVICE
+Voer de devicenaam en het unitnummer in van\nde schijf waarop het bootblok van GRUB moet komen.\n
+; Please enter the device name and unit number for\nthe drive GRUB's bootblock should be installed on.\n
+;
+MSG_PARTITIONING
+Uw schijven worden gepartitioneerd...\n\n
+; Partitioning your drives...\n\n
+;
+MSG_FORMATTING
+'%s' wordt geformatteerd...
+; Formatting '%s'...
+;
+MSG_INSTALL
+Bestanden worden naar de doelschijf gekopieerd.\n\nDit kan enige tijd duren...\n
+; Copying files to the destination drive.\n\nThis may take some time...\n
+;
+MSG_COPYCORE
+Kernsysteembestanden worden gekopieerd...
+; Copying Core System files...
+;
+MSG_COPYEXTRA
+Extra software wordt gekopieerd...
+; Copying Extra Software...
+;
+MSG_COPYDEVEL
+Ontwikkelaarsbestanden worden gekopieerd...
+; Copying Developer Files...
+;
+MSG_COPYBOOT
+BOOT-bestanden worden gekopieerd...
+; Copying BOOT files...
+;
+MSG_BOOTLOADER
+De bootloader wordt naar uw\ndoelschijf gekopieerd en geïnstalleerd...\n
+; Copying the bootloader to your\ndestination drive, and installing...\n
+;
+MSG_POSTINSTALL
+Post-installatiescript wordt uitgevoerd...
+; Running post-install script...
+;
+MSG_POSTINSTALL2
+Het externe post-installatiescript\nwordt uitgevoerd. Even geduld.\n
+; Running the external post-install\nscript. Please wait.\n
+;
+MSG_DONEREBOOT
+De AROS-partities zijn nu aangemaakt!\nOm de installatie voort te zetten moet u\nAROS herstarten en dit installatie-\nprogramma opnieuw uitvoeren.\n\nKies Doorgaan om af te sluiten.\n
+; AROS partitions have now been created!\nTo continue installation, you must\nreboot AROS, and re-run\nthis installer application.\n\nSelect Proceed to finish.\n
+;
+MSG_DONEUSB
+De AROS-partities zijn nu aangemaakt!\nOm de installatie voort te zetten moet u uw\nUSB-schijf loskoppelen en opnieuw aansluiten,\nen dit installatieprogramma opnieuw uitvoeren.\n\nKies Doorgaan om af te sluiten.n
+; AROS partitions have now been created!\nTo continue installation, you must remove\nand re-attach your USB drive, and re-run\nthis installer application.\n\nSelect Proceed to finish.n
+;
+MSG_INSTALLING
+AROS wordt geïnstalleerd...
+; Installing AROS...
+;
+MSG_INSTALLINGBOOT
+Bootloader wordt geïnstalleerd...
+; Installing Bootloader...
+;
+MSG_DONE
+Gefeliciteerd, AROS is nu geïnstalleerd!\n\nOm AROS vanaf de doelschijf te starten,\nverwijdert u het installatiemedium en\nherstart u uw computer met de\naan/uit-schakelaar of de resetknop.\n\nKies Doorgaan om af te sluiten.\n
+; Congratulations, you now have AROS installed!\n\nTo boot AROS from the destination drive,\nremove the installation media and\nrestart your computer using the\npower switch or reset button.\n\nSelect Proceed to finish.\n
+;
+MSG_CANCELOK
+Weet u zeker dat u deze\ninstallatie wilt afbreken?\n
+; Are you sure you wish to cancel\nthis installation?\n
+;
+MSG_CANCELDANGER
+Er zijn onomkeerbare wijzigingen aan\nuw systeem aangebracht.\n\nNu afbreken kan uw PC in een\nniet-opstartbare toestand achterlaten.\n\nWeet u zeker dat u deze installatie\nwilt afbreken?\n
+; Irreversible changes have been made\nto your system.\n\nCancelling now may leave your PC in an\nunbootable state.\n\nAre you sure you wish to cancel\nthis installation?\n
+;
+MSG_BACK
+_Terug...
+; _Back...
+;
+MSG_PROCEED
+_Doorgaan
+; _Proceed
+;
+MSG_NOTALLFILESCOPIED
+Niet alle bestanden in '%s'\nzijn gekopieerd.\nMoet de installatie worden voortgezet?\n
+; Not all files in '%s'\nwere copied.\nShould the installation continue?\n
+;
+MSG_PARTITIONINGFAILED
+Partitioneren van de schijf is mislukt. InstallAROS\nwordt nu afgesloten.
+; Partitioning of disk failed. InstallAROS\nwill now quit.
+;
+MSG_GRUBNONFFSWARNING
+U hebt een ander bestandssysteem dan\nFFS-Intl gekozen voor de systeempartitie. Omdat\ndeze distributie van AROS is gecompileerd met de\noorspronkelijke GRUB-bootloader, kunt u het systeem\nna de installatie niet opstarten.\n\nMoet het partitioneren worden voortgezet?\n
+; You have selected a filesystem different\nthan FFS-Intl for the system partition. Since\nthis distribution of AROS is compiled with the\noriginal GRUB bootloader, you will not be able to\nboot the system after installation.\n\nShould the partitioning continue?\n
+;
+MSG_CANCELINSTALL
+Installatie afbreken...
+; Cancel Installation...
+;
+MSG_CONTINUECANCELINST
+*Installatie voortzetten|Installatie afbreken
+; *Continue Install|Cancel Install
+;
+MSG_CONTINUECANCELPART
+Partitioneren voortzetten|*Partitioneren afbreken
+; Continue Partitioning|*Cancel Partitionin
+;
+MSG_CONTINUEQUIT
+Doorgaan|*Stoppen
+; Continue|*Quit
+;
+MSG_EXISTSRETRY
+Bestand bestaat al\n%s vervangen?
+; File Already Exists\nReplace %s?
+;
+MSG_RETRY
+Opnieuw proberen
+; Retry
+;
+MSG_SCANRETRY
+Fout bij het scannen van %s\nOpnieuw proberen?
+; Error scanning %s\nRetry?
+;
+MSG_FINDRETRY
+Kon %s niet vinden\nOpnieuw proberen?
+; Could not find %s\nRetry?
+;
+MSG_COULDNTOPEN
+Kon %s niet openen
+; Couldn't Open %s
+;
+MSG_COULDNTWRITE
+Kon niet naar %s schrijven
+; Couldn't Write to %s
+;
+MSG_DISKFULL
+Kon niet naar %s schrijven\nSchijf vol!
+; Couldn't Write to %s\nDisk Full!
+;
+MSG_TEXT
+Tekst
+; Text
+;
+MSG_GFX
+Grafisch
+; Graphics
+;
+MSG_YES
+Ja
+; Yes
+;
+MSG_YESALWAYS
+Ja [Altijd]
+; Yes [Always]
+;
+MSG_NO
+Nee
+; No
+;
+MSG_SKIP
+Overslaan
+; Skip
+;
+MSG_OK
+OK
+; OK
+;
+MSG_CANCEL
+Annuleer
+; Cancel
+;
+MSG_CANCEL2
+_Annuleer
+; _Cancel
+;
+MSG_QUIT
+Einde
+; Quit
+;
+MSG_QUIT2
+STOPPEN
+; QUIT
+;
+MSG_ERROR
+Fout
+; Error
+;
+MSG_WARNING
+Waarschuwing
+; Warning
+;
+MSG_REBOOT
+AROS nu herstarten
+; Reboot AROS now
+;
+MSG_IOERROR
+Er is een I/O-fout opgetreden
+; IO Error has occured
+;
+MSG_NOTFILESYSTEM
+device '%s' bevat geen bestandssysteem\n
+; device '%s' doesn't contain a file system\n
+;
+MSG_NOTDEVICE
+'%s' bevat geen devicenaam\n
+; '%s' doesn't contain a device name\n
+;
+MSG_PARTSCHEME
+\033bPartitieschema\033n
+; \033bPartitioning Scheme\033n
+;
+MSG_EFIESP
+\033bEFI ESP aanmaken\033n
+; \033bCreate EFI ESP\033n
+;
+MSG_HELP_DESTDRIVE
+Kies de doelschijf waarop AROS geïnstalleerd wordt
+; Select the destination drive to install AROS on
+;
+MSG_HELP_EFIESP
+EFI-systemen vereisen een aparte FAT32-partitie om de bootloader op te installeren.
+; EFI based systems require a separate FAT32 partition to install the bootloader to.
+;
+MSG_HELP_PARTRDB
+Kies het partitieschema voor deze schijf\nNB -: van MBR/EBR- en GPT-partitieschema's kan AmigaOS niet opstarten
+; Select the partitioning scheme to use on the drive\nNB -: MBR/EBR & GPT partition schemes cannot be booted by AmigaOS
+;
+MSG_HELP_PARTNORDB
+Kies het partitieschema voor deze schijf\nNB -: van RDB-partitieschema's kan op deze architectuur niet worden opgestart
+; Select the partitioning scheme to use on the drive\nNB -: RDB partition schemes cannot be booted on this architecture
+;
+MSG_HELP_PARTITION
+Klik om het bestandssysteem en/of de grootte van de partitie aan te passen.
+; Click to adjust the partitions filesystem and/or size.
+;

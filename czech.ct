@@ -1,0 +1,392 @@
+## version $VER: installaros.catalog 3.0 (06.08.2026)
+## language czech
+## codeset 5
+;
+MSG_TITLE
+Instalátor AROS
+; AROS Installer
+;
+MSG_DESCRIPTION
+Nainstaluje AROS na disk.
+; Installs AROS on to a Drive.
+;
+MSG_WELCOME
+\033b\nVítejte v instalátoru AROS Research OS.\n\n\033nTento program vám umo¾ní nainstalovat AROS\nna pevný disk va¹eho poèítaèe nebo na pøipojený USB disk.\n\nUvìdomte si prosím, ¾e stabilitu tohoto softwaru\nnelze zaruèit.\nNa kterémkoli disku ve va¹em poèítaèi mù¾e dojít\nke \033bztrátì dat\033n, vèetnì diskù\npou¾ívaných jinými operaèními systémy.\n
+; \033b\nWelcome to the AROS Research OS installer.\n\n\033nThis program allows you to install AROS\non your computer's hard disk or an attached USB drive.\n\nPlease be aware that the stability of this software\ncannot be guaranteed.\nIt is possible that \033bloss of data\033n may occur\non any drive in your system, including those\nused by other operating systems.\n
+;
+MSG_INSTALLOPTIONS
+\033bVýbìr komponent\033n\nZvolte mo¾nosti instalace.\n\n
+; \033bComponent Selection\033n\nPlease choose your installation options.\n\n
+;
+MSG_DESTOPTIONS
+\nVyberte, kam chcete AROS nainstalovat.\n\nPokud si nejste jisti, ponechte výchozí nastavení.
+; \nPlease choose where to install AROS.\n\nIf you are unsure, then use the defaults.
+;
+MSG_ACCEPT
+Pøijímáte licenèní ujednání?
+; Accept License Agreement?
+;
+MSG_DRIVE
+\033bDisk:\033n
+; \033bDrive:\033n
+;
+MSG_TYPE
+Typ:
+; Type:
+;
+MSG_DEVICE
+Zaøízení:
+; Device:
+;
+MSG_UNIT
+Jednotka:
+; Unit:
+;
+MSG_NAME
+Název:
+; Name:
+;
+MSG_FILESYSTEM
+Souborový systém:
+; Filesystem:
+;
+MSG_SIZE
+Velikost:
+; Size:
+;
+MSG_MENUMODE
+Re¾im menu:
+; Menu Mode:
+;
+MSG_CREATE
+Vytvoøit
+; Create
+;
+MSG_SPECIFYSIZE
+Zadat velikost
+; Specify Size
+;
+MSG_DESTVOLUME
+Cílový oddíl
+; Destination Partition
+;
+MSG_WORKVOLUME
+Oddíl Work
+; Work Partition
+;
+MSG_CHOOSELANG
+Volba jazykových nastavení
+; Choose Language Options
+;
+MSG_INSTALLCORE
+Nainstalovat jádro systému AROS
+; Install AROS Core System
+;
+MSG_INSTALLEXTRA
+Nainstalovat doplòkový software
+; Install Extra Software
+;
+MSG_INSTALLDEVEL
+Nainstalovat ladící nástroje a software pro vývojáøe
+; Install Debugging tools and Developer Software
+;
+MSG_INSTALLBOOT
+Nainstalovat zavadìè
+; Install Bootloader
+;
+MSG_FORMATPART
+Zformátovat oddíl
+; Format Partition
+;
+MSG_USEWORK
+Pou¾ít oddíl 'Work'
+; Use 'Work' Partition
+;
+MSG_USEWORKFOR
+Pou¾ít oddíl 'Work' pro doplòky a vývojáøské soubory
+; Use 'Work' Partition for Extras and Developer Files
+;
+MSG_BEGINWITHPARTITION
+InstallAROS je pøipraven zaèít.\n\nVolby, které jste zvolili, povedou k destruktivním zmìnám obsahu va¹eho disku,\na od tohoto okam¾iku ji¾ nebude mo¾né zmìny vrátit zpìt.\n\nInstalaci zahajíte volbou Pokraèovat.
+; InstallAROS is ready to begin.\n\nThe options you have chosen will result in destructive changes to your drive contents,\nand so you will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
+;
+MSG_BEGINWITHOUTPARTITION
+InstallAROS je pøipraven zaèít...\n\nBylo shromá¾dìno dostatek informací\npro zahájení instalace na tomto poèítaèi.\n\n\nInstalaci zahajíte volbou Pokraèovat.
+; InstallAROS is ready to begin...\n\nEnough information has been collected\nto begin installation on this computer.\n\n\nSelect Proceed to begin installation.
+;
+MSG_PARTITIONOPTIONS
+\033bDisky a rozdìlení\033n\nInstallAROS nyní vytvoøí na cílovém disku vhodné oddíly.\n\nZvolte, jak chcete pokraèovat.\n
+; \033bDrive(s) & Partitioning\033n\nInstallAROS will now create suitable partitions on the destination drive.\n\nPlease select how you would like to proceed.\n
+;
+MSG_DESTPARTITION
+\033bSystémový oddíl AROS\033n
+; \033bAROS System Partition\033n
+;
+MSG_WORKPARTITION
+\033bVytvoøit oddíl Work\033n
+; \033bCreate Work Partition\033n
+;
+MSG_USEFREE
+Pou¾ít pouze volné místo
+; Only use free space
+;
+MSG_WIPEDISK
+Vymazat disk
+; Wipe disk
+;
+MSG_USEEXISTING
+Pou¾ít stávající oddíly AROS
+; Use existing AROS partitions
+;
+MSG_PARTITIONTOOBIG
+Po¾adované velikosti oddílù jsou pøíli¹ velké.\nMaximální velikost oddílu SFS je %ld GB (%ld MB),\nzatímco maximální velikost oddílu FFS je %ld GB (%ld MB).\nZmen¹ete prosím velikost dotèených oddílù.\n
+; The partition sizes you have requested are too large.\nThe maximum size of an SFS partition is %ld GB (%ld MB),\nwhile the maximum size of an FFS partition is %ld GB (%ld MB).\nPlease reduce the size of the affected partitions.\n
+;
+MSG_GRUBOPTIONS
+AROS pou¾ívá zavadìè GRUB.\n\nVe vìt¹inì pøípadù by mìl být bootblok GRUBu\nnainstalován na první disk ve va¹em poèítaèi.\nPokud instalátor nalezne instalaci Microsoft Windows,\nbude zahrnuta jako volba ve startovacím menu GRUBu.\n
+; AROS uses the GRUB bootloader.\n\nIn most cases, GRUB's bootblock should\nbe installed on the first drive in your system.\nIf the Installer detects a Microsoft Windows installation,\nit will be included as a choice in GRUB's boot menu.\n
+;
+MSG_GRUBDRIVE
+Disk, na který se nainstaluje bootblok zavadìèe:
+; Drive to install Bootloader's bootblock on:
+;
+MSG_GRUBGOPTIONS
+Nastavení GRUB
+; GRUB Settings
+;
+MSG_GRUBGRUB
+Cesta k souborùm GRUB:
+; Path to GRUB files:
+;
+MSG_NOGRUBDEVICE
+Zadejte název zaøízení a èíslo jednotky disku,\nna který se má nainstalovat bootblok GRUBu.\n
+; Please enter the device name and unit number for\nthe drive GRUB's bootblock should be installed on.\n
+;
+MSG_PARTITIONING
+Rozdìlování va¹ich diskù...\n\n
+; Partitioning your drives...\n\n
+;
+MSG_FORMATTING
+Formátování '%s'...
+; Formatting '%s'...
+;
+MSG_INSTALL
+Kopírování souborù na cílový disk.\n\nMù¾e to chvíli trvat...\n
+; Copying files to the destination drive.\n\nThis may take some time...\n
+;
+MSG_COPYCORE
+Kopírování souborù jádra systému...
+; Copying Core System files...
+;
+MSG_COPYEXTRA
+Kopírování doplòkového softwaru...
+; Copying Extra Software...
+;
+MSG_COPYDEVEL
+Kopírování vývojáøských souborù...
+; Copying Developer Files...
+;
+MSG_COPYBOOT
+Kopírování souborù BOOT...
+; Copying BOOT files...
+;
+MSG_BOOTLOADER
+Kopírování zavadìèe na cílový disk\na jeho instalace...\n
+; Copying the bootloader to your\ndestination drive, and installing...\n
+;
+MSG_POSTINSTALL
+Spou¹tìní poinstalaèního skriptu...
+; Running post-install script...
+;
+MSG_POSTINSTALL2
+Spou¹tí se externí poinstalaèní\nskript. Èekejte prosím.\n
+; Running the external post-install\nscript. Please wait.\n
+;
+MSG_DONEREBOOT
+Oddíly pro AROS byly vytvoøeny!\nChcete-li pokraèovat v instalaci, musíte\nrestartovat AROS a znovu spustit\ntuto instalaèní aplikaci.\n\nDokonèíte volbou Pokraèovat.\n
+; AROS partitions have now been created!\nTo continue installation, you must\nreboot AROS, and re-run\nthis installer application.\n\nSelect Proceed to finish.\n
+;
+MSG_DONEUSB
+Oddíly pro AROS byly vytvoøeny!\nChcete-li pokraèovat v instalaci, musíte\nodpojit a znovu pøipojit USB disk a znovu\nspustit tuto instalaèní aplikaci.\n\nDokonèíte volbou Pokraèovat.n
+; AROS partitions have now been created!\nTo continue installation, you must remove\nand re-attach your USB drive, and re-run\nthis installer application.\n\nSelect Proceed to finish.n
+;
+MSG_INSTALLING
+Instalace AROS...
+; Installing AROS...
+;
+MSG_INSTALLINGBOOT
+Instalace zavadìèe...
+; Installing Bootloader...
+;
+MSG_DONE
+Blahopøejeme, AROS je nyní nainstalován!\n\nChcete-li AROS spustit z cílového disku,\nvyjmìte instalaèní médium a restartujte\npoèítaè pomocí vypínaèe nebo\ntlaèítka reset.\n\nDokonèíte volbou Pokraèovat.\n
+; Congratulations, you now have AROS installed!\n\nTo boot AROS from the destination drive,\nremove the installation media and\nrestart your computer using the\npower switch or reset button.\n\nSelect Proceed to finish.\n
+;
+MSG_CANCELOK
+Opravdu chcete tuto instalaci\nzru¹it?\n
+; Are you sure you wish to cancel\nthis installation?\n
+;
+MSG_CANCELDANGER
+Ve va¹em systému byly provedeny\nnevratné zmìny.\n\nZru¹ení nyní mù¾e zanechat vá¹ poèítaè\nve stavu, kdy nepùjde spustit.\n\nOpravdu chcete tuto instalaci\nzru¹it?\n
+; Irreversible changes have been made\nto your system.\n\nCancelling now may leave your PC in an\nunbootable state.\n\nAre you sure you wish to cancel\nthis installation?\n
+;
+MSG_BACK
+_Zpìt...
+; _Back...
+;
+MSG_PROCEED
+_Pokraèovat
+; _Proceed
+;
+MSG_NOTALLFILESCOPIED
+Ne v¹echny soubory v '%s'\nbyly zkopírovány.\nMá instalace pokraèovat?\n
+; Not all files in '%s'\nwere copied.\nShould the installation continue?\n
+;
+MSG_PARTITIONINGFAILED
+Rozdìlení disku selhalo. InstallAROS\nse nyní ukonèí.
+; Partitioning of disk failed. InstallAROS\nwill now quit.
+;
+MSG_GRUBNONFFSWARNING
+Pro systémový oddíl jste vybrali jiný\nsouborový systém ne¾ FFS-Intl. Proto¾e\ntato distribuce AROS je sestavena s pùvodním\nzavadìèem GRUB, nebude mo¾né systém\npo instalaci spustit.\n\nMá dìlení disku pokraèovat?\n
+; You have selected a filesystem different\nthan FFS-Intl for the system partition. Since\nthis distribution of AROS is compiled with the\noriginal GRUB bootloader, you will not be able to\nboot the system after installation.\n\nShould the partitioning continue?\n
+;
+MSG_CANCELINSTALL
+Zru¹it instalaci...
+; Cancel Installation...
+;
+MSG_CONTINUECANCELINST
+*Pokraèovat v instalaci|Zru¹it instalaci
+; *Continue Install|Cancel Install
+;
+MSG_CONTINUECANCELPART
+Pokraèovat v dìlení|*Zru¹it dìlení
+; Continue Partitioning|*Cancel Partitionin
+;
+MSG_CONTINUEQUIT
+Pokraèovat|*Ukonèit
+; Continue|*Quit
+;
+MSG_EXISTSRETRY
+Soubor ji¾ existuje\nNahradit %s?
+; File Already Exists\nReplace %s?
+;
+MSG_RETRY
+Opakovat
+; Retry
+;
+MSG_SCANRETRY
+Chyba pøi prohledávání %s\nZkusit znovu?
+; Error scanning %s\nRetry?
+;
+MSG_FINDRETRY
+Nelze najít %s\nZkusit znovu?
+; Could not find %s\nRetry?
+;
+MSG_COULDNTOPEN
+Nelze otevøít %s
+; Couldn't Open %s
+;
+MSG_COULDNTWRITE
+Nelze zapisovat do %s
+; Couldn't Write to %s
+;
+MSG_DISKFULL
+Nelze zapisovat do %s\nDisk je plný!
+; Couldn't Write to %s\nDisk Full!
+;
+MSG_TEXT
+Text
+; Text
+;
+MSG_GFX
+Grafický systém
+; Graphics
+;
+MSG_YES
+Ano
+; Yes
+;
+MSG_YESALWAYS
+Ano [V¾dy]
+; Yes [Always]
+;
+MSG_NO
+Ne
+; No
+;
+MSG_SKIP
+Pøeskoèit
+; Skip
+;
+MSG_OK
+OK
+; OK
+;
+MSG_CANCEL
+Zru¹it
+; Cancel
+;
+MSG_CANCEL2
+_Zru¹it
+; _Cancel
+;
+MSG_QUIT
+Ukonèit
+; Quit
+;
+MSG_QUIT2
+UKONÈIT
+; QUIT
+;
+MSG_ERROR
+Chyba
+; Error
+;
+MSG_WARNING
+Upozornìní
+; Warning
+;
+MSG_REBOOT
+Restartovat AROS nyní
+; Reboot AROS now
+;
+MSG_IOERROR
+Do¹lo k chybì I/O
+; IO Error has occured
+;
+MSG_NOTFILESYSTEM
+zaøízení '%s' neobsahuje souborový systém\n
+; device '%s' doesn't contain a file system\n
+;
+MSG_NOTDEVICE
+'%s' neobsahuje název zaøízení\n
+; '%s' doesn't contain a device name\n
+;
+MSG_PARTSCHEME
+\033bSchéma rozdìlení\033n
+; \033bPartitioning Scheme\033n
+;
+MSG_EFIESP
+\033bVytvoøit EFI ESP\033n
+; \033bCreate EFI ESP\033n
+;
+MSG_HELP_DESTDRIVE
+Vyberte cílový disk, na který se AROS nainstaluje
+; Select the destination drive to install AROS on
+;
+MSG_HELP_EFIESP
+Systémy zalo¾ené na EFI vy¾adují samostatný oddíl FAT32 pro instalaci zavadìèe.
+; EFI based systems require a separate FAT32 partition to install the bootloader to.
+;
+MSG_HELP_PARTRDB
+Vyberte schéma rozdìlení, které se pou¾ije na disku\nPozn. -: Ze schémat oddílù MBR/EBR a GPT nedoká¾e AmigaOS zavést systém
+; Select the partitioning scheme to use on the drive\nNB -: MBR/EBR & GPT partition schemes cannot be booted by AmigaOS
+;
+MSG_HELP_PARTNORDB
+Vyberte schéma rozdìlení, které se pou¾ije na disku\nPozn. -: Z oddílù se schématem RDB nelze na této architektuøe zavést systém
+; Select the partitioning scheme to use on the drive\nNB -: RDB partition schemes cannot be booted on this architecture
+;
+MSG_HELP_PARTITION
+Kliknutím upravte souborový systém a/nebo velikost oddílu.
+; Click to adjust the partitions filesystem and/or size.
+;
