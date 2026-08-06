@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 2.0 (07.11.2021)
+## version $VER: installaros.catalog 3.0 (06.08.2026)
 ## language türkçe
 ## codeset 12
 ;
@@ -362,4 +362,32 @@ MSG_NOTFILESYSTEM
 MSG_NOTDEVICE
 '%s' bir cihaz adý içermiyor\n
 ; '%s' doesn't contain a device name\n
+;
+MSG_PARTSCHEME
+\033bBölümleme Þemasý\033n
+; \033bPartitioning Scheme\033n
+;
+MSG_EFIESP
+\033bEFI ESP Oluþtur\033n
+; \033bCreate EFI ESP\033n
+;
+MSG_HELP_DESTDRIVE
+AROS'un kurulacaðý hedef sürücüyü seçin
+; Select the destination drive to install AROS on
+;
+MSG_HELP_EFIESP
+EFI tabanlý sistemler, önyükleyicinin kurulacaðý ayrý bir FAT32 bölümü gerektirir.
+; EFI based systems require a separate FAT32 partition to install the bootloader to.
+;
+MSG_HELP_PARTRDB
+Sürücüde kullanýlacak bölümleme þemasýný seçin\nNot -: MBR/EBR & GPT bölümleme þemalarý AmigaOS tarafýndan önyüklenemez
+; Select the partitioning scheme to use on the drive\nNB -: MBR/EBR & GPT partition schemes cannot be booted by AmigaOS
+;
+MSG_HELP_PARTNORDB
+Sürücüde kullanýlacak bölümleme þemasýný seçin\nNot -: RDB bölümleme þemalarý bu mimaride önyüklenemez
+; Select the partitioning scheme to use on the drive\nNB -: RDB partition schemes cannot be booted on this architecture
+;
+MSG_HELP_PARTITION
+Bölümün dosyasistemini ve/veya boyutunu ayarlamak için týklayýn.
+; Click to adjust the partitions filesystem and/or size.
 ;

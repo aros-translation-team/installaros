@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 2.1 (07.03.2023)
+## version $VER: installaros.catalog 3.0 (06.08.2026)
 ## language español
 ## codeset 0
 ;
@@ -362,4 +362,32 @@ El periférico '%s' no tiene un sistema de ficheros\n
 MSG_NOTDEVICE
 '%s' no tiene un nombre de periférico\n
 ; '%s' doesn't contain a device name\n
+;
+MSG_PARTSCHEME
+\033bEsquema de particionado\033n
+; \033bPartitioning Scheme\033n
+;
+MSG_EFIESP
+\033bCrear ESP EFI\033n
+; \033bCreate EFI ESP\033n
+;
+MSG_HELP_DESTDRIVE
+Selecciona la unidad de destino en la que instalar AROS
+; Select the destination drive to install AROS on
+;
+MSG_HELP_EFIESP
+Los sistemas basados en EFI requieren una partición FAT32 separada en la que instalar el bootloader.
+; EFI based systems require a separate FAT32 partition to install the bootloader to.
+;
+MSG_HELP_PARTRDB
+Selecciona el esquema de particionado a usar en la unidad\nNB -: los esquemas de partición MBR/EBR y GPT no pueden ser arrancados por AmigaOS
+; Select the partitioning scheme to use on the drive\nNB -: MBR/EBR & GPT partition schemes cannot be booted by AmigaOS
+;
+MSG_HELP_PARTNORDB
+Selecciona el esquema de particionado a usar en la unidad\nNB -: los esquemas de partición RDB no pueden ser arrancados en esta arquitectura
+; Select the partitioning scheme to use on the drive\nNB -: RDB partition schemes cannot be booted on this architecture
+;
+MSG_HELP_PARTITION
+Pincha para ajustar el sistema de ficheros y/o el tamaño de la partición.
+; Click to adjust the partitions filesystem and/or size.
 ;

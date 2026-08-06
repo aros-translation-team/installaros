@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 2.0 (17.02.2021)
+## version $VER: installaros.catalog 3.0 (06.08.2026)
 ## codeset 2104
 ## language russian
 ;
@@ -361,4 +361,32 @@ MSG_NOTFILESYSTEM
 MSG_NOTDEVICE
 '%s' не является именем устройства\n
 ; '%s' doesn't contain a device name\n
+;
+MSG_PARTSCHEME
+\033bСхема разметки\033n
+; \033bPartitioning Scheme\033n
+;
+MSG_EFIESP
+\033bСоздать EFI ESP\033n
+; \033bCreate EFI ESP\033n
+;
+MSG_HELP_DESTDRIVE
+Выберите целевой диск для установки AROS
+; Select the destination drive to install AROS on
+;
+MSG_HELP_EFIESP
+Системам на основе EFI требуется отдельная партиция FAT32 для установки загрузчика.
+; EFI based systems require a separate FAT32 partition to install the bootloader to.
+;
+MSG_HELP_PARTRDB
+Выберите схему разметки для этого диска\nNB -: схемы разметки MBR/EBR и GPT не могут быть загружены AmigaOS
+; Select the partitioning scheme to use on the drive\nNB -: MBR/EBR & GPT partition schemes cannot be booted by AmigaOS
+;
+MSG_HELP_PARTNORDB
+Выберите схему разметки для этого диска\nNB -: схемы разметки RDB не могут быть загружены на этой архитектуре
+; Select the partitioning scheme to use on the drive\nNB -: RDB partition schemes cannot be booted on this architecture
+;
+MSG_HELP_PARTITION
+Нажмите, чтобы настроить файловую систему и/или размер партиции.
+; Click to adjust the partitions filesystem and/or size.
 ;

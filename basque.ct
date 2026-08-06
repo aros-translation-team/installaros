@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 2.0 (11.03.2024)
+## version $VER: installaros.catalog 3.0 (06.08.2026)
 ## language euskara
 ## codeset 0
 ;
@@ -362,4 +362,32 @@ MSG_NOTFILESYSTEM
 MSG_NOTDEVICE
 '%s' unitateak ez dauka periferiko izenik\n
 ; '%s' doesn't contain a device name\n
+;
+MSG_PARTSCHEME
+\033bPartizio-eskema\033n
+; \033bPartitioning Scheme\033n
+;
+MSG_EFIESP
+\033bEFI ESPa sortu\033n
+; \033bCreate EFI ESP\033n
+;
+MSG_HELP_DESTDRIVE
+Hautatu AROS instalatzeko helburu-unitatea
+; Select the destination drive to install AROS on
+;
+MSG_HELP_EFIESP
+EFIn oinarritutako sistemek FAT32 partizio bereizi bat behar dute bootloadera instalatzeko.
+; EFI based systems require a separate FAT32 partition to install the bootloader to.
+;
+MSG_HELP_PARTRDB
+Hautatu unitatean erabiltzeko partizio-eskema\nOharra -: AmigaOS-ek ezin ditu MBR/EBR eta GPT partizio-eskemak abiarazi
+; Select the partitioning scheme to use on the drive\nNB -: MBR/EBR & GPT partition schemes cannot be booted by AmigaOS
+;
+MSG_HELP_PARTNORDB
+Hautatu unitatean erabiltzeko partizio-eskema\nOharra -: RDB partizio-eskemak ezin dira arkitektura honetan abiarazi
+; Select the partitioning scheme to use on the drive\nNB -: RDB partition schemes cannot be booted on this architecture
+;
+MSG_HELP_PARTITION
+Klik egin partizioaren fitxategi-sistema eta/edo tamaina doitzeko.
+; Click to adjust the partitions filesystem and/or size.
 ;
