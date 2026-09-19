@@ -391,3 +391,99 @@ MSG_HELP_PARTITION
 Bölümün dosyasistemini ve/veya boyutunu ayarlamak için týklayýn.
 ; Click to adjust the partitions filesystem and/or size.
 ;
+MSG_DEVELOPERMODE
+Geliþtirici seçeneklerini göster
+; Show developer options
+;
+MSG_HELP_DEVELOPERMODE
+InstallAROS'un algýlayamadýðý bir aygýtý ve birimi elle belirtin.
+; Manually specify a device and unit that InstallAROS cannot detect.
+;
+MSG_TESTTARGET
+Hedefi test et
+; Test Target
+;
+MSG_HELP_TESTTARGET
+Devam etmeden önce elle belirtilen aygýtý ve birimi denetleyin.
+; Check the manually specified device and unit before continuing.
+;
+MSG_TARGETCHECK
+Hedef denetimi
+; Target Check
+;
+MSG_TARGETNODEVICE
+Aygýt adý belirtilmedi.
+; No device name was specified.
+;
+MSG_TARGETTESTRESOURCE
+InstallAROS bu hedefi test etmek için gereken kaynaklarý ayýramadý.
+; InstallAROS could not allocate the resources needed to test this target.
+;
+MSG_TARGETOPENERROR
+%s, birim %lu açýlamadý.\n%s (Exec hatasý %ld).
+; Could not open %s, unit %lu.\n%s (Exec error %ld).
+;
+MSG_TARGETOPENERRORUNITS
+%s, birim %lu açýlamadý.\n%s (Exec hatasý %ld).\n%s için algýlanan birimler: %s
+; Could not open %s, unit %lu.\n%s (Exec error %ld).\nDetected units for %s: %s
+;
+MSG_TARGETBLOCKERROR
+Aygýt %s, birim %lu baþarýyla açýldý,\nancak partition.library kullanýlabilir bir blok aygýtý tanýtýcýsý alamadý.
+; Device %s, unit %lu opened successfully,\nbut partition.library could not obtain a usable block-device handle.
+;
+MSG_TARGETREADONLY
+Aygýt %s, birim %lu yazmaya karþý korumalý.\nInstallAROS bu hedefle devam etmeyecek.
+; Device %s, unit %lu is write-protected.\nInstallAROS will not continue with this target.
+;
+MSG_TARGETOK
+Hedef %s, birim %lu denetimi geçti.\nAygýt InstallAROS tarafýndan kullanýlabilir ve ortam yazýlabilir durumda.
+; Target %s, unit %lu passed the check.\nThe device is usable by InstallAROS and reports writable media.
+;
+MSG_TARGETOKNOPROT
+Hedef %s, birim %lu blok aygýtý denetimini geçti.\nYazma korumasý durumu kullanýlamýyor: %s (Exec hatasý %ld).
+; Target %s, unit %lu passed the block-device check.\nWrite-protection status is unavailable: %s (Exec error %ld).
+;
+MSG_TARGETERR_OPENFAIL
+Açma baþarýsýz; aygýt adý veya birim geçersiz olabilir (IOERR_OPENFAIL).
+; Open failed; the device name or unit may be invalid (IOERR_OPENFAIL).
+;
+MSG_TARGETERR_ABORTED
+Ýstek iptal edildi (IOERR_ABORTED).
+; The request was aborted (IOERR_ABORTED).
+;
+MSG_TARGETERR_NOCMD
+Ýstenen komut desteklenmiyor (IOERR_NOCMD).
+; The requested command is not supported (IOERR_NOCMD).
+;
+MSG_TARGETERR_BADLENGTH
+Ýstek uzunluðu geçersiz (IOERR_BADLENGTH).
+; The request length is invalid (IOERR_BADLENGTH).
+;
+MSG_TARGETERR_BADADDRESS
+Ýstek adresi geçersiz (IOERR_BADADDRESS).
+; The request address is invalid (IOERR_BADADDRESS).
+;
+MSG_TARGETERR_UNITBUSY
+Birim meþgul (IOERR_UNITBUSY).
+; The unit is busy (IOERR_UNITBUSY).
+;
+MSG_TARGETERR_SELFTEST
+Aygýt öz sýnamasý baþarýsýz oldu (IOERR_SELFTEST).
+; The device self-test failed (IOERR_SELFTEST).
+;
+MSG_TARGETERR_UNKNOWN
+Bilinmeyen Exec G/Ç hatasý.
+; Unknown Exec I/O error.
+;
+MSG_TARGET
+Hedef
+; Target
+;
+MSG_INSTALLATIONMODE
+Kurulum modu
+; Installation mode
+;
+MSG_DEVELOPEROPTIONS
+Geliþtirici seçenekleri
+; Developer options
+;

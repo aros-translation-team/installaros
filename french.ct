@@ -390,3 +390,99 @@ MSG_HELP_PARTITION
 Cliquez pour ajuster le système de fichiers et/ou la taille de la partition.
 ; Click to adjust the partitions filesystem and/or size.
 ;
+MSG_DEVELOPERMODE
+Afficher les options développeur
+; Show developer options
+;
+MSG_HELP_DEVELOPERMODE
+Indiquez manuellement un périphérique et une unité qu'InstallAROS ne peut pas détecter.
+; Manually specify a device and unit that InstallAROS cannot detect.
+;
+MSG_TESTTARGET
+Tester la cible
+; Test Target
+;
+MSG_HELP_TESTTARGET
+Vérifiez le périphérique et l'unité indiqués manuellement avant de continuer.
+; Check the manually specified device and unit before continuing.
+;
+MSG_TARGETCHECK
+Vérification de la cible
+; Target Check
+;
+MSG_TARGETNODEVICE
+Aucun nom de périphérique n'a été indiqué.
+; No device name was specified.
+;
+MSG_TARGETTESTRESOURCE
+InstallAROS n'a pas pu allouer les ressources nécessaires pour tester cette cible.
+; InstallAROS could not allocate the resources needed to test this target.
+;
+MSG_TARGETOPENERROR
+Impossible d'ouvrir %s, unité %lu.\n%s (erreur Exec %ld).
+; Could not open %s, unit %lu.\n%s (Exec error %ld).
+;
+MSG_TARGETOPENERRORUNITS
+Impossible d'ouvrir %s, unité %lu.\n%s (erreur Exec %ld).\nUnités détectées pour %s : %s
+; Could not open %s, unit %lu.\n%s (Exec error %ld).\nDetected units for %s: %s
+;
+MSG_TARGETBLOCKERROR
+Le périphérique %s, unité %lu, a été ouvert correctement,\nmais partition.library n'a pas pu obtenir de descripteur de périphérique bloc utilisable.
+; Device %s, unit %lu opened successfully,\nbut partition.library could not obtain a usable block-device handle.
+;
+MSG_TARGETREADONLY
+Le périphérique %s, unité %lu, est protégé en écriture.\nInstallAROS ne continuera pas avec cette cible.
+; Device %s, unit %lu is write-protected.\nInstallAROS will not continue with this target.
+;
+MSG_TARGETOK
+La cible %s, unité %lu, a réussi la vérification.\nLe périphérique est utilisable par InstallAROS et le support est inscriptible.
+; Target %s, unit %lu passed the check.\nThe device is usable by InstallAROS and reports writable media.
+;
+MSG_TARGETOKNOPROT
+La cible %s, unité %lu, a réussi la vérification du périphérique bloc.\nL'état de la protection en écriture n'est pas disponible : %s (erreur Exec %ld).
+; Target %s, unit %lu passed the block-device check.\nWrite-protection status is unavailable: %s (Exec error %ld).
+;
+MSG_TARGETERR_OPENFAIL
+L'ouverture a échoué ; le nom du périphérique ou l'unité est peut-être invalide (IOERR_OPENFAIL).
+; Open failed; the device name or unit may be invalid (IOERR_OPENFAIL).
+;
+MSG_TARGETERR_ABORTED
+La requête a été abandonnée (IOERR_ABORTED).
+; The request was aborted (IOERR_ABORTED).
+;
+MSG_TARGETERR_NOCMD
+La commande demandée n'est pas prise en charge (IOERR_NOCMD).
+; The requested command is not supported (IOERR_NOCMD).
+;
+MSG_TARGETERR_BADLENGTH
+La longueur de la requête est invalide (IOERR_BADLENGTH).
+; The request length is invalid (IOERR_BADLENGTH).
+;
+MSG_TARGETERR_BADADDRESS
+L'adresse de la requête est invalide (IOERR_BADADDRESS).
+; The request address is invalid (IOERR_BADADDRESS).
+;
+MSG_TARGETERR_UNITBUSY
+L'unité est occupée (IOERR_UNITBUSY).
+; The unit is busy (IOERR_UNITBUSY).
+;
+MSG_TARGETERR_SELFTEST
+L'autotest du périphérique a échoué (IOERR_SELFTEST).
+; The device self-test failed (IOERR_SELFTEST).
+;
+MSG_TARGETERR_UNKNOWN
+Erreur d'E/S Exec inconnue.
+; Unknown Exec I/O error.
+;
+MSG_TARGET
+Cible
+; Target
+;
+MSG_INSTALLATIONMODE
+Mode d'installation
+; Installation mode
+;
+MSG_DEVELOPEROPTIONS
+Options développeur
+; Developer options
+;

@@ -390,3 +390,99 @@ MSG_HELP_PARTITION
 Нажмите, чтобы настроить файловую систему и/или размер партиции.
 ; Click to adjust the partitions filesystem and/or size.
 ;
+MSG_DEVELOPERMODE
+Показать параметры разработчика
+; Show developer options
+;
+MSG_HELP_DEVELOPERMODE
+Укажите вручную устройство и Unit, которые InstallAROS не может обнаружить.
+; Manually specify a device and unit that InstallAROS cannot detect.
+;
+MSG_TESTTARGET
+Проверить цель
+; Test Target
+;
+MSG_HELP_TESTTARGET
+Перед продолжением проверьте указанные вручную устройство и Unit.
+; Check the manually specified device and unit before continuing.
+;
+MSG_TARGETCHECK
+Проверка цели
+; Target Check
+;
+MSG_TARGETNODEVICE
+Имя устройства не указано.
+; No device name was specified.
+;
+MSG_TARGETTESTRESOURCE
+InstallAROS не смог выделить ресурсы, необходимые для проверки этой цели.
+; InstallAROS could not allocate the resources needed to test this target.
+;
+MSG_TARGETOPENERROR
+Не удалось открыть %s, Unit %lu.\n%s (ошибка Exec %ld).
+; Could not open %s, unit %lu.\n%s (Exec error %ld).
+;
+MSG_TARGETOPENERRORUNITS
+Не удалось открыть %s, Unit %lu.\n%s (ошибка Exec %ld).\nОбнаруженные Unit для %s: %s
+; Could not open %s, unit %lu.\n%s (Exec error %ld).\nDetected units for %s: %s
+;
+MSG_TARGETBLOCKERROR
+Устройство %s, Unit %lu успешно открыто,\nно partition.library не смогла получить пригодный дескриптор блочного устройства.
+; Device %s, unit %lu opened successfully,\nbut partition.library could not obtain a usable block-device handle.
+;
+MSG_TARGETREADONLY
+Устройство %s, Unit %lu защищено от записи.\nInstallAROS не будет продолжать работу с этой целью.
+; Device %s, unit %lu is write-protected.\nInstallAROS will not continue with this target.
+;
+MSG_TARGETOK
+Цель %s, Unit %lu прошла проверку.\nУстройство пригодно для InstallAROS, носитель доступен для записи.
+; Target %s, unit %lu passed the check.\nThe device is usable by InstallAROS and reports writable media.
+;
+MSG_TARGETOKNOPROT
+Цель %s, Unit %lu прошла проверку блочного устройства.\nСостояние защиты от записи недоступно: %s (ошибка Exec %ld).
+; Target %s, unit %lu passed the block-device check.\nWrite-protection status is unavailable: %s (Exec error %ld).
+;
+MSG_TARGETERR_OPENFAIL
+Открытие не удалось; имя устройства или Unit могут быть неверны (IOERR_OPENFAIL).
+; Open failed; the device name or unit may be invalid (IOERR_OPENFAIL).
+;
+MSG_TARGETERR_ABORTED
+Запрос был прерван (IOERR_ABORTED).
+; The request was aborted (IOERR_ABORTED).
+;
+MSG_TARGETERR_NOCMD
+Запрошенная команда не поддерживается (IOERR_NOCMD).
+; The requested command is not supported (IOERR_NOCMD).
+;
+MSG_TARGETERR_BADLENGTH
+Длина запроса неверна (IOERR_BADLENGTH).
+; The request length is invalid (IOERR_BADLENGTH).
+;
+MSG_TARGETERR_BADADDRESS
+Адрес запроса неверен (IOERR_BADADDRESS).
+; The request address is invalid (IOERR_BADADDRESS).
+;
+MSG_TARGETERR_UNITBUSY
+Unit занята (IOERR_UNITBUSY).
+; The unit is busy (IOERR_UNITBUSY).
+;
+MSG_TARGETERR_SELFTEST
+Самотестирование устройства завершилось ошибкой (IOERR_SELFTEST).
+; The device self-test failed (IOERR_SELFTEST).
+;
+MSG_TARGETERR_UNKNOWN
+Неизвестная ошибка ввода/вывода Exec.
+; Unknown Exec I/O error.
+;
+MSG_TARGET
+Цель
+; Target
+;
+MSG_INSTALLATIONMODE
+Режим установки
+; Installation mode
+;
+MSG_DEVELOPEROPTIONS
+Параметры разработчика
+; Developer options
+;

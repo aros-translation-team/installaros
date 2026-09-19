@@ -390,3 +390,99 @@ MSG_HELP_PARTITION
 Klikk for å justere partisjonens filsystem og/eller størrelse.
 ; Click to adjust the partitions filesystem and/or size.
 ;
+MSG_DEVELOPERMODE
+Vis utvikleralternativer
+; Show developer options
+;
+MSG_HELP_DEVELOPERMODE
+Angi manuelt en enhet og et enhetsnummer som InstallAROS ikke kan oppdage.
+; Manually specify a device and unit that InstallAROS cannot detect.
+;
+MSG_TESTTARGET
+Test mål
+; Test Target
+;
+MSG_HELP_TESTTARGET
+Kontroller den manuelt angitte enheten og enhetsnummeret før du fortsetter.
+; Check the manually specified device and unit before continuing.
+;
+MSG_TARGETCHECK
+Målkontroll
+; Target Check
+;
+MSG_TARGETNODEVICE
+Det ble ikke angitt noe enhetsnavn.
+; No device name was specified.
+;
+MSG_TARGETTESTRESOURCE
+InstallAROS kunne ikke tildele ressursene som trengs for å teste dette målet.
+; InstallAROS could not allocate the resources needed to test this target.
+;
+MSG_TARGETOPENERROR
+Kunne ikke åpne %s, enhet %lu.\n%s (Exec-feil %ld).
+; Could not open %s, unit %lu.\n%s (Exec error %ld).
+;
+MSG_TARGETOPENERRORUNITS
+Kunne ikke åpne %s, enhet %lu.\n%s (Exec-feil %ld).\nOppdagede enheter for %s: %s
+; Could not open %s, unit %lu.\n%s (Exec error %ld).\nDetected units for %s: %s
+;
+MSG_TARGETBLOCKERROR
+Enhet %s, enhet %lu ble åpnet,\nmen partition.library kunne ikke hente et brukbart blokkenhetshåndtak.
+; Device %s, unit %lu opened successfully,\nbut partition.library could not obtain a usable block-device handle.
+;
+MSG_TARGETREADONLY
+Enhet %s, enhet %lu er skrivebeskyttet.\nInstallAROS fortsetter ikke med dette målet.
+; Device %s, unit %lu is write-protected.\nInstallAROS will not continue with this target.
+;
+MSG_TARGETOK
+Mål %s, enhet %lu besto kontrollen.\nEnheten kan brukes av InstallAROS, og mediet er skrivbart.
+; Target %s, unit %lu passed the check.\nThe device is usable by InstallAROS and reports writable media.
+;
+MSG_TARGETOKNOPROT
+Mål %s, enhet %lu besto blokkenhetskontrollen.\nStatus for skrivebeskyttelse er ikke tilgjengelig: %s (Exec-feil %ld).
+; Target %s, unit %lu passed the block-device check.\nWrite-protection status is unavailable: %s (Exec error %ld).
+;
+MSG_TARGETERR_OPENFAIL
+Åpning mislyktes; enhetsnavnet eller enheten kan være ugyldig (IOERR_OPENFAIL).
+; Open failed; the device name or unit may be invalid (IOERR_OPENFAIL).
+;
+MSG_TARGETERR_ABORTED
+Forespørselen ble avbrutt (IOERR_ABORTED).
+; The request was aborted (IOERR_ABORTED).
+;
+MSG_TARGETERR_NOCMD
+Den forespurte kommandoen støttes ikke (IOERR_NOCMD).
+; The requested command is not supported (IOERR_NOCMD).
+;
+MSG_TARGETERR_BADLENGTH
+Lengden på forespørselen er ugyldig (IOERR_BADLENGTH).
+; The request length is invalid (IOERR_BADLENGTH).
+;
+MSG_TARGETERR_BADADDRESS
+Adressen i forespørselen er ugyldig (IOERR_BADADDRESS).
+; The request address is invalid (IOERR_BADADDRESS).
+;
+MSG_TARGETERR_UNITBUSY
+Enheten er opptatt (IOERR_UNITBUSY).
+; The unit is busy (IOERR_UNITBUSY).
+;
+MSG_TARGETERR_SELFTEST
+Enhetens selvtest mislyktes (IOERR_SELFTEST).
+; The device self-test failed (IOERR_SELFTEST).
+;
+MSG_TARGETERR_UNKNOWN
+Ukjent Exec I/O-feil.
+; Unknown Exec I/O error.
+;
+MSG_TARGET
+Mål
+; Target
+;
+MSG_INSTALLATIONMODE
+Installasjonsmodus
+; Installation mode
+;
+MSG_DEVELOPEROPTIONS
+Utvikleralternativer
+; Developer options
+;

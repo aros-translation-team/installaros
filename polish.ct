@@ -390,3 +390,99 @@ MSG_HELP_PARTITION
 Kliknij, aby dostosowaæ system plików partycji i/lub rozmiar.
 ; Click to adjust the partitions filesystem and/or size.
 ;
+MSG_DEVELOPERMODE
+Poka¿ opcje deweloperskie
+; Show developer options
+;
+MSG_HELP_DEVELOPERMODE
+Rêcznie podaj urz±dzenie i jednostkê, których InstallAROS nie mo¿e wykryæ.
+; Manually specify a device and unit that InstallAROS cannot detect.
+;
+MSG_TESTTARGET
+Testuj cel
+; Test Target
+;
+MSG_HELP_TESTTARGET
+Przed kontynuowaniem sprawd¼ rêcznie podane urz±dzenie i jednostkê.
+; Check the manually specified device and unit before continuing.
+;
+MSG_TARGETCHECK
+Sprawdzanie celu
+; Target Check
+;
+MSG_TARGETNODEVICE
+Nie podano nazwy urz±dzenia.
+; No device name was specified.
+;
+MSG_TARGETTESTRESOURCE
+InstallAROS nie móg³ przydzieliæ zasobów potrzebnych do przetestowania tego celu.
+; InstallAROS could not allocate the resources needed to test this target.
+;
+MSG_TARGETOPENERROR
+Nie mo¿na otworzyæ %s, jednostka %lu.\n%s (b³±d Exec %ld).
+; Could not open %s, unit %lu.\n%s (Exec error %ld).
+;
+MSG_TARGETOPENERRORUNITS
+Nie mo¿na otworzyæ %s, jednostka %lu.\n%s (b³±d Exec %ld).\nWykryte jednostki dla %s: %s
+; Could not open %s, unit %lu.\n%s (Exec error %ld).\nDetected units for %s: %s
+;
+MSG_TARGETBLOCKERROR
+Urz±dzenie %s, jednostka %lu zosta³o otwarte pomy¶lnie,\nale partition.library nie mog³a uzyskaæ u¿ytecznego uchwytu urz±dzenia blokowego.
+; Device %s, unit %lu opened successfully,\nbut partition.library could not obtain a usable block-device handle.
+;
+MSG_TARGETREADONLY
+Urz±dzenie %s, jednostka %lu jest chronione przed zapisem.\nInstallAROS nie bêdzie kontynuowaæ z tym celem.
+; Device %s, unit %lu is write-protected.\nInstallAROS will not continue with this target.
+;
+MSG_TARGETOK
+Cel %s, jednostka %lu przeszed³ sprawdzenie.\nUrz±dzenie mo¿e byæ u¿ywane przez InstallAROS, a no¶nik jest zapisywalny.
+; Target %s, unit %lu passed the check.\nThe device is usable by InstallAROS and reports writable media.
+;
+MSG_TARGETOKNOPROT
+Cel %s, jednostka %lu przeszed³ sprawdzenie urz±dzenia blokowego.\nStan ochrony przed zapisem jest niedostêpny: %s (b³±d Exec %ld).
+; Target %s, unit %lu passed the block-device check.\nWrite-protection status is unavailable: %s (Exec error %ld).
+;
+MSG_TARGETERR_OPENFAIL
+Otwarcie nie powiod³o siê; nazwa urz±dzenia lub jednostka mo¿e byæ nieprawid³owa (IOERR_OPENFAIL).
+; Open failed; the device name or unit may be invalid (IOERR_OPENFAIL).
+;
+MSG_TARGETERR_ABORTED
+¯±danie zosta³o przerwane (IOERR_ABORTED).
+; The request was aborted (IOERR_ABORTED).
+;
+MSG_TARGETERR_NOCMD
+¯±dane polecenie nie jest obs³ugiwane (IOERR_NOCMD).
+; The requested command is not supported (IOERR_NOCMD).
+;
+MSG_TARGETERR_BADLENGTH
+D³ugo¶æ ¿±dania jest nieprawid³owa (IOERR_BADLENGTH).
+; The request length is invalid (IOERR_BADLENGTH).
+;
+MSG_TARGETERR_BADADDRESS
+Adres ¿±dania jest nieprawid³owy (IOERR_BADADDRESS).
+; The request address is invalid (IOERR_BADADDRESS).
+;
+MSG_TARGETERR_UNITBUSY
+Jednostka jest zajêta (IOERR_UNITBUSY).
+; The unit is busy (IOERR_UNITBUSY).
+;
+MSG_TARGETERR_SELFTEST
+Autotest urz±dzenia nie powiód³ siê (IOERR_SELFTEST).
+; The device self-test failed (IOERR_SELFTEST).
+;
+MSG_TARGETERR_UNKNOWN
+Nieznany b³±d We/Wy Exec.
+; Unknown Exec I/O error.
+;
+MSG_TARGET
+Cel
+; Target
+;
+MSG_INSTALLATIONMODE
+Tryb instalacji
+; Installation mode
+;
+MSG_DEVELOPEROPTIONS
+Opcje deweloperskie
+; Developer options
+;

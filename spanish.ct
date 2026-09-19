@@ -391,3 +391,99 @@ MSG_HELP_PARTITION
 Pincha para ajustar el sistema de ficheros y/o el tamaño de la partición.
 ; Click to adjust the partitions filesystem and/or size.
 ;
+MSG_DEVELOPERMODE
+Mostrar opciones de desarrollador
+; Show developer options
+;
+MSG_HELP_DEVELOPERMODE
+Especifica manualmente un periférico y una unidad que InstallAROS no pueda detectar.
+; Manually specify a device and unit that InstallAROS cannot detect.
+;
+MSG_TESTTARGET
+Probar destino
+; Test Target
+;
+MSG_HELP_TESTTARGET
+Comprueba el periférico y la unidad especificados manualmente antes de continuar.
+; Check the manually specified device and unit before continuing.
+;
+MSG_TARGETCHECK
+Comprobación del destino
+; Target Check
+;
+MSG_TARGETNODEVICE
+No se ha especificado ningún nombre de periférico.
+; No device name was specified.
+;
+MSG_TARGETTESTRESOURCE
+InstallAROS no ha podido asignar los recursos necesarios para probar este destino.
+; InstallAROS could not allocate the resources needed to test this target.
+;
+MSG_TARGETOPENERROR
+No se pudo abrir %s, unidad %lu.\n%s (error de Exec %ld).
+; Could not open %s, unit %lu.\n%s (Exec error %ld).
+;
+MSG_TARGETOPENERRORUNITS
+No se pudo abrir %s, unidad %lu.\n%s (error de Exec %ld).\nUnidades detectadas para %s: %s
+; Could not open %s, unit %lu.\n%s (Exec error %ld).\nDetected units for %s: %s
+;
+MSG_TARGETBLOCKERROR
+El periférico %s, unidad %lu, se abrió correctamente,\npero partition.library no pudo obtener un manejador de dispositivo de bloques utilizable.
+; Device %s, unit %lu opened successfully,\nbut partition.library could not obtain a usable block-device handle.
+;
+MSG_TARGETREADONLY
+El periférico %s, unidad %lu, está protegido contra escritura.\nInstallAROS no continuará con este destino.
+; Device %s, unit %lu is write-protected.\nInstallAROS will not continue with this target.
+;
+MSG_TARGETOK
+El destino %s, unidad %lu, superó la comprobación.\nInstallAROS puede usar el periférico y el medio permite escritura.
+; Target %s, unit %lu passed the check.\nThe device is usable by InstallAROS and reports writable media.
+;
+MSG_TARGETOKNOPROT
+El destino %s, unidad %lu, superó la comprobación del dispositivo de bloques.\nEl estado de protección contra escritura no está disponible: %s (error de Exec %ld).
+; Target %s, unit %lu passed the block-device check.\nWrite-protection status is unavailable: %s (Exec error %ld).
+;
+MSG_TARGETERR_OPENFAIL
+La apertura falló; el nombre del periférico o la unidad pueden no ser válidos (IOERR_OPENFAIL).
+; Open failed; the device name or unit may be invalid (IOERR_OPENFAIL).
+;
+MSG_TARGETERR_ABORTED
+La solicitud fue cancelada (IOERR_ABORTED).
+; The request was aborted (IOERR_ABORTED).
+;
+MSG_TARGETERR_NOCMD
+La orden solicitada no está soportada (IOERR_NOCMD).
+; The requested command is not supported (IOERR_NOCMD).
+;
+MSG_TARGETERR_BADLENGTH
+La longitud de la solicitud no es válida (IOERR_BADLENGTH).
+; The request length is invalid (IOERR_BADLENGTH).
+;
+MSG_TARGETERR_BADADDRESS
+La dirección de la solicitud no es válida (IOERR_BADADDRESS).
+; The request address is invalid (IOERR_BADADDRESS).
+;
+MSG_TARGETERR_UNITBUSY
+La unidad está ocupada (IOERR_UNITBUSY).
+; The unit is busy (IOERR_UNITBUSY).
+;
+MSG_TARGETERR_SELFTEST
+La autoprueba del periférico falló (IOERR_SELFTEST).
+; The device self-test failed (IOERR_SELFTEST).
+;
+MSG_TARGETERR_UNKNOWN
+Error de E/S de Exec desconocido.
+; Unknown Exec I/O error.
+;
+MSG_TARGET
+Destino
+; Target
+;
+MSG_INSTALLATIONMODE
+Modo de instalación
+; Installation mode
+;
+MSG_DEVELOPEROPTIONS
+Opciones de desarrollador
+; Developer options
+;

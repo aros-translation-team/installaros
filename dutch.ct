@@ -390,3 +390,99 @@ MSG_HELP_PARTITION
 Klik om het bestandssysteem en/of de grootte van de partitie aan te passen.
 ; Click to adjust the partitions filesystem and/or size.
 ;
+MSG_DEVELOPERMODE
+Ontwikkelaarsopties tonen
+; Show developer options
+;
+MSG_HELP_DEVELOPERMODE
+Geef handmatig een device en unit op die InstallAROS niet kan detecteren.
+; Manually specify a device and unit that InstallAROS cannot detect.
+;
+MSG_TESTTARGET
+Doel testen
+; Test Target
+;
+MSG_HELP_TESTTARGET
+Controleer het handmatig opgegeven device en de unit voordat u verdergaat.
+; Check the manually specified device and unit before continuing.
+;
+MSG_TARGETCHECK
+Doelcontrole
+; Target Check
+;
+MSG_TARGETNODEVICE
+Er is geen devicenaam opgegeven.
+; No device name was specified.
+;
+MSG_TARGETTESTRESOURCE
+InstallAROS kon de middelen die nodig zijn om dit doel te testen niet toewijzen.
+; InstallAROS could not allocate the resources needed to test this target.
+;
+MSG_TARGETOPENERROR
+Kon %s, unit %lu niet openen.\n%s (Exec-fout %ld).
+; Could not open %s, unit %lu.\n%s (Exec error %ld).
+;
+MSG_TARGETOPENERRORUNITS
+Kon %s, unit %lu niet openen.\n%s (Exec-fout %ld).\nGedetecteerde units voor %s: %s
+; Could not open %s, unit %lu.\n%s (Exec error %ld).\nDetected units for %s: %s
+;
+MSG_TARGETBLOCKERROR
+Device %s, unit %lu is met succes geopend,\nmaar partition.library kon geen bruikbare block-device-handle verkrijgen.
+; Device %s, unit %lu opened successfully,\nbut partition.library could not obtain a usable block-device handle.
+;
+MSG_TARGETREADONLY
+Device %s, unit %lu is schrijfbeveiligd.\nInstallAROS gaat niet verder met dit doel.
+; Device %s, unit %lu is write-protected.\nInstallAROS will not continue with this target.
+;
+MSG_TARGETOK
+Doel %s, unit %lu heeft de controle doorstaan.\nHet device kan door InstallAROS worden gebruikt en het medium is beschrijfbaar.
+; Target %s, unit %lu passed the check.\nThe device is usable by InstallAROS and reports writable media.
+;
+MSG_TARGETOKNOPROT
+Doel %s, unit %lu heeft de block-device-controle doorstaan.\nDe status van de schrijfbeveiliging is niet beschikbaar: %s (Exec-fout %ld).
+; Target %s, unit %lu passed the block-device check.\nWrite-protection status is unavailable: %s (Exec error %ld).
+;
+MSG_TARGETERR_OPENFAIL
+Openen is mislukt; de devicenaam of unit is mogelijk ongeldig (IOERR_OPENFAIL).
+; Open failed; the device name or unit may be invalid (IOERR_OPENFAIL).
+;
+MSG_TARGETERR_ABORTED
+Het verzoek is afgebroken (IOERR_ABORTED).
+; The request was aborted (IOERR_ABORTED).
+;
+MSG_TARGETERR_NOCMD
+De gevraagde opdracht wordt niet ondersteund (IOERR_NOCMD).
+; The requested command is not supported (IOERR_NOCMD).
+;
+MSG_TARGETERR_BADLENGTH
+De lengte van het verzoek is ongeldig (IOERR_BADLENGTH).
+; The request length is invalid (IOERR_BADLENGTH).
+;
+MSG_TARGETERR_BADADDRESS
+Het adres van het verzoek is ongeldig (IOERR_BADADDRESS).
+; The request address is invalid (IOERR_BADADDRESS).
+;
+MSG_TARGETERR_UNITBUSY
+De unit is bezet (IOERR_UNITBUSY).
+; The unit is busy (IOERR_UNITBUSY).
+;
+MSG_TARGETERR_SELFTEST
+De zelftest van het device is mislukt (IOERR_SELFTEST).
+; The device self-test failed (IOERR_SELFTEST).
+;
+MSG_TARGETERR_UNKNOWN
+Onbekende Exec I/O-fout.
+; Unknown Exec I/O error.
+;
+MSG_TARGET
+Doel
+; Target
+;
+MSG_INSTALLATIONMODE
+Installatiemodus
+; Installation mode
+;
+MSG_DEVELOPEROPTIONS
+Ontwikkelaarsopties
+; Developer options
+;

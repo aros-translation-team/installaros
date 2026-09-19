@@ -390,3 +390,99 @@ MSG_HELP_PARTITION
 Kliknutím upravte souborový systém a/nebo velikost oddílu.
 ; Click to adjust the partitions filesystem and/or size.
 ;
+MSG_DEVELOPERMODE
+Zobrazit mo¾nosti pro vývojáøe
+; Show developer options
+;
+MSG_HELP_DEVELOPERMODE
+Ruènì zadejte zaøízení a jednotku, které InstallAROS nedoká¾e rozpoznat.
+; Manually specify a device and unit that InstallAROS cannot detect.
+;
+MSG_TESTTARGET
+Otestovat cíl
+; Test Target
+;
+MSG_HELP_TESTTARGET
+Pøed pokraèováním zkontrolujte ruènì zadané zaøízení a jednotku.
+; Check the manually specified device and unit before continuing.
+;
+MSG_TARGETCHECK
+Kontrola cíle
+; Target Check
+;
+MSG_TARGETNODEVICE
+Nebyl zadán název zaøízení.
+; No device name was specified.
+;
+MSG_TARGETTESTRESOURCE
+InstallAROS nemohl pøidìlit prostøedky potøebné k otestování tohoto cíle.
+; InstallAROS could not allocate the resources needed to test this target.
+;
+MSG_TARGETOPENERROR
+Nelze otevøít %s, jednotku %lu.\n%s (chyba Exec %ld).
+; Could not open %s, unit %lu.\n%s (Exec error %ld).
+;
+MSG_TARGETOPENERRORUNITS
+Nelze otevøít %s, jednotku %lu.\n%s (chyba Exec %ld).\nRozpoznané jednotky pro %s: %s
+; Could not open %s, unit %lu.\n%s (Exec error %ld).\nDetected units for %s: %s
+;
+MSG_TARGETBLOCKERROR
+Zaøízení %s, jednotka %lu bylo úspì¹nì otevøeno,\nale partition.library nemohla získat pou¾itelný popisovaè blokového zaøízení.
+; Device %s, unit %lu opened successfully,\nbut partition.library could not obtain a usable block-device handle.
+;
+MSG_TARGETREADONLY
+Zaøízení %s, jednotka %lu je chránìno proti zápisu.\nInstallAROS nebude s tímto cílem pokraèovat.
+; Device %s, unit %lu is write-protected.\nInstallAROS will not continue with this target.
+;
+MSG_TARGETOK
+Cíl %s, jednotka %lu pro¹el kontrolou.\nZaøízení je pou¾itelné programem InstallAROS a médium umo¾òuje zápis.
+; Target %s, unit %lu passed the check.\nThe device is usable by InstallAROS and reports writable media.
+;
+MSG_TARGETOKNOPROT
+Cíl %s, jednotka %lu pro¹el kontrolou blokového zaøízení.\nStav ochrany proti zápisu není dostupný: %s (chyba Exec %ld).
+; Target %s, unit %lu passed the block-device check.\nWrite-protection status is unavailable: %s (Exec error %ld).
+;
+MSG_TARGETERR_OPENFAIL
+Otevøení selhalo; název zaøízení nebo jednotka mohou být neplatné (IOERR_OPENFAIL).
+; Open failed; the device name or unit may be invalid (IOERR_OPENFAIL).
+;
+MSG_TARGETERR_ABORTED
+Po¾adavek byl pøeru¹en (IOERR_ABORTED).
+; The request was aborted (IOERR_ABORTED).
+;
+MSG_TARGETERR_NOCMD
+Po¾adovaný pøíkaz není podporován (IOERR_NOCMD).
+; The requested command is not supported (IOERR_NOCMD).
+;
+MSG_TARGETERR_BADLENGTH
+Délka po¾adavku je neplatná (IOERR_BADLENGTH).
+; The request length is invalid (IOERR_BADLENGTH).
+;
+MSG_TARGETERR_BADADDRESS
+Adresa po¾adavku je neplatná (IOERR_BADADDRESS).
+; The request address is invalid (IOERR_BADADDRESS).
+;
+MSG_TARGETERR_UNITBUSY
+Jednotka je zaneprázdnìna (IOERR_UNITBUSY).
+; The unit is busy (IOERR_UNITBUSY).
+;
+MSG_TARGETERR_SELFTEST
+Vlastní test zaøízení selhal (IOERR_SELFTEST).
+; The device self-test failed (IOERR_SELFTEST).
+;
+MSG_TARGETERR_UNKNOWN
+Neznámá chyba I/O systému Exec.
+; Unknown Exec I/O error.
+;
+MSG_TARGET
+Cíl
+; Target
+;
+MSG_INSTALLATIONMODE
+Re¾im instalace
+; Installation mode
+;
+MSG_DEVELOPEROPTIONS
+Mo¾nosti pro vývojáøe
+; Developer options
+;

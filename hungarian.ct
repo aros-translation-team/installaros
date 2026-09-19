@@ -390,3 +390,99 @@ MSG_HELP_PARTITION
 Kattints a partíció fájlrendszerének és/vagy méretének módosításához.
 ; Click to adjust the partitions filesystem and/or size.
 ;
+MSG_DEVELOPERMODE
+Fejlesztõi beállítások megjelenítése
+; Show developer options
+;
+MSG_HELP_DEVELOPERMODE
+Add meg kézzel azt az eszközt és egységet, amelyet az InstallAROS nem tud felismerni.
+; Manually specify a device and unit that InstallAROS cannot detect.
+;
+MSG_TESTTARGET
+Cél tesztelése
+; Test Target
+;
+MSG_HELP_TESTTARGET
+Folytatás elõtt ellenõrizd a kézzel megadott eszközt és egységet.
+; Check the manually specified device and unit before continuing.
+;
+MSG_TARGETCHECK
+Cél ellenõrzése
+; Target Check
+;
+MSG_TARGETNODEVICE
+Nincs megadva eszköznév.
+; No device name was specified.
+;
+MSG_TARGETTESTRESOURCE
+Az InstallAROS nem tudta lefoglalni a cél teszteléséhez szükséges erõforrásokat.
+; InstallAROS could not allocate the resources needed to test this target.
+;
+MSG_TARGETOPENERROR
+Nem nyitható meg: %s, %lu. egység.\n%s (Exec hiba: %ld).
+; Could not open %s, unit %lu.\n%s (Exec error %ld).
+;
+MSG_TARGETOPENERRORUNITS
+Nem nyitható meg: %s, %lu. egység.\n%s (Exec hiba: %ld).\nÉszlelt egységek ehhez: %s: %s
+; Could not open %s, unit %lu.\n%s (Exec error %ld).\nDetected units for %s: %s
+;
+MSG_TARGETBLOCKERROR
+A(z) %s eszköz %lu. egysége sikeresen megnyílt,\nde a partition.library nem tudott használható blokkeszköz-leírót szerezni.
+; Device %s, unit %lu opened successfully,\nbut partition.library could not obtain a usable block-device handle.
+;
+MSG_TARGETREADONLY
+A(z) %s eszköz %lu. egysége írásvédett.\nAz InstallAROS nem folytatja ezzel a céllal.
+; Device %s, unit %lu is write-protected.\nInstallAROS will not continue with this target.
+;
+MSG_TARGETOK
+A(z) %s cél %lu. egysége megfelelt az ellenõrzésen.\nAz eszköz használható az InstallAROS számára, az adathordozó írható.
+; Target %s, unit %lu passed the check.\nThe device is usable by InstallAROS and reports writable media.
+;
+MSG_TARGETOKNOPROT
+A(z) %s cél %lu. egysége megfelelt a blokkeszköz-ellenõrzésen.\nAz írásvédelem állapota nem érhetõ el: %s (Exec hiba: %ld).
+; Target %s, unit %lu passed the block-device check.\nWrite-protection status is unavailable: %s (Exec error %ld).
+;
+MSG_TARGETERR_OPENFAIL
+A megnyitás sikertelen; az eszköznév vagy az egység érvénytelen lehet (IOERR_OPENFAIL).
+; Open failed; the device name or unit may be invalid (IOERR_OPENFAIL).
+;
+MSG_TARGETERR_ABORTED
+A kérés megszakítva (IOERR_ABORTED).
+; The request was aborted (IOERR_ABORTED).
+;
+MSG_TARGETERR_NOCMD
+A kért parancs nem támogatott (IOERR_NOCMD).
+; The requested command is not supported (IOERR_NOCMD).
+;
+MSG_TARGETERR_BADLENGTH
+A kérés hossza érvénytelen (IOERR_BADLENGTH).
+; The request length is invalid (IOERR_BADLENGTH).
+;
+MSG_TARGETERR_BADADDRESS
+A kérés címe érvénytelen (IOERR_BADADDRESS).
+; The request address is invalid (IOERR_BADADDRESS).
+;
+MSG_TARGETERR_UNITBUSY
+Az egység foglalt (IOERR_UNITBUSY).
+; The unit is busy (IOERR_UNITBUSY).
+;
+MSG_TARGETERR_SELFTEST
+Az eszköz öntesztje sikertelen (IOERR_SELFTEST).
+; The device self-test failed (IOERR_SELFTEST).
+;
+MSG_TARGETERR_UNKNOWN
+Ismeretlen Exec I/O hiba.
+; Unknown Exec I/O error.
+;
+MSG_TARGET
+Cél
+; Target
+;
+MSG_INSTALLATIONMODE
+Telepítési mód
+; Installation mode
+;
+MSG_DEVELOPEROPTIONS
+Fejlesztõi beállítások
+; Developer options
+;

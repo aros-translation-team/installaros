@@ -390,3 +390,99 @@ MSG_HELP_PARTITION
 Napsauta säätääksesi osion tiedostojärjestelmää ja/tai kokoa.
 ; Click to adjust the partitions filesystem and/or size.
 ;
+MSG_DEVELOPERMODE
+Näytä kehittäjäasetukset
+; Show developer options
+;
+MSG_HELP_DEVELOPERMODE
+Määritä käsin laite ja yksikkö, joita InstallAROS ei pysty tunnistamaan.
+; Manually specify a device and unit that InstallAROS cannot detect.
+;
+MSG_TESTTARGET
+Testaa kohde
+; Test Target
+;
+MSG_HELP_TESTTARGET
+Tarkista käsin määritetty laite ja yksikkö ennen jatkamista.
+; Check the manually specified device and unit before continuing.
+;
+MSG_TARGETCHECK
+Kohteen tarkistus
+; Target Check
+;
+MSG_TARGETNODEVICE
+Laitteen nimeä ei määritetty.
+; No device name was specified.
+;
+MSG_TARGETTESTRESOURCE
+InstallAROS ei voinut varata tämän kohteen testaamiseen tarvittavia resursseja.
+; InstallAROS could not allocate the resources needed to test this target.
+;
+MSG_TARGETOPENERROR
+Kohdetta %s, yksikkö %lu ei voitu avata.\n%s (Exec-virhe %ld).
+; Could not open %s, unit %lu.\n%s (Exec error %ld).
+;
+MSG_TARGETOPENERRORUNITS
+Kohdetta %s, yksikkö %lu ei voitu avata.\n%s (Exec-virhe %ld).\nHavaitut yksiköt laitteelle %s: %s
+; Could not open %s, unit %lu.\n%s (Exec error %ld).\nDetected units for %s: %s
+;
+MSG_TARGETBLOCKERROR
+Laite %s, yksikkö %lu avattiin onnistuneesti,\nmutta partition.library ei saanut käyttökelpoista lohkolaitteen kahvaa.
+; Device %s, unit %lu opened successfully,\nbut partition.library could not obtain a usable block-device handle.
+;
+MSG_TARGETREADONLY
+Laite %s, yksikkö %lu on kirjoitussuojattu.\nInstallAROS ei jatka tämän kohteen kanssa.
+; Device %s, unit %lu is write-protected.\nInstallAROS will not continue with this target.
+;
+MSG_TARGETOK
+Kohde %s, yksikkö %lu läpäisi tarkistuksen.\nInstallAROS voi käyttää laitetta ja tietovälineelle voi kirjoittaa.
+; Target %s, unit %lu passed the check.\nThe device is usable by InstallAROS and reports writable media.
+;
+MSG_TARGETOKNOPROT
+Kohde %s, yksikkö %lu läpäisi lohkolaitteen tarkistuksen.\nKirjoitussuojauksen tila ei ole saatavilla: %s (Exec-virhe %ld).
+; Target %s, unit %lu passed the block-device check.\nWrite-protection status is unavailable: %s (Exec error %ld).
+;
+MSG_TARGETERR_OPENFAIL
+Avaaminen epäonnistui; laitteen nimi tai yksikkö voi olla virheellinen (IOERR_OPENFAIL).
+; Open failed; the device name or unit may be invalid (IOERR_OPENFAIL).
+;
+MSG_TARGETERR_ABORTED
+Pyyntö keskeytettiin (IOERR_ABORTED).
+; The request was aborted (IOERR_ABORTED).
+;
+MSG_TARGETERR_NOCMD
+Pyydettyä komentoa ei tueta (IOERR_NOCMD).
+; The requested command is not supported (IOERR_NOCMD).
+;
+MSG_TARGETERR_BADLENGTH
+Pyynnön pituus on virheellinen (IOERR_BADLENGTH).
+; The request length is invalid (IOERR_BADLENGTH).
+;
+MSG_TARGETERR_BADADDRESS
+Pyynnön osoite on virheellinen (IOERR_BADADDRESS).
+; The request address is invalid (IOERR_BADADDRESS).
+;
+MSG_TARGETERR_UNITBUSY
+Yksikkö on varattu (IOERR_UNITBUSY).
+; The unit is busy (IOERR_UNITBUSY).
+;
+MSG_TARGETERR_SELFTEST
+Laitteen itsetesti epäonnistui (IOERR_SELFTEST).
+; The device self-test failed (IOERR_SELFTEST).
+;
+MSG_TARGETERR_UNKNOWN
+Tuntematon Exec I/O -virhe.
+; Unknown Exec I/O error.
+;
+MSG_TARGET
+Kohde
+; Target
+;
+MSG_INSTALLATIONMODE
+Asennustila
+; Installation mode
+;
+MSG_DEVELOPEROPTIONS
+Kehittäjäasetukset
+; Developer options
+;

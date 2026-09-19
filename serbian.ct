@@ -390,3 +390,99 @@ MSG_HELP_PARTITION
 Kliknite da podesite sistem datoteka i/ili veliŸinu particije.
 ; Click to adjust the partitions filesystem and/or size.
 ;
+MSG_DEVELOPERMODE
+Prika§i opcije za programere
+; Show developer options
+;
+MSG_HELP_DEVELOPERMODE
+RuŸno navedite ureÐaj i jedinicu koje InstallAROS ne mo§e da otkrije.
+; Manually specify a device and unit that InstallAROS cannot detect.
+;
+MSG_TESTTARGET
+Proveri odrediçte
+; Test Target
+;
+MSG_HELP_TESTTARGET
+Proverite ruŸno navedeni ureÐaj i jedinicu pre nego çto nastavite.
+; Check the manually specified device and unit before continuing.
+;
+MSG_TARGETCHECK
+Provera odrediçta
+; Target Check
+;
+MSG_TARGETNODEVICE
+Nije naveden naziv ureÐaja.
+; No device name was specified.
+;
+MSG_TARGETTESTRESOURCE
+InstallAROS nije mogao da dodeli resurse potrebne za proveru ovog odrediçta.
+; InstallAROS could not allocate the resources needed to test this target.
+;
+MSG_TARGETOPENERROR
+Nije mogu†e otvoriti %s, jedinica %lu.\n%s (Exec greçka %ld).
+; Could not open %s, unit %lu.\n%s (Exec error %ld).
+;
+MSG_TARGETOPENERRORUNITS
+Nije mogu†e otvoriti %s, jedinica %lu.\n%s (Exec greçka %ld).\nOtkrivene jedinice za %s: %s
+; Could not open %s, unit %lu.\n%s (Exec error %ld).\nDetected units for %s: %s
+;
+MSG_TARGETBLOCKERROR
+UreÐaj %s, jedinica %lu je uspeçno otvoren,\nali partition.library nije mogla da dobije upotrebljiv rukovalac blok-ureÐaja.
+; Device %s, unit %lu opened successfully,\nbut partition.library could not obtain a usable block-device handle.
+;
+MSG_TARGETREADONLY
+UreÐaj %s, jedinica %lu je zaçti†en od pisanja.\nInstallAROS ne†e nastaviti sa ovim odrediçtem.
+; Device %s, unit %lu is write-protected.\nInstallAROS will not continue with this target.
+;
+MSG_TARGETOK
+Odrediçte %s, jedinica %lu je proçlo proveru.\nUreÐaj mo§e da koristi InstallAROS i medij je upisiv.
+; Target %s, unit %lu passed the check.\nThe device is usable by InstallAROS and reports writable media.
+;
+MSG_TARGETOKNOPROT
+Odrediçte %s, jedinica %lu je proçlo proveru blok-ureÐaja.\nStatus zaçtite od pisanja nije dostupan: %s (Exec greçka %ld).
+; Target %s, unit %lu passed the block-device check.\nWrite-protection status is unavailable: %s (Exec error %ld).
+;
+MSG_TARGETERR_OPENFAIL
+Otvaranje nije uspelo; naziv ureÐaja ili jedinica mo§da nisu ispravni (IOERR_OPENFAIL).
+; Open failed; the device name or unit may be invalid (IOERR_OPENFAIL).
+;
+MSG_TARGETERR_ABORTED
+Zahtev je prekinut (IOERR_ABORTED).
+; The request was aborted (IOERR_ABORTED).
+;
+MSG_TARGETERR_NOCMD
+Tra§ena komanda nije podr§ana (IOERR_NOCMD).
+; The requested command is not supported (IOERR_NOCMD).
+;
+MSG_TARGETERR_BADLENGTH
+Du§ina zahteva nije ispravna (IOERR_BADLENGTH).
+; The request length is invalid (IOERR_BADLENGTH).
+;
+MSG_TARGETERR_BADADDRESS
+Adresa zahteva nije ispravna (IOERR_BADADDRESS).
+; The request address is invalid (IOERR_BADADDRESS).
+;
+MSG_TARGETERR_UNITBUSY
+Jedinica je zauzeta (IOERR_UNITBUSY).
+; The unit is busy (IOERR_UNITBUSY).
+;
+MSG_TARGETERR_SELFTEST
+Samotest ureÐaja nije uspeo (IOERR_SELFTEST).
+; The device self-test failed (IOERR_SELFTEST).
+;
+MSG_TARGETERR_UNKNOWN
+Nepoznata Exec I/O greçka.
+; Unknown Exec I/O error.
+;
+MSG_TARGET
+Odrediçte
+; Target
+;
+MSG_INSTALLATIONMODE
+Re§im instalacije
+; Installation mode
+;
+MSG_DEVELOPEROPTIONS
+Opcije za programere
+; Developer options
+;

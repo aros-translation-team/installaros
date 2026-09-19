@@ -390,3 +390,99 @@ MSG_HELP_PARTITION
 Klicken Sie, um Dateisystem und/oder Größe der Partition anzupassen.
 ; Click to adjust the partitions filesystem and/or size.
 ;
+MSG_DEVELOPERMODE
+Entwickleroptionen anzeigen
+; Show developer options
+;
+MSG_HELP_DEVELOPERMODE
+Geben Sie ein von InstallAROS nicht erkanntes Gerät und dessen Einheit manuell an.
+; Manually specify a device and unit that InstallAROS cannot detect.
+;
+MSG_TESTTARGET
+Ziel prüfen
+; Test Target
+;
+MSG_HELP_TESTTARGET
+Prüfen Sie das manuell angegebene Gerät und die Einheit, bevor Sie fortfahren.
+; Check the manually specified device and unit before continuing.
+;
+MSG_TARGETCHECK
+Zielprüfung
+; Target Check
+;
+MSG_TARGETNODEVICE
+Es wurde kein Gerätename angegeben.
+; No device name was specified.
+;
+MSG_TARGETTESTRESOURCE
+InstallAROS konnte die zum Prüfen dieses Ziels benötigten Ressourcen nicht reservieren.
+; InstallAROS could not allocate the resources needed to test this target.
+;
+MSG_TARGETOPENERROR
+%s, Einheit %lu konnte nicht geöffnet werden.\n%s (Exec-Fehler %ld).
+; Could not open %s, unit %lu.\n%s (Exec error %ld).
+;
+MSG_TARGETOPENERRORUNITS
+%s, Einheit %lu konnte nicht geöffnet werden.\n%s (Exec-Fehler %ld).\nErkannte Einheiten für %s: %s
+; Could not open %s, unit %lu.\n%s (Exec error %ld).\nDetected units for %s: %s
+;
+MSG_TARGETBLOCKERROR
+Gerät %s, Einheit %lu wurde erfolgreich geöffnet,\naber partition.library konnte kein nutzbares Blockgeräte-Handle erhalten.
+; Device %s, unit %lu opened successfully,\nbut partition.library could not obtain a usable block-device handle.
+;
+MSG_TARGETREADONLY
+Gerät %s, Einheit %lu ist schreibgeschützt.\nInstallAROS wird mit diesem Ziel nicht fortfahren.
+; Device %s, unit %lu is write-protected.\nInstallAROS will not continue with this target.
+;
+MSG_TARGETOK
+Ziel %s, Einheit %lu hat die Prüfung bestanden.\nDas Gerät kann von InstallAROS verwendet werden und meldet ein beschreibbares Medium.
+; Target %s, unit %lu passed the check.\nThe device is usable by InstallAROS and reports writable media.
+;
+MSG_TARGETOKNOPROT
+Ziel %s, Einheit %lu hat die Blockgeräteprüfung bestanden.\nDer Schreibschutzstatus ist nicht verfügbar: %s (Exec-Fehler %ld).
+; Target %s, unit %lu passed the block-device check.\nWrite-protection status is unavailable: %s (Exec error %ld).
+;
+MSG_TARGETERR_OPENFAIL
+Öffnen fehlgeschlagen; Gerätename oder Einheit sind möglicherweise ungültig (IOERR_OPENFAIL).
+; Open failed; the device name or unit may be invalid (IOERR_OPENFAIL).
+;
+MSG_TARGETERR_ABORTED
+Die Anfrage wurde abgebrochen (IOERR_ABORTED).
+; The request was aborted (IOERR_ABORTED).
+;
+MSG_TARGETERR_NOCMD
+Der angeforderte Befehl wird nicht unterstützt (IOERR_NOCMD).
+; The requested command is not supported (IOERR_NOCMD).
+;
+MSG_TARGETERR_BADLENGTH
+Die Länge der Anfrage ist ungültig (IOERR_BADLENGTH).
+; The request length is invalid (IOERR_BADLENGTH).
+;
+MSG_TARGETERR_BADADDRESS
+Die Adresse der Anfrage ist ungültig (IOERR_BADADDRESS).
+; The request address is invalid (IOERR_BADADDRESS).
+;
+MSG_TARGETERR_UNITBUSY
+Die Einheit ist belegt (IOERR_UNITBUSY).
+; The unit is busy (IOERR_UNITBUSY).
+;
+MSG_TARGETERR_SELFTEST
+Der Selbsttest des Geräts ist fehlgeschlagen (IOERR_SELFTEST).
+; The device self-test failed (IOERR_SELFTEST).
+;
+MSG_TARGETERR_UNKNOWN
+Unbekannter Exec-E/A-Fehler.
+; Unknown Exec I/O error.
+;
+MSG_TARGET
+Ziel
+; Target
+;
+MSG_INSTALLATIONMODE
+Installationsmodus
+; Installation mode
+;
+MSG_DEVELOPEROPTIONS
+Entwickleroptionen
+; Developer options
+;

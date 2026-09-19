@@ -390,3 +390,99 @@ MSG_HELP_PARTITION
 Feu clic per ajustar el sistema de fitxers i/o la mida de la partició.
 ; Click to adjust the partitions filesystem and/or size.
 ;
+MSG_DEVELOPERMODE
+Mostra les opcions de desenvolupador
+; Show developer options
+;
+MSG_HELP_DEVELOPERMODE
+Especifiqueu manualment un dispositiu i una unitat que InstallAROS no pugui detectar.
+; Manually specify a device and unit that InstallAROS cannot detect.
+;
+MSG_TESTTARGET
+Prova la destinació
+; Test Target
+;
+MSG_HELP_TESTTARGET
+Comproveu el dispositiu i la unitat especificats manualment abans de continuar.
+; Check the manually specified device and unit before continuing.
+;
+MSG_TARGETCHECK
+Comprovació de la destinació
+; Target Check
+;
+MSG_TARGETNODEVICE
+No s'ha especificat cap nom de dispositiu.
+; No device name was specified.
+;
+MSG_TARGETTESTRESOURCE
+InstallAROS no ha pogut assignar els recursos necessaris per provar aquesta destinació.
+; InstallAROS could not allocate the resources needed to test this target.
+;
+MSG_TARGETOPENERROR
+No s'ha pogut obrir %s, unitat %lu.\n%s (error d'Exec %ld).
+; Could not open %s, unit %lu.\n%s (Exec error %ld).
+;
+MSG_TARGETOPENERRORUNITS
+No s'ha pogut obrir %s, unitat %lu.\n%s (error d'Exec %ld).\nUnitats detectades per a %s: %s
+; Could not open %s, unit %lu.\n%s (Exec error %ld).\nDetected units for %s: %s
+;
+MSG_TARGETBLOCKERROR
+El dispositiu %s, unitat %lu, s'ha obert correctament,\nperò partition.library no ha pogut obtenir un identificador de dispositiu de blocs utilitzable.
+; Device %s, unit %lu opened successfully,\nbut partition.library could not obtain a usable block-device handle.
+;
+MSG_TARGETREADONLY
+El dispositiu %s, unitat %lu, està protegit contra escriptura.\nInstallAROS no continuarà amb aquesta destinació.
+; Device %s, unit %lu is write-protected.\nInstallAROS will not continue with this target.
+;
+MSG_TARGETOK
+La destinació %s, unitat %lu, ha superat la comprovació.\nInstallAROS pot utilitzar el dispositiu i el suport permet l'escriptura.
+; Target %s, unit %lu passed the check.\nThe device is usable by InstallAROS and reports writable media.
+;
+MSG_TARGETOKNOPROT
+La destinació %s, unitat %lu, ha superat la comprovació del dispositiu de blocs.\nL'estat de protecció contra escriptura no està disponible: %s (error d'Exec %ld).
+; Target %s, unit %lu passed the block-device check.\nWrite-protection status is unavailable: %s (Exec error %ld).
+;
+MSG_TARGETERR_OPENFAIL
+Ha fallat l'obertura; el nom del dispositiu o la unitat poden no ser vàlids (IOERR_OPENFAIL).
+; Open failed; the device name or unit may be invalid (IOERR_OPENFAIL).
+;
+MSG_TARGETERR_ABORTED
+La sol·licitud s'ha avortat (IOERR_ABORTED).
+; The request was aborted (IOERR_ABORTED).
+;
+MSG_TARGETERR_NOCMD
+L'ordre sol·licitada no és compatible (IOERR_NOCMD).
+; The requested command is not supported (IOERR_NOCMD).
+;
+MSG_TARGETERR_BADLENGTH
+La longitud de la sol·licitud no és vàlida (IOERR_BADLENGTH).
+; The request length is invalid (IOERR_BADLENGTH).
+;
+MSG_TARGETERR_BADADDRESS
+L'adreça de la sol·licitud no és vàlida (IOERR_BADADDRESS).
+; The request address is invalid (IOERR_BADADDRESS).
+;
+MSG_TARGETERR_UNITBUSY
+La unitat està ocupada (IOERR_UNITBUSY).
+; The unit is busy (IOERR_UNITBUSY).
+;
+MSG_TARGETERR_SELFTEST
+Ha fallat l'autoprova del dispositiu (IOERR_SELFTEST).
+; The device self-test failed (IOERR_SELFTEST).
+;
+MSG_TARGETERR_UNKNOWN
+Error d'E/S d'Exec desconegut.
+; Unknown Exec I/O error.
+;
+MSG_TARGET
+Destinació
+; Target
+;
+MSG_INSTALLATIONMODE
+Mode d'instal·lació
+; Installation mode
+;
+MSG_DEVELOPEROPTIONS
+Opcions de desenvolupador
+; Developer options
+;
