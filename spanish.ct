@@ -140,6 +140,7 @@ Usar particiones AROS existentes (en cualquier unidad)
 ; Use existing AROS partitions (on any drive)
 ;
 MSG_PARTITIONTOOBIG
+El tamaño de partición seleccionado es demasiado grande.\nEl tamaño máximo de una partición SFS es de %ld GB (%ld MB),\nmientras que el de una partición FFS es de %ld GB (%ld MB).\nPor favor, reduce el tamaño de las particiones afectadas.\n
 ; El tamaño de partición seleccionado es demasiado grande.\nEl tamaño máximo de una partición SFS es de %ld GB (%ld MB),\nmientras que el de una partición FFS es de %ld GB (%ld MB).\nPor favor, reduce el tamaño de las particiones afectadas.\n
 ; The partition sizes you have requested are too large.\nThe maximum size of an SFS partition is %ld GB (%ld MB),\nwhile the maximum size of an FFS partition is %ld GB (%ld MB).\nPlease reduce the size of the affected partitions.\n
 ;
