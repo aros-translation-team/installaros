@@ -112,8 +112,8 @@ OK, siamo pronti per iniziare.\n\nPoiché si è scelto di formattare almeno una pa
 ; OK, we are ready to begin.\n\nSince you've chosen to format at least one partition,\nyou will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
 ;
 MSG_BEGINWITHOUTPARTITION
-OK, siamo pronti per iniziare...\n\nAbbiamo raccolto le dovute informazioni\npossiamo iniziare l'installazione su questo computer.\n\n\nSelezionare Procedi per avviare l'installazione..
-; OK, we are ready to begin...\n\nWe have collected enough information\nto begin installation on this computer.\n\n\nSelect Proceed to begin installation.
+InstallAROS è pronto per iniziare...\n\nAbbiamo raccolto le dovute informazioni\npossiamo iniziare l'installazione su questo computer.\n\n\nSelezionare Procedi per avviare l'installazione..
+; InstallAROS is ready to begin...\n\nEnough information has been collected\nto begin installation on this computer.\n\n\nSelect Proceed to begin installation.
 ;
 MSG_PARTITIONOPTIONS
 Creare le partizioni AROS sull'unità di destinazione.\n\nSelezionare la procedura desisterata.\n

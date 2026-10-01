@@ -112,8 +112,8 @@ Hasteko prest gaude.\n\nGutxienez partizio bat formateatzea aukeratu duzunez,\np
 ; OK, we are ready to begin.\n\nSince you've chosen to format at least one partition,\nyou will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
 ;
 MSG_BEGINWITHOUTPARTITION
-Hasteko prest gaude....\n\nOrdenagailu honetan instalatzen hasteko\nbehar den informazioa bildu dugu.\nInstalazioa hasteko sakatu Jarraitu.
-; OK, we are ready to begin...\n\nWe have collected enough information\nto begin installation on this computer.\n\n\nSelect Proceed to begin installation.
+InstallAROS hasteko prest dago...\n\nOrdenagailu honetan instalatzen hasteko\nbehar den informazioa bildu dugu.\nInstalazioa hasteko sakatu Jarraitu.
+; InstallAROS is ready to begin...\n\nEnough information has been collected\nto begin installation on this computer.\n\n\nSelect Proceed to begin installation.
 ;
 MSG_PARTITIONOPTIONS
 AROS partizioak sortuko ditugu orain hautatutako diskoan.\n\nMezedez, hautatu nola jarraitu.\n

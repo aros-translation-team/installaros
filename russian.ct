@@ -111,8 +111,8 @@ MSG_BEGINWITHPARTITION
 ; OK, we are ready to begin.\n\nSince you've chosen to format at least one partition,\nyou will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
 ;
 MSG_BEGINWITHOUTPARTITION
-Хорошо, можно начинать.\n\nМы собрали достаточно информации\nдля начала установки на этом компьютере\n\n\nВыберите 'Продолжить' для начала установки
-; OK, we are ready to begin...\n\nWe have collected enough information\nto begin installation on this computer.\n\n\nSelect Proceed to begin installation.
+InstallAROS готов начать...\n\nМы собрали достаточно информации\nдля начала установки на этом компьютере\n\n\nВыберите 'Продолжить' для начала установки
+; InstallAROS is ready to begin...\n\nEnough information has been collected\nto begin installation on this computer.\n\n\nSelect Proceed to begin installation.
 ;
 MSG_PARTITIONOPTIONS
 Теперь можно создать партиции AROS на целевом диске.\n\nВыберите, какие вы хотите создать и продолжим.\n

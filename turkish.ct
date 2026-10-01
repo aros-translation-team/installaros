@@ -112,8 +112,8 @@ Tamam, baþlamaya hazýrýz.\n\nEn az bir bölümü biçimlendirmeyi seçtiðiniz için,\n
 ; OK, we are ready to begin.\n\nSince you've chosen to format at least one partition,\nyou will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
 ;
 MSG_BEGINWITHOUTPARTITION
-Tamam, baþlamaya hazýrýz...\n\nBu bilgisayarda kuruluma baþlamak için\n\yeterli bilgi topladýk.\n\n\nYüklemeye baþlamak için Devam Et'i seçin.
-; OK, we are ready to begin...\n\nWe have collected enough information\nto begin installation on this computer.\n\n\nSelect Proceed to begin installation.
+InstallAROS baþlamaya hazýr...\n\nBu bilgisayarda kuruluma baþlamak için\n\yeterli bilgi topladýk.\n\n\nYüklemeye baþlamak için Devam Et'i seçin.
+; InstallAROS is ready to begin...\n\nEnough information has been collected\nto begin installation on this computer.\n\n\nSelect Proceed to begin installation.
 ;
 MSG_PARTITIONOPTIONS
 Þimdi hedef sürücüde AROS bölümleri oluþturacaðýz.\n\nLütfen nasýl devam etmek istediðinizi seçin.\n
