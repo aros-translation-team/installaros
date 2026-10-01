@@ -107,8 +107,8 @@ MSG_USEWORKFOR
 ; Use 'Work' Partition for Extras and Developer Files
 ;
 MSG_BEGINWITHPARTITION
-Хорошо, можно начинать.\n\nПоскольку было выбрано форматирование как минимум одной партиции,\nвы уже не сможете отменить этот выбор\nпосле начала установки.\n\nВыберите 'Продолжить' для начала установки.
-; OK, we are ready to begin.\n\nSince you've chosen to format at least one partition,\nyou will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
+InstallAROS готов начать.\n\nВыбранные параметры приведут к необратимым изменениям содержимого диска,\nпоэтому после этого момента вы больше не сможете отменить изменения.\n\nВыберите 'Продолжить' для начала установки.
+; InstallAROS is ready to begin.\n\nThe options you have chosen will result in destructive changes to your drive contents,\nand so you will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
 ;
 MSG_BEGINWITHOUTPARTITION
 Хорошо, можно начинать.\n\nМы собрали достаточно информации\nдля начала установки на этом компьютере\n\n\nВыберите 'Продолжить' для начала установки

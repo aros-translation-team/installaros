@@ -108,8 +108,8 @@ Usare Partizione 'Work' per Extra e File per Sviluppatori
 ; Use 'Work' Partition for Extras and Developer Files
 ;
 MSG_BEGINWITHPARTITION
-OK, siamo pronti per iniziare.\n\nPoiché si è scelto di formattare almeno una partizione,\nnon sarà più possibile annullare le modifiche\ndopo questa fase.\n\nSelezionare Procedi per avviare l'installazione..
-; OK, we are ready to begin.\n\nSince you've chosen to format at least one partition,\nyou will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
+InstallAROS è pronto per iniziare.\n\nLe opzioni scelte comporteranno modifiche distruttive al contenuto dell'unità,\ne pertanto non sarà più possibile annullare le modifiche\ndopo questo punto.\n\nSelezionare Procedi per avviare l'installazione..
+; InstallAROS is ready to begin.\n\nThe options you have chosen will result in destructive changes to your drive contents,\nand so you will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
 ;
 MSG_BEGINWITHOUTPARTITION
 OK, siamo pronti per iniziare...\n\nAbbiamo raccolto le dovute informazioni\npossiamo iniziare l'installazione su questo computer.\n\n\nSelezionare Procedi per avviare l'installazione..

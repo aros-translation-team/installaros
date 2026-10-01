@@ -108,8 +108,8 @@ Ekstralar ve Geliþtirici Dosyalarý için 'Work' Bölümünü Kullanýn
 ; Use 'Work' Partition for Extras and Developer Files
 ;
 MSG_BEGINWITHPARTITION
-Tamam, baþlamaya hazýrýz.\n\nEn az bir bölümü biçimlendirmeyi seçtiðiniz için,\nbu noktadan sonra deðiþiklikleri artýk geri alamazsýnýz.\n\nYüklemeye baþlamak için Devam Et'i seçin.
-; OK, we are ready to begin.\n\nSince you've chosen to format at least one partition,\nyou will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
+InstallAROS baþlamaya hazýr.\n\nSeçtiðiniz seçenekler sürücünüzün içeriðinde yýkýcý deðiþikliklere yol açacak,\nbu nedenle bu noktadan sonra deðiþiklikleri artýk geri alamazsýnýz.\n\nYüklemeye baþlamak için Devam Et'i seçin.
+; InstallAROS is ready to begin.\n\nThe options you have chosen will result in destructive changes to your drive contents,\nand so you will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
 ;
 MSG_BEGINWITHOUTPARTITION
 Tamam, baþlamaya hazýrýz...\n\nBu bilgisayarda kuruluma baþlamak için\n\yeterli bilgi topladýk.\n\n\nYüklemeye baþlamak için Devam Et'i seçin.

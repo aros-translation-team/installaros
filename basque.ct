@@ -108,8 +108,8 @@ Erabili 'Work' partizioa Extras eta Garapen lanabesak instalatzeko
 ; Use 'Work' Partition for Extras and Developer Files
 ;
 MSG_BEGINWITHPARTITION
-Hasteko prest gaude.\n\nGutxienez partizio bat formateatzea aukeratu duzunez,\npuntu honen ondoren ezin izango dituzu aldaketak desegin.\n\nInstalazioa hasteko sakatu Jarraitu.
-; OK, we are ready to begin.\n\nSince you've chosen to format at least one partition,\nyou will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
+InstallAROS hasteko prest dago.\n\nHautatu dituzun aukerek unitatearen edukian aldaketa suntsitzaileak eragingo dituzte,\neta, beraz, puntu honen ondoren ezin izango dituzu aldaketak desegin.\n\nInstalazioa hasteko sakatu Jarraitu.
+; InstallAROS is ready to begin.\n\nThe options you have chosen will result in destructive changes to your drive contents,\nand so you will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
 ;
 MSG_BEGINWITHOUTPARTITION
 Hasteko prest gaude....\n\nOrdenagailu honetan instalatzen hasteko\nbehar den informazioa bildu dugu.\nInstalazioa hasteko sakatu Jarraitu.
