@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.0 (06.08.2026)
+## version $VER: installaros.catalog 3.1 (16.10.2026)
 ## language français
 ## codeset 0
 ;
@@ -389,4 +389,36 @@ Choisissez le schéma de partitionnement à utiliser sur le disque\nNB -: les sché
 MSG_HELP_PARTITION
 Cliquez pour ajuster le système de fichiers et/ou la taille de la partition.
 ; Click to adjust the partitions filesystem and/or size.
+;
+MSG_DONEFAILED
+L'installation ne s'est pas terminée.\n\nCertains fichiers n'ont pas pu être copiés, le système\ninstallé est donc incomplet et risque de ne pas démarrer.\n\nConsultez T:InstallAROS.log pour voir ce qui a échoué.\n\nChoisissez Poursuivre pour terminer.\n
+; The installation did not complete.\n\nSome files could not be copied, so the\ninstalled system is incomplete and may not boot.\n\nSee T:InstallAROS.log for what failed.\n\nSelect Proceed to finish.\n
+;
+MSG_EFIOPTIONS
+\033bPartition système EFI\033n\nLe micrologiciel lit les fichiers de démarrage d'AROS sur une\npartition FAT32 ; ils ne peuvent donc pas être placés sur la\npartition système elle-même.\n
+; \033bEFI System Partition\033n\nThe firmware reads the AROS boot files from a FAT32\npartition, so they cannot be placed on the system\npartition itself.\n
+;
+MSG_EFIESPIS
+Partition système EFI
+; EFI system partition
+;
+MSG_EFINOESP
+aucune trouvée - le système installé ne démarrera pas
+; none found - the installed system will not boot
+;
+MSG_EFIFORMAT
+La formater
+; Format it
+;
+MSG_EFICOPY
+Y copier les répertoires boot et EFI
+; Copy the boot and EFI drawers to it
+;
+MSG_HELP_EFIFORMAT
+Le formatage efface la partition. Laissez cette option désactivée si elle est partagée avec un autre système d'exploitation.
+; Formatting erases the partition. Leave this off if it is shared with another operating system.
+;
+MSG_HELP_EFICOPY
+Copie les répertoires boot et EFI, ainsi que les fichiers chargés par le micrologiciel, sur la partition système EFI.
+; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
 ;

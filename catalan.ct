@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.0 (06.08.2026)
+## version $VER: installaros.catalog 3.1 (16.10.2026)
 ## language català
 ## codeset 0
 ;
@@ -389,4 +389,36 @@ Seleccioneu l'esquema de particionat a utilitzar a la unitat\nNB -: Els esquemes
 MSG_HELP_PARTITION
 Feu clic per ajustar el sistema de fitxers i/o la mida de la partició.
 ; Click to adjust the partitions filesystem and/or size.
+;
+MSG_DONEFAILED
+La instal·lació no s'ha completat.\n\nAlguns fitxers no s'han pogut copiar, de manera que el\nsistema instal·lat és incomplet i potser no arrencarà.\n\nConsulteu T:InstallAROS.log per veure què ha fallat.\n\nSeleccioneu Continuar per acabar.\n
+; The installation did not complete.\n\nSome files could not be copied, so the\ninstalled system is incomplete and may not boot.\n\nSee T:InstallAROS.log for what failed.\n\nSelect Proceed to finish.\n
+;
+MSG_EFIOPTIONS
+\033bPartició de sistema EFI\033n\nEl microprogramari llegeix els fitxers d'arrencada d'AROS d'una\npartició FAT32, de manera que no poden col·locar-se a la\npartició de sistema mateixa.\n
+; \033bEFI System Partition\033n\nThe firmware reads the AROS boot files from a FAT32\npartition, so they cannot be placed on the system\npartition itself.\n
+;
+MSG_EFIESPIS
+Partició de sistema EFI
+; EFI system partition
+;
+MSG_EFINOESP
+no se n'ha trobat cap - el sistema instal·lat no arrencarà
+; none found - the installed system will not boot
+;
+MSG_EFIFORMAT
+Formatar-la
+; Format it
+;
+MSG_EFICOPY
+Copiar-hi els calaixos boot i EFI
+; Copy the boot and EFI drawers to it
+;
+MSG_HELP_EFIFORMAT
+Formatar esborra la partició. Deixeu-ho desactivat si es comparteix amb un altre sistema operatiu.
+; Formatting erases the partition. Leave this off if it is shared with another operating system.
+;
+MSG_HELP_EFICOPY
+Copia els calaixos boot i EFI, i els fitxers que carrega el microprogramari, a la partició de sistema EFI.
+; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
 ;

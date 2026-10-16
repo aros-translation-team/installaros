@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.0 (06.08.2026)
+## version $VER: installaros.catalog 3.1 (16.10.2026)
 ## language español
 ## codeset 0
 ;
@@ -390,4 +390,36 @@ Selecciona el esquema de particionado a usar en la unidad\nNB -: los esquemas de
 MSG_HELP_PARTITION
 Pincha para ajustar el sistema de ficheros y/o el tamaño de la partición.
 ; Click to adjust the partitions filesystem and/or size.
+;
+MSG_DONEFAILED
+La instalación no se ha completado.\n\nAlgunos ficheros no se pudieron copiar, por lo que el\nsistema instalado está incompleto y puede que no arranque.\n\nConsulta T:InstallAROS.log para ver qué falló.\n\nSelecciona Proceder para terminar.\n
+; The installation did not complete.\n\nSome files could not be copied, so the\ninstalled system is incomplete and may not boot.\n\nSee T:InstallAROS.log for what failed.\n\nSelect Proceed to finish.\n
+;
+MSG_EFIOPTIONS
+\033bPartición del sistema EFI\033n\nEl firmware lee los ficheros de arranque de AROS desde una\npartición FAT32, por lo que no pueden estar en la partición\ndel sistema.\n
+; \033bEFI System Partition\033n\nThe firmware reads the AROS boot files from a FAT32\npartition, so they cannot be placed on the system\npartition itself.\n
+;
+MSG_EFIESPIS
+Partición del sistema EFI
+; EFI system partition
+;
+MSG_EFINOESP
+no se encontró ninguna - el sistema instalado no arrancará
+; none found - the installed system will not boot
+;
+MSG_EFIFORMAT
+Formatearla
+; Format it
+;
+MSG_EFICOPY
+Copiar en ella los cajones boot y EFI
+; Copy the boot and EFI drawers to it
+;
+MSG_HELP_EFIFORMAT
+Formatear borra la partición. Deja esto desactivado si se comparte con otro sistema operativo.
+; Formatting erases the partition. Leave this off if it is shared with another operating system.
+;
+MSG_HELP_EFICOPY
+Copia los cajones boot y EFI, y los ficheros que carga el firmware, en la partición del sistema EFI.
+; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
 ;

@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.0 (06.08.2026)
+## version $VER: installaros.catalog 3.1 (16.10.2026)
 ## codeset 2104
 ## language russian
 ;
@@ -389,4 +389,36 @@ MSG_HELP_PARTNORDB
 MSG_HELP_PARTITION
 Нажмите, чтобы настроить файловую систему и/или размер партиции.
 ; Click to adjust the partitions filesystem and/or size.
+;
+MSG_DONEFAILED
+Установка не завершена.\n\nНекоторые файлы не удалось скопировать, поэтому\nустановленная система неполная и может не загрузиться.\n\nСмотрите T:InstallAROS.log, чтобы узнать, что не удалось.\n\nВыберите 'Продолжить' для завершения.\n
+; The installation did not complete.\n\nSome files could not be copied, so the\ninstalled system is incomplete and may not boot.\n\nSee T:InstallAROS.log for what failed.\n\nSelect Proceed to finish.\n
+;
+MSG_EFIOPTIONS
+\033bСистемная партиция EFI\033n\nПрошивка читает загрузочные файлы AROS с партиции FAT32,\nпоэтому их нельзя разместить на самой системной\nпартиции.\n
+; \033bEFI System Partition\033n\nThe firmware reads the AROS boot files from a FAT32\npartition, so they cannot be placed on the system\npartition itself.\n
+;
+MSG_EFIESPIS
+Системная партиция EFI
+; EFI system partition
+;
+MSG_EFINOESP
+не найдена - установленная система не загрузится
+; none found - the installed system will not boot
+;
+MSG_EFIFORMAT
+Форматировать её
+; Format it
+;
+MSG_EFICOPY
+Скопировать на неё директории boot и EFI
+; Copy the boot and EFI drawers to it
+;
+MSG_HELP_EFIFORMAT
+Форматирование стирает партицию. Оставьте отключённым, если она используется совместно с другой операционной системой.
+; Formatting erases the partition. Leave this off if it is shared with another operating system.
+;
+MSG_HELP_EFICOPY
+Копирует директории boot и EFI, а также файлы, загружаемые прошивкой, на системную партицию EFI.
+; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
 ;

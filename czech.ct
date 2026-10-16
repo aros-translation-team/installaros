@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.0 (06.08.2026)
+## version $VER: installaros.catalog 3.1 (16.10.2026)
 ## language czech
 ## codeset 5
 ;
@@ -389,4 +389,36 @@ Vyberte schéma rozdìlení, které se pou¾ije na disku\nPozn. -: Z oddílù se schéma
 MSG_HELP_PARTITION
 Kliknutím upravte souborový systém a/nebo velikost oddílu.
 ; Click to adjust the partitions filesystem and/or size.
+;
+MSG_DONEFAILED
+Instalace nebyla dokonèena.\n\nNìkteré soubory nebylo mo¾né zkopírovat, tak¾e\nnainstalovaný systém je nekompletní a nemusí nastartovat.\n\nCo se nezdaøilo, najdete v T:InstallAROS.log.\n\nDokonèíte volbou Pokraèovat.\n
+; The installation did not complete.\n\nSome files could not be copied, so the\ninstalled system is incomplete and may not boot.\n\nSee T:InstallAROS.log for what failed.\n\nSelect Proceed to finish.\n
+;
+MSG_EFIOPTIONS
+\033bSystémový oddíl EFI\033n\nFirmware ète zavádìcí soubory AROSu z oddílu FAT32,\ntak¾e nemohou být umístìny na samotném systémovém\noddílu.\n
+; \033bEFI System Partition\033n\nThe firmware reads the AROS boot files from a FAT32\npartition, so they cannot be placed on the system\npartition itself.\n
+;
+MSG_EFIESPIS
+Systémový oddíl EFI
+; EFI system partition
+;
+MSG_EFINOESP
+¾ádný nenalezen - nainstalovaný systém nenastartuje
+; none found - the installed system will not boot
+;
+MSG_EFIFORMAT
+Zformátovat jej
+; Format it
+;
+MSG_EFICOPY
+Zkopírovat na nìj adresáøe boot a EFI
+; Copy the boot and EFI drawers to it
+;
+MSG_HELP_EFIFORMAT
+Formátování vyma¾e oddíl. Nechte vypnuté, pokud je oddíl spoleèný s jiným operaèním systémem.
+; Formatting erases the partition. Leave this off if it is shared with another operating system.
+;
+MSG_HELP_EFICOPY
+Zkopíruje adresáøe boot a EFI a soubory, které zavádí firmware, na systémový oddíl EFI.
+; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
 ;

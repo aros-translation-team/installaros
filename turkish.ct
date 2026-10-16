@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.0 (06.08.2026)
+## version $VER: installaros.catalog 3.1 (16.10.2026)
 ## language türkçe
 ## codeset 12
 ;
@@ -390,4 +390,36 @@ Sürücüde kullanýlacak bölümleme þemasýný seçin\nNot -: RDB bölümleme þemalarý bu
 MSG_HELP_PARTITION
 Bölümün dosyasistemini ve/veya boyutunu ayarlamak için týklayýn.
 ; Click to adjust the partitions filesystem and/or size.
+;
+MSG_DONEFAILED
+Kurulum tamamlanmadý.\n\nBazý dosyalar kopyalanamadý, bu nedenle kurulan\nsistem eksiktir ve açýlmayabilir.\n\nNeyin baþarýsýz olduðunu T:InstallAROS.log dosyasýnda görün.\n\nBitirmek için Devam Et'i seçin.\n
+; The installation did not complete.\n\nSome files could not be copied, so the\ninstalled system is incomplete and may not boot.\n\nSee T:InstallAROS.log for what failed.\n\nSelect Proceed to finish.\n
+;
+MSG_EFIOPTIONS
+\033bEFI sistem bölümü\033n\nDonaným yazýlýmý AROS önyükleme dosyalarýný bir FAT32\nbölümünden okur, bu yüzden bu dosyalar sistem bölümünün\nkendisine yerleþtirilemez.\n
+; \033bEFI System Partition\033n\nThe firmware reads the AROS boot files from a FAT32\npartition, so they cannot be placed on the system\npartition itself.\n
+;
+MSG_EFIESPIS
+EFI sistem bölümü
+; EFI system partition
+;
+MSG_EFINOESP
+bulunamadý - kurulan sistem açýlmayacak
+; none found - the installed system will not boot
+;
+MSG_EFIFORMAT
+Biçimlendir
+; Format it
+;
+MSG_EFICOPY
+boot ve EFI çekmecelerini buraya kopyala
+; Copy the boot and EFI drawers to it
+;
+MSG_HELP_EFIFORMAT
+Biçimlendirme bölümü siler. Baþka bir iþletim sistemiyle paylaþýlýyorsa bunu kapalý býrakýn.
+; Formatting erases the partition. Leave this off if it is shared with another operating system.
+;
+MSG_HELP_EFICOPY
+boot ve EFI çekmecelerini ve donaným yazýlýmýnýn yüklediði dosyalarý EFI sistem bölümüne kopyalar.
+; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
 ;

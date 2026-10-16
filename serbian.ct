@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.0 (06.08.2026)
+## version $VER: installaros.catalog 3.1 (16.10.2026)
 ## language srpski
 ## codeset 8
 ;
@@ -389,4 +389,36 @@ Izaberite çemu particionisanja za ovaj disk\nNapomena -: sa RDB çema particija n
 MSG_HELP_PARTITION
 Kliknite da podesite sistem datoteka i/ili veliŸinu particije.
 ; Click to adjust the partitions filesystem and/or size.
+;
+MSG_DONEFAILED
+Instalacija nije dovrçena.\n\nNeke datoteke nije bilo mogu†e kopirati, pa je\ninstalirani sistem nepotpun i mo§da se ne†e pokrenuti.\n\nPogledajte T:InstallAROS.log za ono çto nije uspelo.\n\nIzaberite Nastavi da biste zavrçili.\n
+; The installation did not complete.\n\nSome files could not be copied, so the\ninstalled system is incomplete and may not boot.\n\nSee T:InstallAROS.log for what failed.\n\nSelect Proceed to finish.\n
+;
+MSG_EFIOPTIONS
+\033bEFI sistemska particija\033n\nFirmware Ÿita AROS-ove datoteke za pokretanje sa FAT32\nparticije, pa se one ne mogu smestiti na samu\nsistemsku particiju.\n
+; \033bEFI System Partition\033n\nThe firmware reads the AROS boot files from a FAT32\npartition, so they cannot be placed on the system\npartition itself.\n
+;
+MSG_EFIESPIS
+EFI sistemska particija
+; EFI system partition
+;
+MSG_EFINOESP
+nije pronaÐena - instalirani sistem se ne†e pokrenuti
+; none found - the installed system will not boot
+;
+MSG_EFIFORMAT
+Formatiraj je
+; Format it
+;
+MSG_EFICOPY
+Kopiraj na nju direktorijume boot i EFI
+; Copy the boot and EFI drawers to it
+;
+MSG_HELP_EFIFORMAT
+Formatiranje briçe particiju. Ostavite iskljuŸeno ako je deljena sa drugim operativnim sistemom.
+; Formatting erases the partition. Leave this off if it is shared with another operating system.
+;
+MSG_HELP_EFICOPY
+Kopira direktorijume boot i EFI i datoteke koje firmware uŸitava na EFI sistemsku particiju.
+; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
 ;

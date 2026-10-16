@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.0 (06.08.2026)
+## version $VER: installaros.catalog 3.1 (16.10.2026)
 ## language deutsch
 ## codeset 0
 ;
@@ -389,4 +389,36 @@ Wählen Sie das auf dem Laufwerk zu verwendende Partitionierungsschema\nHinweis -
 MSG_HELP_PARTITION
 Klicken Sie, um Dateisystem und/oder Größe der Partition anzupassen.
 ; Click to adjust the partitions filesystem and/or size.
+;
+MSG_DONEFAILED
+Die Installation wurde nicht abgeschlossen.\n\nEinige Dateien konnten nicht kopiert werden, daher ist das\ninstallierte System unvollständig und startet möglicherweise nicht.\n\nSiehe T:InstallAROS.log für die Fehlerursache.\n\nWählen Sie Fortfahren, um abzuschließen.\n
+; The installation did not complete.\n\nSome files could not be copied, so the\ninstalled system is incomplete and may not boot.\n\nSee T:InstallAROS.log for what failed.\n\nSelect Proceed to finish.\n
+;
+MSG_EFIOPTIONS
+\033bEFI-Systempartition\033n\nDie Firmware liest die AROS-Boot-Dateien von einer FAT32-\nPartition, daher können sie nicht auf der Systempartition\nselbst liegen.\n
+; \033bEFI System Partition\033n\nThe firmware reads the AROS boot files from a FAT32\npartition, so they cannot be placed on the system\npartition itself.\n
+;
+MSG_EFIESPIS
+EFI-Systempartition
+; EFI system partition
+;
+MSG_EFINOESP
+keine gefunden - das installierte System wird nicht starten
+; none found - the installed system will not boot
+;
+MSG_EFIFORMAT
+Formatieren
+; Format it
+;
+MSG_EFICOPY
+Die Verzeichnisse boot und EFI darauf kopieren
+; Copy the boot and EFI drawers to it
+;
+MSG_HELP_EFIFORMAT
+Das Formatieren löscht die Partition. Lassen Sie dies aus, wenn sie mit einem anderen Betriebssystem geteilt wird.
+; Formatting erases the partition. Leave this off if it is shared with another operating system.
+;
+MSG_HELP_EFICOPY
+Kopiert die Verzeichnisse boot und EFI sowie die von der Firmware geladenen Dateien auf die EFI-Systempartition.
+; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
 ;

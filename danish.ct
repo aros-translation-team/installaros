@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.0 (06.08.2026)
+## version $VER: installaros.catalog 3.1 (16.10.2026)
 ## language dansk
 ## codeset 0
 ;
@@ -389,4 +389,36 @@ Vælg det partitioneringsskema, der skal bruges på drevet\nNB -: RDB-partitionssk
 MSG_HELP_PARTITION
 Klik for at justere partitionens filsystem og/eller størrelse.
 ; Click to adjust the partitions filesystem and/or size.
+;
+MSG_DONEFAILED
+Installationen blev ikke fuldført.\n\nNogle filer kunne ikke kopieres, så det installerede\nsystem er ufuldstændigt og starter muligvis ikke.\n\nSe T:InstallAROS.log for hvad der mislykkedes.\n\nVælg Fortsæt for at afslutte.\n
+; The installation did not complete.\n\nSome files could not be copied, so the\ninstalled system is incomplete and may not boot.\n\nSee T:InstallAROS.log for what failed.\n\nSelect Proceed to finish.\n
+;
+MSG_EFIOPTIONS
+\033bEFI-systempartition\033n\nFirmwaren læser AROS' opstartsfiler fra en FAT32-\npartition, så de ikke kan placeres på selve\nsystempartitionen.\n
+; \033bEFI System Partition\033n\nThe firmware reads the AROS boot files from a FAT32\npartition, so they cannot be placed on the system\npartition itself.\n
+;
+MSG_EFIESPIS
+EFI-systempartition
+; EFI system partition
+;
+MSG_EFINOESP
+ingen fundet - det installerede system vil ikke starte
+; none found - the installed system will not boot
+;
+MSG_EFIFORMAT
+Formatér den
+; Format it
+;
+MSG_EFICOPY
+Kopiér skufferne boot og EFI til den
+; Copy the boot and EFI drawers to it
+;
+MSG_HELP_EFIFORMAT
+Formatering sletter partitionen. Lad dette være slået fra, hvis den deles med et andet operativsystem.
+; Formatting erases the partition. Leave this off if it is shared with another operating system.
+;
+MSG_HELP_EFICOPY
+Kopierer skufferne boot og EFI samt de filer, firmwaren indlæser, til EFI-systempartitionen.
+; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
 ;

@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.0 (06.08.2026)
+## version $VER: installaros.catalog 3.1 (16.10.2026)
 ## language suomi
 ## codeset 0
 ;
@@ -389,4 +389,36 @@ Valitse asemalla käytettävä osiointimalli\nHUOM -: RDB-osiointimallista ei voi k
 MSG_HELP_PARTITION
 Napsauta säätääksesi osion tiedostojärjestelmää ja/tai kokoa.
 ; Click to adjust the partitions filesystem and/or size.
+;
+MSG_DONEFAILED
+Asennus ei valmistunut.\n\nJoitakin tiedostoja ei voitu kopioida, joten asennettu\njärjestelmä on puutteellinen eikä ehkä käynnisty.\n\nKatso T:InstallAROS.log nähdäksesi mikä epäonnistui.\n\nValitse Jatka lopettaaksesi.\n
+; The installation did not complete.\n\nSome files could not be copied, so the\ninstalled system is incomplete and may not boot.\n\nSee T:InstallAROS.log for what failed.\n\nSelect Proceed to finish.\n
+;
+MSG_EFIOPTIONS
+\033bEFI-järjestelmäosio\033n\nLaiteohjelmisto lukee AROSin käynnistystiedostot FAT32-\nosiolta, joten niitä ei voi sijoittaa itse\njärjestelmäosiolle.\n
+; \033bEFI System Partition\033n\nThe firmware reads the AROS boot files from a FAT32\npartition, so they cannot be placed on the system\npartition itself.\n
+;
+MSG_EFIESPIS
+EFI-järjestelmäosio
+; EFI system partition
+;
+MSG_EFINOESP
+ei löytynyt - asennettu järjestelmä ei käynnisty
+; none found - the installed system will not boot
+;
+MSG_EFIFORMAT
+Alusta se
+; Format it
+;
+MSG_EFICOPY
+Kopioi hakemistot boot ja EFI sille
+; Copy the boot and EFI drawers to it
+;
+MSG_HELP_EFIFORMAT
+Alustaminen tyhjentää osion. Jätä tämä pois, jos se on jaettu toisen käyttöjärjestelmän kanssa.
+; Formatting erases the partition. Leave this off if it is shared with another operating system.
+;
+MSG_HELP_EFICOPY
+Kopioi hakemistot boot ja EFI sekä laiteohjelmiston lataamat tiedostot EFI-järjestelmäosiolle.
+; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
 ;
