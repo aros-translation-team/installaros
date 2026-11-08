@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.1 (16.10.2026)
+## version $VER: installaros.catalog 3.2 (08.11.2026)
 ## language türkçe
 ## codeset 12
 ;
@@ -422,4 +422,8 @@ Biçimlendirme bölümü siler. Baþka bir iþletim sistemiyle paylaþýlýyorsa bunu kap
 MSG_HELP_EFICOPY
 boot ve EFI çekmecelerini ve donaným yazýlýmýnýn yüklediði dosyalarý EFI sistem bölümüne kopyalar.
 ; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
+;
+MSG_FORMATTOOBIG
+%s: %lu MB, ancak ayarlandýðý %s dosyasistemi\nen fazla %lu MB destekliyor, bu yüzden biçimlendirilemez.\nBölümü HDToolBox ile yeniden boyutlandýrýn veya baþka bir bölüm seçin.
+; %s: is %lu MB, but the %s filesystem it is set up for supports\nat most %lu MB, so it cannot be formatted.\nResize the partition with HDToolBox, or choose another partition.
 ;

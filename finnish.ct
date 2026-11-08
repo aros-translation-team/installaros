@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.1 (16.10.2026)
+## version $VER: installaros.catalog 3.2 (08.11.2026)
 ## language suomi
 ## codeset 0
 ;
@@ -421,4 +421,8 @@ Alustaminen tyhjent‰‰ osion. J‰t‰ t‰m‰ pois, jos se on jaettu toisen k‰yttˆj‰rje
 MSG_HELP_EFICOPY
 Kopioi hakemistot boot ja EFI sek‰ laiteohjelmiston lataamat tiedostot EFI-j‰rjestelm‰osiolle.
 ; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
+;
+MSG_FORMATTOOBIG
+%s: on %lu MB, mutta %s-tiedostoj‰rjestelm‰, jolle se on m‰‰ritetty,\ntukee enint‰‰n %lu MB, joten sit‰ ei voi alustaa.\nMuuta osion kokoa HDToolBoxilla tai valitse toinen osio.
+; %s: is %lu MB, but the %s filesystem it is set up for supports\nat most %lu MB, so it cannot be formatted.\nResize the partition with HDToolBox, or choose another partition.
 ;

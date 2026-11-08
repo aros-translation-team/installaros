@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.1 (16.10.2026)
+## version $VER: installaros.catalog 3.2 (08.11.2026)
 ## language català
 ## codeset 0
 ;
@@ -421,4 +421,8 @@ Formatar esborra la partició. Deixeu-ho desactivat si es comparteix amb un altre
 MSG_HELP_EFICOPY
 Copia els calaixos boot i EFI, i els fitxers que carrega el microprogramari, a la partició de sistema EFI.
 ; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
+;
+MSG_FORMATTOOBIG
+%s: té %lu MB, però el sistema de fitxers %s per al qual està configurada\nadmet com a màxim %lu MB, de manera que no es pot formatar.\nCanvieu la mida de la partició amb HDToolBox, o trieu una altra partició.
+; %s: is %lu MB, but the %s filesystem it is set up for supports\nat most %lu MB, so it cannot be formatted.\nResize the partition with HDToolBox, or choose another partition.
 ;

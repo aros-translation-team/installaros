@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.1 (16.10.2026)
+## version $VER: installaros.catalog 3.2 (08.11.2026)
 ## language español
 ## codeset 0
 ;
@@ -422,4 +422,8 @@ Formatear borra la partición. Deja esto desactivado si se comparte con otro sist
 MSG_HELP_EFICOPY
 Copia los cajones boot y EFI, y los ficheros que carga el firmware, en la partición del sistema EFI.
 ; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
+;
+MSG_FORMATTOOBIG
+%s: tiene %lu MB, pero el sistema de ficheros %s para el que está configurada\nadmite como máximo %lu MB, así que no se puede formatear.\nCambia el tamaño de la partición con HDToolBox, o elige otra partición.
+; %s: is %lu MB, but the %s filesystem it is set up for supports\nat most %lu MB, so it cannot be formatted.\nResize the partition with HDToolBox, or choose another partition.
 ;

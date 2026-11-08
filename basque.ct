@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.1 (16.10.2026)
+## version $VER: installaros.catalog 3.2 (08.11.2026)
 ## language euskara
 ## codeset 0
 ;
@@ -422,4 +422,8 @@ Formateatzeak partizioa ezabatzen du. Utzi hau desaktibatuta beste sistema eragi
 MSG_HELP_EFICOPY
 boot eta EFI tiraderak eta firmwareak kargatzen dituen fitxategiak EFI sistemaren partiziora kopiatzen ditu.
 ; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
+;
+MSG_FORMATTOOBIG
+%s: %lu MB da, baina konfiguratuta duen %s fitxategi-sistemak\ngehienez %lu MB onartzen ditu, beraz ezin da formateatu.\nAldatu partizioaren tamaina HDToolBox-ekin, edo aukeratu beste partizio bat.
+; %s: is %lu MB, but the %s filesystem it is set up for supports\nat most %lu MB, so it cannot be formatted.\nResize the partition with HDToolBox, or choose another partition.
 ;

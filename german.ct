@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.1 (16.10.2026)
+## version $VER: installaros.catalog 3.2 (08.11.2026)
 ## language deutsch
 ## codeset 0
 ;
@@ -421,4 +421,8 @@ Das Formatieren löscht die Partition. Lassen Sie dies aus, wenn sie mit einem an
 MSG_HELP_EFICOPY
 Kopiert die Verzeichnisse boot und EFI sowie die von der Firmware geladenen Dateien auf die EFI-Systempartition.
 ; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
+;
+MSG_FORMATTOOBIG
+%s: ist %lu MB groß, aber das dafür eingestellte Dateisystem %s\nunterstützt höchstens %lu MB, daher kann sie nicht formatiert werden.\nÄndern Sie die Größe der Partition mit HDToolBox, oder wählen Sie eine andere Partition.
+; %s: is %lu MB, but the %s filesystem it is set up for supports\nat most %lu MB, so it cannot be formatted.\nResize the partition with HDToolBox, or choose another partition.
 ;

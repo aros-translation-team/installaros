@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.1 (16.10.2026)
+## version $VER: installaros.catalog 3.2 (08.11.2026)
 ## language nederlands
 ## codeset 0
 ;
@@ -421,4 +421,8 @@ Formatteren wist de partitie. Laat dit uit als deze met een ander besturingssyst
 MSG_HELP_EFICOPY
 Kopieert de laden boot en EFI, en de bestanden die de firmware laadt, naar de EFI-systeempartitie.
 ; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
+;
+MSG_FORMATTOOBIG
+%s: is %lu MB, maar het %s-bestandssysteem waarvoor hij is ingesteld\nondersteunt maximaal %lu MB, dus hij kan niet worden geformatteerd.\nWijzig de grootte van de partitie met HDToolBox, of kies een andere partitie.
+; %s: is %lu MB, but the %s filesystem it is set up for supports\nat most %lu MB, so it cannot be formatted.\nResize the partition with HDToolBox, or choose another partition.
 ;

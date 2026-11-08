@@ -314,3 +314,6 @@ Formatting erases the partition. Leave this off if it is shared with another ope
 MSG_HELP_EFICOPY (//)
 Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
 ;
+MSG_FORMATTOOBIG (//)
+%s: is %lu MB, but the %s filesystem it is set up for supports\nat most %lu MB, so it cannot be formatted.\nResize the partition with HDToolBox, or choose another partition.
+;

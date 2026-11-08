@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.1 (16.10.2026)
+## version $VER: installaros.catalog 3.2 (08.11.2026)
 ## language polski
 ## codeset 5
 ;
@@ -421,4 +421,8 @@ Formatowanie usuwa zawarto¶æ partycji. Pozostaw to wy³±czone, je¶li jest ona wsp
 MSG_HELP_EFICOPY
 Kopiuje katalogi boot i EFI oraz pliki wczytywane przez firmware na partycjê systemow± EFI.
 ; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
+;
+MSG_FORMATTOOBIG
+%s: ma %lu MB, ale system plików %s, dla którego zosta³a ustawiona,\nobs³uguje najwy¿ej %lu MB, wiêc nie mo¿na jej sformatowaæ.\nZmieñ rozmiar partycji za pomoc± HDToolBox lub wybierz inn± partycjê.
+; %s: is %lu MB, but the %s filesystem it is set up for supports\nat most %lu MB, so it cannot be formatted.\nResize the partition with HDToolBox, or choose another partition.
 ;

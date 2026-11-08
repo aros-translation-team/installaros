@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.1 (16.10.2026)
+## version $VER: installaros.catalog 3.2 (08.11.2026)
 ## language magyar
 ## codeset 5
 ;
@@ -421,4 +421,8 @@ A formázás törli a partíciót. Hagyd kikapcsolva, ha más operációs rendszerrel kö
 MSG_HELP_EFICOPY
 A boot és EFI fiókokat, valamint a firmware által betöltött fájlokat az EFI rendszerpartícióra másolja.
 ; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
+;
+MSG_FORMATTOOBIG
+%s: %lu MB, de a hozzá beállított %s fájlrendszer\nlegfeljebb %lu MB-ot támogat, így nem formázható.\nMódosítsd a partíció méretét a HDToolBox-szal, vagy válassz másik partíciót.
+; %s: is %lu MB, but the %s filesystem it is set up for supports\nat most %lu MB, so it cannot be formatted.\nResize the partition with HDToolBox, or choose another partition.
 ;

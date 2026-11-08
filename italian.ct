@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.1 (16.10.2026)
+## version $VER: installaros.catalog 3.2 (08.11.2026)
 ## language italiano
 ## codeset 0
 ; Authors: AMIGASYSTEM
@@ -422,4 +422,8 @@ La formattazione cancella la partizione. Lasciare disattivato se è condivisa con
 MSG_HELP_EFICOPY
 Copia i cassetti boot e EFI, e i file caricati dal firmware, sulla partizione di sistema EFI.
 ; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
+;
+MSG_FORMATTOOBIG
+%s: è di %lu MB, ma il filesystem %s per cui è configurata\nsupporta al massimo %lu MB, quindi non può essere formattata.\nRidimensionare la partizione con HDToolBox, o scegliere un'altra partizione.
+; %s: is %lu MB, but the %s filesystem it is set up for supports\nat most %lu MB, so it cannot be formatted.\nResize the partition with HDToolBox, or choose another partition.
 ;

@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 3.1 (16.10.2026)
+## version $VER: installaros.catalog 3.2 (08.11.2026)
 ## codeset 2104
 ## language russian
 ;
@@ -421,4 +421,8 @@ MSG_HELP_EFIFORMAT
 MSG_HELP_EFICOPY
 Копирует директории boot и EFI, а также файлы, загружаемые прошивкой, на системную партицию EFI.
 ; Copies the boot and EFI drawers, and the files the firmware loads, onto the EFI system partition.
+;
+MSG_FORMATTOOBIG
+%s: имеет %lu МБ, но файловая система %s, для которой она настроена,\nподдерживает не более %lu МБ, поэтому её нельзя отформатировать.\nИзмените размер партиции в HDToolBox или выберите другую партицию.
+; %s: is %lu MB, but the %s filesystem it is set up for supports\nat most %lu MB, so it cannot be formatted.\nResize the partition with HDToolBox, or choose another partition.
 ;
